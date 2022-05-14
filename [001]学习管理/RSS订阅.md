@@ -1,5 +1,7 @@
 # RSS订阅
 
+![](https://img.shields.io/badge/RSS-Reader-green)
+
 [TOC]
 
 ## 1.常用的RSS订阅源
@@ -15,6 +17,17 @@
 1.MAC/IOS
 
 * [netnewswire](https://netnewswire.com/)
+
+2.WIN
+
+* [OMEA](https://www.jetbrains.com/omea/features/)
+* [awasu](https://www.awasu.com/)
+* [quickrss](https://quiterss.org/en/screenshots)
+![Img]()
+
+3.LINUX
+
+
 
 ## 4.好用的RSS网站服务
 
