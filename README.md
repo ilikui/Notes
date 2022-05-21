@@ -10,6 +10,8 @@
 ## 0.常用软件
 
 * [软件下载](https://alternativeto.net/)
+* [Excalidraw](https://anhoder.github.io/media/excalidraw/)
+* [Telegram](https://www.yeeach.com/post/1737)
 
 ## 1.学习管理
 
