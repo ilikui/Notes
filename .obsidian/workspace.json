@@ -1,0 +1,153 @@
+{
+  "main": {
+    "id": "dfb58f5cdd79b890",
+    "type": "split",
+    "children": [
+      {
+        "id": "2f23a3a4bfb31321",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1711fda76b0c52b3",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "A100学习管理/Image/screenshots01.png"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "737d4d6bb5e23827",
+    "type": "split",
+    "children": [
+      {
+        "id": "ae892ebb190c8263",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5c8feef7300a3c4e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d5179b2859556c03",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "81e1a714d5ec453c",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "e5aec3618b506a61",
+    "type": "split",
+    "children": [
+      {
+        "id": "0d2febb3e1bfde78",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "faf597201cee9ea6",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "A100学习管理/Image/screenshots01.png",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "5749fe9b645ddcd6",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "A100学习管理/Image/screenshots01.png",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1bfb7963a18554a6",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "7a790ce256ad75ba",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "A100学习管理/Image/screenshots01.png"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "1711fda76b0c52b3",
+  "lastOpenFiles": [
+    "A100学习管理/A0010计算机知识/计算机学习指南.md",
+    "A100学习管理/A0010计算机知识/计算机学习指南.pdf",
+    "A500科学上网/科学上网.md"
+  ]
+}
