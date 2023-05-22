@@ -1,0 +1,59 @@
+.tmap-flash-message {
+  
+  border: 1px solid color(modal-footer-border);
+  padding: 5px;
+  margin: 6px 0;
+  display: block;
+  color: color(foreground);
+  
+  @mixin circled-i {
+    &::before {
+      content: "i";
+      display: inline-block;
+      border-radius: 50%;
+      width: 0.8em;
+      border: 2px solid;
+      font-family: serif;
+      text-align: center;
+      height: 0.8em;
+      font-weight: bold;
+      line-height: 0.8em;
+      vertical-align: text-top;
+      margin-right: 2px;
+    }
+  }
+  
+  @mixin triangle {
+    &::before {
+      content: "";
+      display: inline-block;
+      background: url(datauri("$:/core/images/warning")); 
+      display: inline-block;
+      width: 1em;
+      height: 1em;
+      background-size: 100% 100%;
+      vertical-align: text-top;
+      margin-right: 2px;
+    }
+  }
+  
+  &.tmap-info, &.tmap-plain, &.tmap-neutral {
+    background: color(modal-footer-background);
+    @include circled-i;
+  }
+  
+  &.tmap-valid, &.tmap-success {
+    background: color(message-background);
+    @include circled-i;
+  }
+  
+  &.tmap-warning {
+    background: color(notification-background);
+    @include triangle;
+  }
+  
+  &.tmap-malformed, &.tmap-invalid, &.tmap-danger {
+    background: color(alert-background);
+    @include triangle;
+  }
+}

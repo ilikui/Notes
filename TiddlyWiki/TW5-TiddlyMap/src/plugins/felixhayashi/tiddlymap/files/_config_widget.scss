@@ -1,0 +1,113 @@
+.tmap-config-widget {
+  background: color(table-header-background);
+  padding: 5px;
+  margin: 5px 0;
+  box-sizing: border-box;
+  display: block; // sometimes tw puts us into a span
+
+  .vis-network {
+    display: none;
+  }
+
+  .vis-configuration-wrapper {
+    width: 100%;
+    
+    .vis-config-rangeinput {
+      height: inherit;
+      margin-left: 4px;
+    }
+  
+    .vis-configuration.vis-config-item {
+      width: 100%;
+      height: inherit;
+      background: none;
+      padding-left: 0px;
+      left: 0;
+      
+      @mixin marker {
+        content: "(inherited)";
+        position: absolute;
+        display: inline-block;
+        margin-left: 10px;
+        @include animation("fadein-keyframes 1s");
+      }
+
+      &.tmap-vis-config-item-active .vis-config-label::after {
+        @include marker;
+        content: "✓";
+        color: green;
+        font-weight: bold;
+        font-size: 15px;
+      }
+      
+      &.tmap-vis-config-item-inactive .vis-config-label::after {
+/*
+        @include marker;
+        content: "✔";
+        color: lightgray;
+        position: absolute;
+*/
+      }
+      
+      button.tmap-config-item-reset {
+        vertical-align: top;
+        margin-left: 5px;
+      }
+      
+      .vis-config-range {
+        width: 150px;
+        
+        &::-moz-range-track {
+          width: 150px !important;
+        }
+        
+      }
+      
+      .vis-config-label {
+        width: 150px;
+      }
+    }
+    
+  }
+
+  &::after {
+    clear: both;
+    content: "";
+    display: block;
+  }
+}
+
+/*
+$color-picker-height: 200;
+div div.vis-color-picker {
+  div.vis-color {
+    width: $color-picker-height + px;
+    height: $color-picker-height + px;
+  }
+  
+  div.vis-brightness {
+    top: ($color-picker-height + 30) + px;
+  }
+  
+  div.vis-label.vis-brightness {
+    top: ($color-picker-height + 43) + px;
+  }
+  
+  div.vis-label.vis-opacity {
+    top: 338px
+  }
+  
+  div.vis-opacity {
+    top: 351px;
+  }
+  div.vis-initial-color, vis-new-color {
+    top: 381px;
+  }
+  
+  div.vis-button {
+    top: 411px;
+  }
+
+}
+*/
+

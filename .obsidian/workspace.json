@@ -4,17 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "2f23a3a4bfb31321",
+        "id": "ec19fc6a4c4d5e9d",
         "type": "tabs",
         "children": [
           {
-            "id": "1711fda76b0c52b3",
+            "id": "cd96aba089adfac6",
             "type": "leaf",
             "state": {
-              "type": "image",
-              "state": {
-                "file": "A100学习管理/Image/screenshots01.png"
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -83,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "A100学习管理/Image/screenshots01.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "A100学习管理/Image/screenshots01.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -122,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "A100学习管理/Image/screenshots01.png"
-              }
+              "state": {}
             }
           }
         ]
@@ -144,8 +138,9 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "1711fda76b0c52b3",
+  "active": "cd96aba089adfac6",
   "lastOpenFiles": [
+    "A100学习管理/Image/screenshots01.png",
     "A100学习管理/A0010计算机知识/计算机学习指南.md",
     "A100学习管理/A0010计算机知识/计算机学习指南.pdf",
     "A500科学上网/科学上网.md"
