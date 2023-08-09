@@ -12,9 +12,14 @@
   "templates",
   "note-composer",
   "command-palette",
+  "slash-command",
   "editor-status",
-  "starred",
+  "bookmarks",
+  "markdown-importer",
+  "random-note",
   "outline",
   "word-count",
-  "file-recovery"
+  "slides",
+  "file-recovery",
+  "sync"
 ]
