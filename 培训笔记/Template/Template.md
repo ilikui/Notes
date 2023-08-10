@@ -7,7 +7,7 @@ paginate: true
 <!--
 _paginate: false
 -->
-![bg vertical w:1300px](images/bg1.jpg)
+![bg vertical w:1300px](培训笔记/Template/images/bg1.jpg)
 <br/>
 <br/>
 <br/>
@@ -35,7 +35,7 @@ _paginate: false
 <!--
 _paginate: false 
 -->
-![bg left:60% ](./images/bg3.jpg)
+![bg left:60% ](培训笔记/Template/images/bg3.jpg)
 
 # 目 录
 
@@ -124,7 +124,7 @@ int main(void)
     }
 </style>
 
-![bg vertical w:400px ](./images/logo.png)
+![bg vertical w:400px ](培训笔记/Template/images/logo.png)
 <br/>
 <br/>
 <br/>

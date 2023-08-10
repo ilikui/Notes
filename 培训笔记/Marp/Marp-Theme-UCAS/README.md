@@ -31,10 +31,10 @@ Marp
 
 ## Some Picture
 
-![img1](doc/SimpleBlue/SimpleBlue_1.jpg)
+![img1](SimpleBlue_1.jpg)
 
-![img2](doc/Scenery/Scenery_8.jpg)
+![img2](Scenery_8.jpg)
 
-![img3](doc/Scenery/Scenery_2.jpg)
+![img3](Scenery_2.jpg)
 
-![img4](doc/Scenery/Scenery_1.jpg)
+![img4](Scenery_1.jpg)

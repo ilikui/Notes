@@ -1,0 +1,192 @@
+{
+	"type": "excalidraw",
+	"version": 2,
+	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/1.9.14",
+	"elements": [
+		{
+			"id": "qbm0__eWtuA7LrlugQrPS",
+			"type": "rectangle",
+			"x": -619,
+			"y": -487.25,
+			"width": 698,
+			"height": 120,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "#b2f2bb",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": {
+				"type": 3
+			},
+			"seed": 822377596,
+			"version": 146,
+			"versionNonce": 271368956,
+			"isDeleted": false,
+			"boundElements": [
+				{
+					"type": "text",
+					"id": "gOe6wvjM"
+				}
+			],
+			"updated": 1691545166008,
+			"link": null,
+			"locked": false
+		},
+		{
+			"id": "gOe6wvjM",
+			"type": "text",
+			"x": -320.9799499511719,
+			"y": -439.75,
+			"width": 101.95989990234375,
+			"height": 25,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "#b2f2bb",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": null,
+			"seed": 688926404,
+			"version": 38,
+			"versionNonce": 1984172540,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1691545166008,
+			"link": null,
+			"locked": false,
+			"text": "Application",
+			"rawText": "Application",
+			"fontSize": 20,
+			"fontFamily": 1,
+			"textAlign": "center",
+			"verticalAlign": "middle",
+			"baseline": 18,
+			"containerId": "qbm0__eWtuA7LrlugQrPS",
+			"originalText": "Application",
+			"lineHeight": 1.25
+		},
+		{
+			"id": "DmkColdzU7-cSPyKQmIIK",
+			"type": "rectangle",
+			"x": 450,
+			"y": -637.296875,
+			"width": 360,
+			"height": 372,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "#b2f2bb",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": {
+				"type": 3
+			},
+			"seed": 2120889724,
+			"version": 50,
+			"versionNonce": 443839684,
+			"isDeleted": false,
+			"boundElements": [
+				{
+					"id": "XCmNCr8XFQzlDn8uIy69b",
+					"type": "arrow"
+				}
+			],
+			"updated": 1691545169840,
+			"link": null,
+			"locked": false
+		},
+		{
+			"id": "XCmNCr8XFQzlDn8uIy69b",
+			"type": "arrow",
+			"x": 78,
+			"y": -427.296875,
+			"width": 364,
+			"height": 8,
+			"angle": 0,
+			"strokeColor": "#1e1e1e",
+			"backgroundColor": "#b2f2bb",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"frameId": null,
+			"roundness": {
+				"type": 2
+			},
+			"seed": 1068095556,
+			"version": 70,
+			"versionNonce": 286342212,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1691545170089,
+			"link": null,
+			"locked": false,
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					364,
+					-8
+				]
+			],
+			"lastCommittedPoint": null,
+			"startBinding": null,
+			"endBinding": {
+				"elementId": "DmkColdzU7-cSPyKQmIIK",
+				"focus": -0.06247830614370009,
+				"gap": 8
+			},
+			"startArrowhead": null,
+			"endArrowhead": "arrow"
+		}
+	],
+	"appState": {
+		"theme": "light",
+		"viewBackgroundColor": "#ffffff",
+		"currentItemStrokeColor": "#1e1e1e",
+		"currentItemBackgroundColor": "#b2f2bb",
+		"currentItemFillStyle": "hachure",
+		"currentItemStrokeWidth": 1,
+		"currentItemStrokeStyle": "solid",
+		"currentItemRoughness": 1,
+		"currentItemOpacity": 100,
+		"currentItemFontFamily": 1,
+		"currentItemFontSize": 20,
+		"currentItemTextAlign": "left",
+		"currentItemStartArrowhead": null,
+		"currentItemEndArrowhead": "arrow",
+		"scrollX": 1194.5,
+		"scrollY": 1173.25,
+		"zoom": {
+			"value": 0.5
+		},
+		"currentItemRoundness": "round",
+		"gridSize": null,
+		"currentStrokeOptions": null,
+		"previousGridSize": null,
+		"frameRendering": {
+			"enabled": true,
+			"clip": true,
+			"name": true,
+			"outline": true
+		}
+	},
+	"files": {}
+}

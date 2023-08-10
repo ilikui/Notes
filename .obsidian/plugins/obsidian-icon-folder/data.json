@@ -158,7 +158,14 @@
   "编程学习": "FasFolder",
   "阅读管理": "FasFolder",
   "附件管理": "FasFolder",
-  "编程学习/[00401]PHP": "FasFolder",
   "知识管理/[00201]Git使用/Git帮助文档.md": "FasBook",
-  "学习管理/目录": "FasFolder"
+  "学习管理/目录": "FasFolder",
+  "培训笔记": "FasFolder",
+  "Excalidraw": "FasFolder",
+  "收藏管理/A00601电影网站": "FasFolder",
+  "编程学习/PHP": "FasFolder",
+  "培训笔记/GIT": "FasFolder",
+  "培训笔记/Lockg": "FasFolder",
+  "培训笔记/Marp": "FasFolder",
+  "培训笔记/Template": "FasFolder"
 }
