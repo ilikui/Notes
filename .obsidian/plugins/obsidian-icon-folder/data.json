@@ -168,5 +168,15 @@
   "培训笔记/Marp": "FasFolder",
   "培训笔记/Template": "FasFolder",
   "知识管理/Git使用": "FasFolder",
-  "知识管理/Git使用/Git帮助文档.md": "FasBook"
+  "知识管理/Git使用/Git帮助文档.md": "FasBook",
+  "阅读管理/关于笔记与写作法.md": "FasBook",
+  "考试管理": "FasFolder",
+  "考试管理/在职研究生": "FasFolder",
+  "考试管理/在职研究生/高等数学/高等数学.canvas": "FasBook",
+  "考试管理/在职研究生/高等数学/考研高等数学.md": "FasBook",
+  "考试管理/在职研究生/高等数学": "FasFolder",
+  "考试管理/在职研究生/高等数学/高等数学预备知识.md": "FasBook",
+  "考试管理/在职研究生/高等数学/数列极限.md": "FasBook",
+  "考试管理/在职研究生/高等数学/函数极限与连续性.md": "FasBook",
+  "考试管理/在职研究生/高等数学/一元函数微分学的概念与计算.md": "FasBook"
 }
