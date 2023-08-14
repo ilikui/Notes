@@ -4,67 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "20e4e44c5e604ca5",
+        "id": "3a1296688953a108",
         "type": "tabs",
         "children": [
           {
-            "id": "2ffc7a964227c580",
-            "type": "leaf",
-            "state": {
-<<<<<<< HEAD
-              "type": "image",
-              "state": {
-                "file": "Excalidraw/R.png"
-              }
-            }
-          },
-          {
-            "id": "4b50d7ecf92b1829",
+            "id": "f858c3742b4d65d0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "学习管理.md",
+                "file": "工作管理/汽车电子/Autosar相关的帮助文档.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
-=======
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/高等数学.excalidraw"
->>>>>>> 504a25684799457b470dbf6fbf2f42f9414ed33a
-              }
-            }
-          },
-          {
-<<<<<<< HEAD
-            "id": "b01f8e805c7efac5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "工作管理.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-=======
-            "id": "9a0b60113e3ee50a",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "考试管理/在职研究生/高等数学/高等数学.canvas",
-                "viewState": {
-                  "x": -460,
-                  "y": 80,
-                  "zoom": -1.2515387669959646
-                }
->>>>>>> 504a25684799457b470dbf6fbf2f42f9414ed33a
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -81,8 +37,10 @@
             "id": "92857f5eb2f41a2c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
             }
           },
           {
@@ -109,29 +67,18 @@
             }
           },
           {
-            "id": "1820150365a79d50",
+            "id": "0df780a339ae5110",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
               "state": {}
             }
-          },
-          {
-            "id": "c24bd35f938d9a3d",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical"
-              }
-            }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 343.5
+    "width": 300
   },
   "right": {
     "id": "08677e2de37ba7f1",
@@ -155,11 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-<<<<<<< HEAD
-                "file": "Excalidraw/R.png",
-=======
-                "file": "考试管理/在职研究生/高等数学/高等数学.canvas",
->>>>>>> 504a25684799457b470dbf6fbf2f42f9414ed33a
+                "file": "工作管理/汽车电子/Autosar相关的帮助文档.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -176,11 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-<<<<<<< HEAD
-                "file": "Excalidraw/R.png",
-=======
-                "file": "考试管理/在职研究生/高等数学/高等数学.canvas",
->>>>>>> 504a25684799457b470dbf6fbf2f42f9414ed33a
+                "file": "工作管理/汽车电子/Autosar相关的帮助文档.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -203,31 +142,24 @@
             "state": {
               "type": "outline",
               "state": {
-<<<<<<< HEAD
-                "file": "Excalidraw/R.png"
-=======
-                "file": "考试管理/在职研究生/高等数学/高等数学.canvas"
->>>>>>> 504a25684799457b470dbf6fbf2f42f9414ed33a
+                "file": "工作管理/汽车电子/Autosar相关的帮助文档.md"
               }
             }
-          },
-          {
-            "id": "039f17860a41a050",
-            "type": "leaf",
-            "state": {
-              "type": "mermaid-toolbar-view",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-extract-pdf-highlights:PDF Highlights": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-advanced-slides:Show Slide Preview": false,
+      "mermaid-tools:Open Mermaid Toolbar": false,
+      "digitalgarden:Digital Garden Publication Center": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -235,109 +167,20 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "markdown-importer:打开 Markdown 格式转换器": false,
-      "random-note:开始漫游笔记": false,
-      "obsidian-extract-pdf-highlights:PDF Highlights": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-advanced-slides:Show Slide Preview": false,
-      "mermaid-tools:Open Mermaid Toolbar": false,
-<<<<<<< HEAD
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "digitalgarden:Digital Garden Publication Center": false,
-=======
->>>>>>> 504a25684799457b470dbf6fbf2f42f9414ed33a
-      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
+      "random-note:开始漫游笔记": false
     }
   },
-  "active": "9a0b60113e3ee50a",
+  "active": "f858c3742b4d65d0",
   "lastOpenFiles": [
-<<<<<<< HEAD
-    "知识管理/Git使用/Git帮助文档.md",
-    "收藏管理/电影网站/Readme.md",
-    "工作管理/汽车电子/AUTOSAR.excalidraw",
-    "学习管理/计算机知识/计算机学习指南.md",
-    "学习管理/目录/RSS订阅.md",
-    "学习管理/目录/学习管理.md",
-    "学习管理/计算机知识/计算机学习指南.pdf",
-    "工作管理/汽车电子/Autosar相关的帮助文档.md",
-    "Excalidraw/Autosar相关的帮助文档.excalidraw",
-    "工作管理/汽车电子/未命名.md",
-    "学习管理.md",
-    "README.md",
-    "工作管理.md",
-    "附件管理/Readme.md",
-    "学习管理/GIT的基本使用/Git的基本操作使用.md",
-=======
-    "考试管理/在职研究生/高等数学/高等数学预备知识.md",
-    "考试管理/在职研究生/高等数学/一元函数微分学的概念与计算.md",
-    "考试管理/在职研究生/高等数学/数列极限.md",
-    "考试管理/在职研究生/高等数学/函数极限与连续性.md",
-    "考试管理/在职研究生/高等数学/高等数学.canvas",
-    "考试管理/在职研究生/高等数学/考研高等数学.md",
-    "Excalidraw/Autosar相关的帮助文档.excalidraw",
-    "Excalidraw/高等数学.excalidraw",
-    "培训笔记/Marp/Marp-Theme-UCAS/Scenery.md",
-    "考试管理/在职研究生/高等数学",
-    "阅读管理/关于笔记与写作法.md",
-    "考试管理/在职研究生",
-    "考试管理",
-    "阅读管理/Untitled Diagram.svg",
-    "阅读管理",
-    "工作管理/汽车电子/Autosar相关的帮助文档.md",
-    "编程学习/PHP/PHP.md",
-    "知识管理/Git使用/Git帮助文档.md",
-    "附件管理/Readme.md",
-    "学习管理/A0010计算机知识/计算机学习指南.md",
-    "学习管理/A0010计算机知识/计算机学习指南.pdf",
-    "科学上网/科学上网.md",
-    "工作管理/汽车电子/LockgMst.excalidraw",
-    "README.md",
-    "工作管理.md",
->>>>>>> 504a25684799457b470dbf6fbf2f42f9414ed33a
-    "收藏管理/A00602网站收藏/网站收藏.md",
-    "学习管理/GIT的基本使用/如何使用git.md",
-    "科学上网/科学上网.md",
-    "Excalidraw/R.png",
-    "编程学习/PHP/PHP.md",
-    "培训笔记/Template/images/bg1.jpg",
-    "培训笔记/Template/images/bg2.jpg",
-    "培训笔记/Template/images/bg3.jpg",
-    "培训笔记/Template/images/logo.png",
-    "培训笔记/Marp/Marp-Theme-UCAS/README.md",
-    "培训笔记/GIT/GIT帮助文档.md",
-    "Excalidraw",
-    "工作管理/汽车电子/Readme.md",
-<<<<<<< HEAD
-=======
-    "学习管理/目录/学习管理.md",
->>>>>>> 504a25684799457b470dbf6fbf2f42f9414ed33a
-    "附件管理",
-    "培训笔记/Marp/Marp-Theme-UCAS/doc/SimpleBlue/SimpleBlue_9.jpg",
-    "培训笔记/Marp/Marp-Theme-UCAS/doc/SimpleBlue/SimpleBlue_8.jpg",
-    "培训笔记/Marp/Marp-Theme-UCAS/doc/SimpleBlue/SimpleBlue_7.jpg",
-    "培训笔记/Marp/Marp-Theme-UCAS/doc/SimpleBlue/SimpleBlue_5.jpg",
-    "培训笔记/Marp/Marp-Theme-UCAS/doc/SimpleBlue/SimpleBlue_6.jpg",
-<<<<<<< HEAD
-    "培训笔记/Marp/Marp-Theme-UCAS/themes/UCASSimple.css",
-    "培训笔记/Marp/Marp-Theme-UCAS/themes/UCASSce.css",
-    "培训笔记/Marp/Marp-Theme-UCAS/doc/SimpleBlue.pdf",
-    "培训笔记/Marp/Marp-Theme-UCAS/doc/SimpleBlue",
-    "培训笔记/Marp/Marp-Theme-UCAS/doc/Scenery.pdf",
-=======
->>>>>>> 504a25684799457b470dbf6fbf2f42f9414ed33a
-    "培训笔记/Marp/Marp-Theme-UCAS/SimpleBlue.md",
-    "培训笔记/Marp/Marp-Theme-UCAS/Marp帮助文档.md",
-    "培训笔记/Template/Template.md",
-<<<<<<< HEAD
-    "工作管理/TPMS.md",
-    "工作管理/001汽车电子.md",
-=======
-    "学习管理/目录/RSS订阅.md",
->>>>>>> 504a25684799457b470dbf6fbf2f42f9414ed33a
-    "工作管理/工作流.canvas",
-    "学习管理/008Autosar/Autosar.canvas",
-    "工具学习/工具学习.canvas",
-    "数字花园/数字花园.canvas",
-    "未命名.canvas",
-    "计划管理/未命名.canvas"
+    "B学习管理/B5Java/Java学习手册.md",
+    "C工作管理/C2Autosar笔记/C201CP/Classic Platform Autosar.md",
+    "C工作管理/C2Autosar笔记/C201CP/CP.excalidraw",
+    "B学习管理/B3Matalab/Matalb学习笔记.md",
+    "A知识管理/A2笔记收藏/常用资源搜藏.md",
+    "B学习管理/B1Linux/Linux基础使用.md",
+    "A知识管理/A3自动控制理论/自动控制理论.md",
+    "D读书管理/D1Malab/D101Matlab入门.md",
+    "B学习管理/B4Python/Python学习手册.md",
+    "I图片附件/I4Simulink/Sim.png"
   ]
 }

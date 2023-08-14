@@ -1,15 +1,5 @@
 {
-  "theme": "moonstone",
-  "cssTheme": "Everforest Enchanted",
-  "baseFontSizeAction": true,
-<<<<<<< HEAD
-  "baseFontSize": 14,
-  "interfaceFontFamily": "SimSun",
-  "accentColor": ""
-=======
-  "baseFontSize": 17,
-  "interfaceFontFamily": "Academy Engraved LET",
   "accentColor": "",
-  "monospaceFontFamily": "Siemens Serif Bold"
->>>>>>> 504a25684799457b470dbf6fbf2f42f9414ed33a
+  "theme": "moonstone",
+  "cssTheme": "Deep Work"
 }
