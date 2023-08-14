@@ -16,7 +16,13 @@
 		* Simulink
 		* Simulink Blocksets
 		* Real-Time Workshop
+	* 工具箱和产品模块
+		* 数学和数据分析
+			* Optimization
 * 第二章 创建状态图
+	* Stateflow 编辑器
 * 第三章 状态图仿真
 * 第四章 流程图
 * 第五章 有限状态系统----层次化建模
+* 第六章 有限状态系统----并行机制
+* 第七章 Stateflow Coder 目标编译
