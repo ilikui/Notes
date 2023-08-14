@@ -11,9 +11,32 @@
             "id": "adde38961b5cbf4d",
             "type": "leaf",
             "state": {
+              "type": "image",
+              "state": {
+                "file": "Excalidraw/R.png"
+              }
+            }
+          },
+          {
+            "id": "4b50d7ecf92b1829",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "学习管理.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b01f8e805c7efac5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "工作管理.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -111,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Excalidraw/R.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Excalidraw/R.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,16 +174,24 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Excalidraw/R.png"
               }
             }
+          },
+          {
+            "id": "039f17860a41a050",
+            "type": "leaf",
+            "state": {
+              "type": "mermaid-toolbar-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -176,39 +207,46 @@
       "obsidian-advanced-slides:Show Slide Preview": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "digitalgarden:Digital Garden Publication Center": false,
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
   "active": "adde38961b5cbf4d",
   "lastOpenFiles": [
-    "工作管理.md",
-    "编程学习/PHP/PHP.md",
-    "README.md",
     "知识管理/Git使用/Git帮助文档.md",
+    "收藏管理/电影网站/Readme.md",
+    "工作管理/汽车电子/AUTOSAR.excalidraw",
+    "学习管理/计算机知识/计算机学习指南.md",
+    "学习管理/目录/RSS订阅.md",
+    "学习管理/目录/学习管理.md",
+    "学习管理/计算机知识/计算机学习指南.pdf",
     "工作管理/汽车电子/Autosar相关的帮助文档.md",
-    "工作管理/汽车电子/LockgMst.excalidraw",
+    "Excalidraw/Autosar相关的帮助文档.excalidraw",
+    "工作管理/汽车电子/未命名.md",
+    "学习管理.md",
+    "README.md",
+    "工作管理.md",
+    "附件管理/Readme.md",
+    "学习管理/GIT的基本使用/Git的基本操作使用.md",
     "收藏管理/A00602网站收藏/网站收藏.md",
-    "收藏管理/A00601电影网站/Readme.md",
+    "学习管理/GIT的基本使用/如何使用git.md",
+    "科学上网/科学上网.md",
+    "Excalidraw/R.png",
+    "编程学习/PHP/PHP.md",
     "培训笔记/Template/images/bg1.jpg",
     "培训笔记/Template/images/bg2.jpg",
     "培训笔记/Template/images/bg3.jpg",
     "培训笔记/Template/images/logo.png",
     "培训笔记/Marp/Marp-Theme-UCAS/README.md",
     "培训笔记/GIT/GIT帮助文档.md",
-    "Excalidraw/Autosar相关的帮助文档.excalidraw",
     "Excalidraw",
-    "学习管理/A0010计算机知识/计算机学习指南.md",
-    "学习管理/A0010计算机知识/计算机学习指南.pdf",
     "工作管理/汽车电子/Readme.md",
-    "学习管理/目录/学习管理.md",
-    "附件管理/Readme.md",
     "附件管理",
     "培训笔记/Marp/Marp-Theme-UCAS/doc/SimpleBlue/SimpleBlue_9.jpg",
     "培训笔记/Marp/Marp-Theme-UCAS/doc/SimpleBlue/SimpleBlue_8.jpg",
     "培训笔记/Marp/Marp-Theme-UCAS/doc/SimpleBlue/SimpleBlue_7.jpg",
     "培训笔记/Marp/Marp-Theme-UCAS/doc/SimpleBlue/SimpleBlue_5.jpg",
     "培训笔记/Marp/Marp-Theme-UCAS/doc/SimpleBlue/SimpleBlue_6.jpg",
-    "培训笔记/Marp/Marp-Theme-UCAS/doc/SimpleBlue/SimpleBlue_3.jpg",
     "培训笔记/Marp/Marp-Theme-UCAS/themes/UCASSimple.css",
     "培训笔记/Marp/Marp-Theme-UCAS/themes/UCASSce.css",
     "培训笔记/Marp/Marp-Theme-UCAS/doc/SimpleBlue.pdf",
@@ -218,17 +256,10 @@
     "培训笔记/Marp/Marp-Theme-UCAS/Scenery.md",
     "培训笔记/Marp/Marp-Theme-UCAS/Marp帮助文档.md",
     "培训笔记/Template/Template.md",
-    "学习管理/目录/RSS订阅.md",
     "工作管理/TPMS.md",
     "工作管理/001汽车电子.md",
-    "工作管理/接口定义.md",
-    "工作管理/工作流.md",
     "工作管理/工作流.canvas",
     "学习管理/008Autosar/Autosar.canvas",
-    "学习管理/007Mermaid操作/007Mermaid操作.md",
-    "学习管理/003GIT操作/003GIT操作.md",
-    "学习管理/001工具分享/001工具分享.md",
-    "学习管理/005Matlab学习规划/005Matlab学习规划.md",
     "工具学习/工具学习.canvas",
     "数字花园/数字花园.canvas",
     "未命名.canvas",
