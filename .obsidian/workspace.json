@@ -4,13 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "7ff52f4c4929a17c",
+        "id": "20e4e44c5e604ca5",
         "type": "tabs",
         "children": [
           {
-            "id": "adde38961b5cbf4d",
+            "id": "2ffc7a964227c580",
             "type": "leaf",
             "state": {
+<<<<<<< HEAD
               "type": "image",
               "state": {
                 "file": "Excalidraw/R.png"
@@ -27,10 +28,16 @@
                 "mode": "source",
                 "backlinks": true,
                 "source": false
+=======
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/高等数学.excalidraw"
+>>>>>>> 504a25684799457b470dbf6fbf2f42f9414ed33a
               }
             }
           },
           {
+<<<<<<< HEAD
             "id": "b01f8e805c7efac5",
             "type": "leaf",
             "state": {
@@ -40,10 +47,24 @@
                 "mode": "source",
                 "backlinks": true,
                 "source": false
+=======
+            "id": "9a0b60113e3ee50a",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "考试管理/在职研究生/高等数学/高等数学.canvas",
+                "viewState": {
+                  "x": -460,
+                  "y": 80,
+                  "zoom": -1.2515387669959646
+                }
+>>>>>>> 504a25684799457b470dbf6fbf2f42f9414ed33a
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -110,7 +131,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 343.5
   },
   "right": {
     "id": "08677e2de37ba7f1",
@@ -134,7 +155,11 @@
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< HEAD
                 "file": "Excalidraw/R.png",
+=======
+                "file": "考试管理/在职研究生/高等数学/高等数学.canvas",
+>>>>>>> 504a25684799457b470dbf6fbf2f42f9414ed33a
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +176,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+<<<<<<< HEAD
                 "file": "Excalidraw/R.png",
+=======
+                "file": "考试管理/在职研究生/高等数学/高等数学.canvas",
+>>>>>>> 504a25684799457b470dbf6fbf2f42f9414ed33a
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +203,11 @@
             "state": {
               "type": "outline",
               "state": {
+<<<<<<< HEAD
                 "file": "Excalidraw/R.png"
+=======
+                "file": "考试管理/在职研究生/高等数学/高等数学.canvas"
+>>>>>>> 504a25684799457b470dbf6fbf2f42f9414ed33a
               }
             }
           },
@@ -204,15 +237,20 @@
       "markdown-importer:打开 Markdown 格式转换器": false,
       "random-note:开始漫游笔记": false,
       "obsidian-extract-pdf-highlights:PDF Highlights": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-advanced-slides:Show Slide Preview": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
+<<<<<<< HEAD
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "digitalgarden:Digital Garden Publication Center": false,
+=======
+>>>>>>> 504a25684799457b470dbf6fbf2f42f9414ed33a
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "adde38961b5cbf4d",
+  "active": "9a0b60113e3ee50a",
   "lastOpenFiles": [
+<<<<<<< HEAD
     "知识管理/Git使用/Git帮助文档.md",
     "收藏管理/电影网站/Readme.md",
     "工作管理/汽车电子/AUTOSAR.excalidraw",
@@ -228,6 +266,33 @@
     "工作管理.md",
     "附件管理/Readme.md",
     "学习管理/GIT的基本使用/Git的基本操作使用.md",
+=======
+    "考试管理/在职研究生/高等数学/高等数学预备知识.md",
+    "考试管理/在职研究生/高等数学/一元函数微分学的概念与计算.md",
+    "考试管理/在职研究生/高等数学/数列极限.md",
+    "考试管理/在职研究生/高等数学/函数极限与连续性.md",
+    "考试管理/在职研究生/高等数学/高等数学.canvas",
+    "考试管理/在职研究生/高等数学/考研高等数学.md",
+    "Excalidraw/Autosar相关的帮助文档.excalidraw",
+    "Excalidraw/高等数学.excalidraw",
+    "培训笔记/Marp/Marp-Theme-UCAS/Scenery.md",
+    "考试管理/在职研究生/高等数学",
+    "阅读管理/关于笔记与写作法.md",
+    "考试管理/在职研究生",
+    "考试管理",
+    "阅读管理/Untitled Diagram.svg",
+    "阅读管理",
+    "工作管理/汽车电子/Autosar相关的帮助文档.md",
+    "编程学习/PHP/PHP.md",
+    "知识管理/Git使用/Git帮助文档.md",
+    "附件管理/Readme.md",
+    "学习管理/A0010计算机知识/计算机学习指南.md",
+    "学习管理/A0010计算机知识/计算机学习指南.pdf",
+    "科学上网/科学上网.md",
+    "工作管理/汽车电子/LockgMst.excalidraw",
+    "README.md",
+    "工作管理.md",
+>>>>>>> 504a25684799457b470dbf6fbf2f42f9414ed33a
     "收藏管理/A00602网站收藏/网站收藏.md",
     "学习管理/GIT的基本使用/如何使用git.md",
     "科学上网/科学上网.md",
@@ -241,23 +306,33 @@
     "培训笔记/GIT/GIT帮助文档.md",
     "Excalidraw",
     "工作管理/汽车电子/Readme.md",
+<<<<<<< HEAD
+=======
+    "学习管理/目录/学习管理.md",
+>>>>>>> 504a25684799457b470dbf6fbf2f42f9414ed33a
     "附件管理",
     "培训笔记/Marp/Marp-Theme-UCAS/doc/SimpleBlue/SimpleBlue_9.jpg",
     "培训笔记/Marp/Marp-Theme-UCAS/doc/SimpleBlue/SimpleBlue_8.jpg",
     "培训笔记/Marp/Marp-Theme-UCAS/doc/SimpleBlue/SimpleBlue_7.jpg",
     "培训笔记/Marp/Marp-Theme-UCAS/doc/SimpleBlue/SimpleBlue_5.jpg",
     "培训笔记/Marp/Marp-Theme-UCAS/doc/SimpleBlue/SimpleBlue_6.jpg",
+<<<<<<< HEAD
     "培训笔记/Marp/Marp-Theme-UCAS/themes/UCASSimple.css",
     "培训笔记/Marp/Marp-Theme-UCAS/themes/UCASSce.css",
     "培训笔记/Marp/Marp-Theme-UCAS/doc/SimpleBlue.pdf",
     "培训笔记/Marp/Marp-Theme-UCAS/doc/SimpleBlue",
     "培训笔记/Marp/Marp-Theme-UCAS/doc/Scenery.pdf",
+=======
+>>>>>>> 504a25684799457b470dbf6fbf2f42f9414ed33a
     "培训笔记/Marp/Marp-Theme-UCAS/SimpleBlue.md",
-    "培训笔记/Marp/Marp-Theme-UCAS/Scenery.md",
     "培训笔记/Marp/Marp-Theme-UCAS/Marp帮助文档.md",
     "培训笔记/Template/Template.md",
+<<<<<<< HEAD
     "工作管理/TPMS.md",
     "工作管理/001汽车电子.md",
+=======
+    "学习管理/目录/RSS订阅.md",
+>>>>>>> 504a25684799457b470dbf6fbf2f42f9414ed33a
     "工作管理/工作流.canvas",
     "学习管理/008Autosar/Autosar.canvas",
     "工具学习/工具学习.canvas",

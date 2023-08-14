@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"type":"file","file":"考试管理/在职研究生/高等数学/考研高等数学.md","id":"da8eb39a2ea4526a","x":-1340,"y":-318,"width":480,"height":400},
+		{"type":"file","file":"考试管理/在职研究生/高等数学/高等数学预备知识.md","id":"65392244ee60c92a","x":20,"y":-920,"width":400,"height":400},
+		{"type":"file","file":"考试管理/在职研究生/高等数学/数列极限.md","id":"8fc041c2d254559f","x":20,"y":-400,"width":400,"height":400},
+		{"type":"file","file":"考试管理/在职研究生/高等数学/函数极限与连续性.md","id":"d12d62e6d24021ae","x":20,"y":160,"width":400,"height":400},
+		{"type":"file","file":"考试管理/在职研究生/高等数学/一元函数微分学的概念与计算.md","id":"c358073078a9ec75","x":20,"y":680,"width":400,"height":400}
+	],
+	"edges":[
+		{"id":"de60049003a23628","fromNode":"da8eb39a2ea4526a","fromSide":"right","toNode":"65392244ee60c92a","toSide":"left"},
+		{"id":"39a399f810cdfd00","fromNode":"da8eb39a2ea4526a","fromSide":"right","toNode":"8fc041c2d254559f","toSide":"left"},
+		{"id":"da27b2d78f501b29","fromNode":"da8eb39a2ea4526a","fromSide":"right","toNode":"d12d62e6d24021ae","toSide":"left"},
+		{"id":"2b1d21e01e5f8977","fromNode":"da8eb39a2ea4526a","fromSide":"right","toNode":"c358073078a9ec75","toSide":"left"}
+	]
+}
