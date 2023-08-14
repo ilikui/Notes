@@ -4,21 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "3a1296688953a108",
+        "id": "48f2dc1787e549a0",
         "type": "tabs",
         "children": [
           {
-            "id": "f858c3742b4d65d0",
+            "id": "cca699eec9be1dc6",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "考试管理/在职研究生/高等数学/高等数学.canvas",
-                "viewState": {
-                  "x": -460,
-                  "y": 80,
-                  "zoom": -1.607432781524851
-                }
+                "file": "考试管理/在职研究生/高等数学/考研高等数学.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               }
             }
           }
@@ -104,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "考试管理/在职研究生/高等数学/高等数学.canvas",
+                "file": "考试管理/在职研究生/高等数学/考研高等数学.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "考试管理/在职研究生/高等数学/高等数学.canvas",
+                "file": "考试管理/在职研究生/高等数学/考研高等数学.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "考试管理/在职研究生/高等数学/高等数学.canvas"
+                "file": "考试管理/在职研究生/高等数学/考研高等数学.md"
               }
             }
           }
@@ -172,12 +170,16 @@
       "random-note:开始漫游笔记": false
     }
   },
-  "active": "f858c3742b4d65d0",
+  "active": "cca699eec9be1dc6",
   "lastOpenFiles": [
     "考试管理/在职研究生/高等数学/数列极限.md",
     "考试管理/在职研究生/高等数学/函数极限与连续性.md",
-    "考试管理/在职研究生/高等数学/考研高等数学.md",
     "考试管理/在职研究生/高等数学/一元函数微分学的概念与计算.md",
+    "学习管理/计算机知识/计算机学习指南.md",
+    "学习管理/计算机知识/计算机学习指南.pdf",
+    "收藏管理/A00602网站收藏/网站收藏.md",
+    "考试管理/在职研究生/高等数学/高等数学.canvas",
+    "考试管理/在职研究生/高等数学/考研高等数学.md",
     "工作管理/汽车电子/Autosar相关的帮助文档.md",
     "B学习管理/B5Java/Java学习手册.md",
     "C工作管理/C2Autosar笔记/C201CP/Classic Platform Autosar.md",

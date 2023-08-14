@@ -6,6 +6,7 @@
     "emojiStyle": "none",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "FasBook",
       "FasFolder"
     ],
     "recentlyUsedIconsSize": 5,
@@ -31,5 +32,15 @@
   "考试管理/在职研究生/高等数学": "FasFolder",
   "科学上网": "FasFolder",
   "编程学习": "FasFolder",
-  "编程学习/PHP": "FasFolder"
+  "编程学习/PHP": "FasFolder",
+  "学习管理/计算机知识": "FasFolder",
+  "学习管理/目录": "FasFolder",
+  "学习管理/GIT的基本使用": "FasFolder",
+  "学习管理/Image": "FasFolder",
+  "培训笔记/GIT": "FasFolder",
+  "培训笔记/Lockg": "FasFolder",
+  "培训笔记/Marp": "FasFolder",
+  "培训笔记/Template": "FasFolder",
+  "收藏管理/电影网站": "FasFolder",
+  "考试管理/在职研究生/高等数学/一元函数微分学的概念与计算.md": "FasBook"
 }
