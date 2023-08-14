@@ -5,7 +5,9 @@
     "fontSize": 16,
     "emojiStyle": "none",
     "iconColor": null,
-    "recentlyUsedIcons": [],
+    "recentlyUsedIcons": [
+      "FasFolder"
+    ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
     "extraMargin": {
@@ -15,5 +17,19 @@
       "left": 0
     },
     "iconInTabsEnabled": false
-  }
+  },
+  "培训笔记": "FasFolder",
+  "Excalidraw": "FasFolder",
+  "学习管理": "FasFolder",
+  "工作管理": "FasFolder",
+  "工作管理/汽车电子": "FasFolder",
+  "收藏管理": "FasFolder",
+  "知识管理": "FasFolder",
+  "阅读管理": "FasFolder",
+  "考试管理": "FasFolder",
+  "考试管理/在职研究生": "FasFolder",
+  "考试管理/在职研究生/高等数学": "FasFolder",
+  "科学上网": "FasFolder",
+  "编程学习": "FasFolder",
+  "编程学习/PHP": "FasFolder"
 }
