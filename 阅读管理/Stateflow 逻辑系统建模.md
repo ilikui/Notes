@@ -21,6 +21,9 @@
 			* Optimization
 * 第二章 创建状态图
 	* Stateflow 编辑器
+		* 状态(State)
+		* 历史节点(History Junction)
+		* 默认转移(Default Transition)
 * 第三章 状态图仿真
 * 第四章 流程图
 * 第五章 有限状态系统----层次化建模
