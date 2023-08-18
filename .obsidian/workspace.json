@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "48f2dc1787e549a0",
+        "id": "44e64b03c8051e1f",
         "type": "tabs",
         "children": [
           {
-            "id": "cca699eec9be1dc6",
+            "id": "76a6bab26a6c7cd2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "工作管理/汽车电子/汽车电子开发.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
+                "file": "考试管理/在职研究生/高等数学/高等数学.canvas",
+                "viewState": {
+                  "x": 242.7468480494267,
+                  "y": -643.820825056284,
+                  "zoom": 1
+                }
               }
             }
           }
@@ -102,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "工作管理/汽车电子/汽车电子开发.md",
+                "file": "考试管理/在职研究生/高等数学/高等数学.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "工作管理/汽车电子/汽车电子开发.md",
+                "file": "考试管理/在职研究生/高等数学/高等数学.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "工作管理/汽车电子/汽车电子开发.md"
+                "file": "考试管理/在职研究生/高等数学/高等数学.canvas"
               }
             }
           }
@@ -171,11 +173,11 @@
       "random-note:开始漫游笔记": false
     }
   },
-  "active": "cca699eec9be1dc6",
+  "active": "76a6bab26a6c7cd2",
   "lastOpenFiles": [
-    "收藏管理/网站收藏/网站收藏.md",
     "收藏管理/电影网站/Readme.md",
     "工作管理/汽车电子/汽车电子开发.md",
+    "收藏管理/网站收藏/网站收藏.md",
     "工作管理/汽车电子/Autosar相关的帮助文档.md",
     "工作管理/汽车电子/AUTOSAR.excalidraw",
     "学习管理/目录/RSS订阅.md",
