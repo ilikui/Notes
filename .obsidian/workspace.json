@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识管理/Git使用/Git帮助文档.md",
+                "file": "阅读管理/Stateflow 逻辑系统建模.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "知识管理/Git使用/Git帮助文档.md",
+                "file": "阅读管理/Stateflow 逻辑系统建模.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "知识管理/Git使用/Git帮助文档.md",
+                "file": "阅读管理/Stateflow 逻辑系统建模.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识管理/Git使用/Git帮助文档.md"
+                "file": "阅读管理/Stateflow 逻辑系统建模.md"
               }
             }
           }
@@ -173,6 +173,8 @@
   },
   "active": "76a6bab26a6c7cd2",
   "lastOpenFiles": [
+    "README.md",
+    "知识管理/Git使用/Git帮助文档.md",
     "学习管理/GIT的基本使用/如何使用git.md",
     "学习管理/GIT的基本使用/Git的基本操作使用.md",
     "编程学习/PHP/PHP.md",
@@ -189,11 +191,9 @@
     "阅读管理/Stateflow 逻辑系统建模.md",
     "考试管理/在职研究生/高等数学/考研高等数学.md",
     "阅读管理/关于笔记与写作法.md",
-    "README.md",
     "工作管理.md",
     "学习管理.md",
     "培训笔记/GIT/GIT帮助文档.md",
-    "知识管理/Git使用/Git帮助文档.md",
     "考试管理/在职研究生/高等数学/高等数学预备知识.md",
     "考试管理/在职研究生/高等数学/数列极限.md",
     "考试管理/在职研究生/高等数学/函数极限与连续性.md",
