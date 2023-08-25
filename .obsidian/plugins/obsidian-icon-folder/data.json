@@ -53,5 +53,10 @@
   "考试管理/在职研究生/高等数学/考研高等数学.md": "FasBook",
   "考试管理/在职研究生/高等数学/高等数学预备知识.md": "FasBook",
   "收藏管理/网站收藏": "FasFolder",
-  "工作管理/汽车电子/汽车电子开发.md": "FasBook"
+  "工作管理/汽车电子/汽车电子开发.md": "FasBook",
+  "我的笔记": "FasFolder",
+  "我的笔记/draw": "FasFolder",
+  "我的笔记/notes": "FasFolder",
+  "我的笔记/数据.md": "FasBook",
+  "我的笔记/autosar.md": "FasBook"
 }
