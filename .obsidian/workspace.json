@@ -4,17 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "c2804f12888c3977",
+        "id": "d3b11f109831a841",
         "type": "tabs",
         "children": [
           {
-            "id": "6438537329a09056",
+            "id": "715b0f44f2f5167c",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2023-08-25 09.08.05.excalidraw.md"
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -99,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Drawing 2023-08-25 09.08.05.excalidraw.md",
+                "file": "培训笔记/Template/images/bg2.jpg",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Drawing 2023-08-25 09.08.05.excalidraw.md",
+                "file": "培训笔记/Template/images/bg2.jpg",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Drawing 2023-08-25 09.08.05.excalidraw.md"
+                "file": "培训笔记/Template/images/bg2.jpg"
               }
             }
           }
@@ -167,17 +165,24 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "6438537329a09056",
+  "active": "92857f5eb2f41a2c",
   "lastOpenFiles": [
+    "培训笔记/Template/images/bg3.jpg",
+    "培训笔记/Template/images/logo.png",
+    "培训笔记/Template/images/bg2.jpg",
+    "培训笔记/Template/images/bg1.jpg",
+    "培训笔记/Template/images/bg.jpg",
+    "培训笔记/GIT/GIT帮助文档.md",
+    "Excalidraw/R.png",
+    "阅读管理/Stateflow 逻辑系统建模.md",
+    "Excalidraw/Drawing 2023-08-25 09.08.05.excalidraw.md",
     "我的笔记/数据.md",
     "我的笔记/autosar.md",
-    "Excalidraw/Drawing 2023-08-25 09.08.05.excalidraw.md",
     "Excalidraw/高等数学.excalidraw",
     "工作管理/汽车电子/汽车电子开发.md",
     "学习管理/计算机知识/计算机学习指南.md",
     "学习管理/目录/学习管理.md",
     "学习管理/目录/RSS订阅.md",
-    "阅读管理/Stateflow 逻辑系统建模.md",
     "README.md",
     "知识管理/Git使用/Git帮助文档.md",
     "学习管理/GIT的基本使用/如何使用git.md",
@@ -193,12 +198,10 @@
     "阅读管理/关于笔记与写作法.md",
     "工作管理.md",
     "学习管理.md",
-    "培训笔记/GIT/GIT帮助文档.md",
     "考试管理/在职研究生/高等数学/高等数学预备知识.md",
     "考试管理/在职研究生/高等数学/数列极限.md",
     "考试管理/在职研究生/高等数学/函数极限与连续性.md",
     "考试管理/在职研究生/高等数学/一元函数微分学的概念与计算.md",
-    "B学习管理/B5Java/Java学习手册.md",
     "C工作管理/C2Autosar笔记/C201CP/CP.excalidraw",
     "I图片附件/I4Simulink/Sim.png"
   ]
