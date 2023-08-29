@@ -1,8 +1,8 @@
 
 
-# TODO  待办
+# TODO  学习计划
 
-# FIXME 
+
 
 > GIT的基本操作使用   
 
