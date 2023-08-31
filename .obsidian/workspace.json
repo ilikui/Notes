@@ -11,29 +11,16 @@
             "id": "2ffc7a964227c580",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/高等数学.excalidraw"
-              }
-            }
-          },
-          {
-            "id": "9a0b60113e3ee50a",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "考试管理/在职研究生/高等数学/高等数学.canvas",
-                "viewState": {
-                  "x": -460,
-                  "y": 80,
-                  "zoom": -1.2515387669959646
-                }
+                "file": "考试管理/在职研究生/高等数学/数列极限.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -124,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "考试管理/在职研究生/高等数学/高等数学.canvas",
+                "file": "考试管理/在职研究生/高等数学/数列极限.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "考试管理/在职研究生/高等数学/高等数学.canvas",
+                "file": "考试管理/在职研究生/高等数学/数列极限.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "考试管理/在职研究生/高等数学/高等数学.canvas"
+                "file": "考试管理/在职研究生/高等数学/数列极限.md"
               }
             }
           }
@@ -192,19 +179,19 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "9a0b60113e3ee50a",
+  "active": "2ffc7a964227c580",
   "lastOpenFiles": [
-    "考试管理/在职研究生/高等数学/高等数学预备知识.md",
-    "考试管理/在职研究生/高等数学/一元函数微分学的概念与计算.md",
-    "考试管理/在职研究生/高等数学/数列极限.md",
-    "考试管理/在职研究生/高等数学/函数极限与连续性.md",
-    "考试管理/在职研究生/高等数学/高等数学.canvas",
     "考试管理/在职研究生/高等数学/考研高等数学.md",
-    "Excalidraw/Autosar相关的帮助文档.excalidraw",
+    "考试管理/在职研究生/高等数学/函数极限与连续性.md",
+    "考试管理/在职研究生/高等数学/高等数学预备知识.md",
+    "考试管理/在职研究生/高等数学/高等数学.canvas",
+    "考试管理/在职研究生/高等数学/数列极限.md",
+    "阅读管理/关于笔记与写作法.md",
     "Excalidraw/高等数学.excalidraw",
+    "Excalidraw/Autosar相关的帮助文档.excalidraw",
+    "考试管理/在职研究生/高等数学/一元函数微分学的概念与计算.md",
     "培训笔记/Marp/Marp-Theme-UCAS/Scenery.md",
     "考试管理/在职研究生/高等数学",
-    "阅读管理/关于笔记与写作法.md",
     "考试管理/在职研究生",
     "考试管理",
     "阅读管理/Untitled Diagram.svg",
