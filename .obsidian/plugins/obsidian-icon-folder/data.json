@@ -18,7 +18,10 @@
       "left": 0
     },
     "iconInTabsEnabled": false,
-    "iconsBackgroundCheckEnabled": false
+    "iconsBackgroundCheckEnabled": false,
+    "iconInTitleEnabled": false,
+    "iconInFrontmatterEnabled": false,
+    "iconsInNotesEnabled": true
   },
   "培训笔记": "FasFolder",
   "Excalidraw": "FasFolder",

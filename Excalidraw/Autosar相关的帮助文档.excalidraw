@@ -1,7 +1,7 @@
 {
 	"type": "excalidraw",
 	"version": 2,
-	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/1.9.14",
+	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.0.13",
 	"elements": [
 		{
 			"type": "image",
@@ -38,8 +38,8 @@
 		},
 		{
 			"type": "image",
-			"version": 128,
-			"versionNonce": 1113638396,
+			"version": 140,
+			"versionNonce": 638272612,
 			"isDeleted": false,
 			"id": "WVR717Ey",
 			"fillStyle": "hachure",
@@ -48,8 +48,8 @@
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -1016.0187969924816,
-			"y": -769.8019789055973,
+			"x": -1057.7579274272641,
+			"y": -810.6715441229885,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
 			"width": 716.6666666666666,
@@ -59,7 +59,7 @@
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1691634693876,
+			"updated": 1703479783086,
 			"link": null,
 			"locked": false,
 			"status": "pending",
@@ -85,13 +85,17 @@
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 1630.259398496241,
-		"scrollY": 1618.6791662892915,
+		"scrollX": 1292.6072245831972,
+		"scrollY": 1062.8564760719,
 		"zoom": {
-			"value": 0.5
+			"value": 1.1500000000000001
 		},
 		"currentItemRoundness": "round",
 		"gridSize": null,
+		"gridColor": {
+			"Bold": "#C9C9C9FF",
+			"Regular": "#EDEDEDFF"
+		},
 		"currentStrokeOptions": null,
 		"previousGridSize": null,
 		"frameRendering": {

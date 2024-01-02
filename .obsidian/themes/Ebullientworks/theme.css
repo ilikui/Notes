@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /*
-Ebullientworks 0.7.16. A dark and light theme for Obsidian.
+Ebullientworks 0.7.21. A dark and light theme for Obsidian.
 
 https://github.com/ebullient/obsidian-theme-ebullientworks
 */
@@ -19,6 +19,12 @@ settings:
     id: ebullientworks-nix-tags
     title: Suppress/Remove this theme's tag styles
     description: Set this to true if you are going to use your own tag snippet
+    type: class-toggle
+    default: false
+  -
+    id: ebullientworks-nix-heading-marker
+    title: Suppress/Remove leading § from headings
+    description: Set this to true to remove the § from headings in reading mode
     type: class-toggle
     default: false
   -
@@ -270,17 +276,6 @@ body {
   --gray-dark-85:#1e1e1e;
   --gray-dark-9: #1b1b1b;
   --gray-dark-10:#070707;
-  --color-base-05: var(--gray-light-8);
-  --color-base-10: var(--gray-light-7);
-  --color-base-20: var(--gray-light-6);
-  --color-base-25: var(--gray-light-3);
-  --color-base-30: var(--gray-light-2);
-  --color-base-35: var(--gray-light-1);
-  --color-base-40: var(--gray);
-  --color-base-50: var(--gray-dark-1);
-  --color-base-60: var(--gray-dark-3);
-  --color-base-70: var(--gray-dark-4);
-  --color-base-100: var(--gray-dark-8);
   --accent-h: 344;
   --accent-s: 30%;
   --accent-l: 51%;
@@ -301,6 +296,7 @@ body {
   --secondary-accent-5: var(--green-5);
   --secondary-accent-6: var(--green-6);
   --secondary-accent-1-rgb: var(--green-1-rgb);
+  --secondary-accent-4-rgb: var(--green-4-rgb);
 }
 
 .primary-accent-red {
@@ -615,6 +611,18 @@ body {
   --color-purple: var(--purple-2);
   --color-pink-rgb: var(--pink-2-rgb);
   --color-pink: var(--pink-2);
+  --color-base-00: var(--gray-dark-10);
+  --color-base-05: var(--gray-dark-9);
+  --color-base-10: var(--gray-dark-85);
+  --color-base-20: var(--gray-dark-8);
+  --color-base-25: var(--gray-dark-75);
+  --color-base-30: var(--gray-dark-7);
+  --color-base-35: var(--gray-dark-6);
+  --color-base-40: var(--gray-dark-5);
+  --color-base-50: var(--gray-dark-3);
+  --color-base-60: var(--gray-dark-1);
+  --color-base-70: var(--gray);
+  --color-base-100: var(--gray-light-1);
 }
 .theme-dark .is-flashing {
   --text-highlight-fg: var(--text-normal);
@@ -670,6 +678,18 @@ body {
   --color-purple: var(--purple-4);
   --color-pink-rgb: var(--pink-4-rgb);
   --color-pink: var(--pink-4);
+  --color-base-00: var(--gray-light-8);
+  --color-base-05: var(--gray-light-7);
+  --color-base-10: var(--gray-light-6);
+  --color-base-20: var(--gray-light-5);
+  --color-base-25: var(--gray-light-3);
+  --color-base-30: var(--gray-light-2);
+  --color-base-35: var(--gray-light-1);
+  --color-base-40: var(--gray);
+  --color-base-50: var(--gray-dark-1);
+  --color-base-60: var(--gray-dark-3);
+  --color-base-70: var(--gray-dark-4);
+  --color-base-100: var(--gray-dark-8);
 }
 
 .theme-dark.is-tablet {
@@ -917,12 +937,6 @@ body.is-tablet .view-header .view-action,
   --interactive-accent: var(--interactive-accent-hover);
 }
 
-select:focus,
-.dropdown:focus {
-  box-shadow: 0 0 0 0.0625rem var(--background-modifier-border-focus);
-  outline: none;
-}
-
 .theme-dark {
   --graph-line: var(--gray-dark-5);
   --graph-node: var(--primary-accent-4);
@@ -1114,24 +1128,90 @@ h1,
   font-variant-caps: var(--ebw-header-font-caps-variant);
 }
 
-.markdown-rendered h1::before,
-.markdown-rendered h2::before,
-.markdown-rendered h3::before,
-.markdown-rendered h4::before,
-.markdown-rendered h5::before,
-.markdown-rendered h6::before,
-.print h1::before,
-.print h2::before,
-.print h3::before,
-.print h4::before,
-.print h5::before,
-.print h6::before {
-  content: "§ ";
+/* Mark headers as sections § */
+body:not(.ebullientworks-nix-heading-marker) .markdown-rendered h1,
+body:not(.ebullientworks-nix-heading-marker) .markdown-rendered h2,
+body:not(.ebullientworks-nix-heading-marker) .markdown-rendered h3,
+body:not(.ebullientworks-nix-heading-marker) .markdown-rendered h4,
+body:not(.ebullientworks-nix-heading-marker) .markdown-rendered h5,
+body:not(.ebullientworks-nix-heading-marker) .markdown-rendered h6,
+body:not(.ebullientworks-nix-heading-marker) .print h1,
+body:not(.ebullientworks-nix-heading-marker) .print h2,
+body:not(.ebullientworks-nix-heading-marker) .print h3,
+body:not(.ebullientworks-nix-heading-marker) .print h4,
+body:not(.ebullientworks-nix-heading-marker) .print h5,
+body:not(.ebullientworks-nix-heading-marker) .print h6 {
+  --ebw-collapse-icon-width: -28px;
+}
+body:not(.ebullientworks-nix-heading-marker) .markdown-rendered h1:not(:has(.collapse-indicator))::before,
+body:not(.ebullientworks-nix-heading-marker) .markdown-rendered h2:not(:has(.collapse-indicator))::before,
+body:not(.ebullientworks-nix-heading-marker) .markdown-rendered h3:not(:has(.collapse-indicator))::before,
+body:not(.ebullientworks-nix-heading-marker) .markdown-rendered h4:not(:has(.collapse-indicator))::before,
+body:not(.ebullientworks-nix-heading-marker) .markdown-rendered h5:not(:has(.collapse-indicator))::before,
+body:not(.ebullientworks-nix-heading-marker) .markdown-rendered h6:not(:has(.collapse-indicator))::before,
+body:not(.ebullientworks-nix-heading-marker) .print h1:not(:has(.collapse-indicator))::before,
+body:not(.ebullientworks-nix-heading-marker) .print h2:not(:has(.collapse-indicator))::before,
+body:not(.ebullientworks-nix-heading-marker) .print h3:not(:has(.collapse-indicator))::before,
+body:not(.ebullientworks-nix-heading-marker) .print h4:not(:has(.collapse-indicator))::before,
+body:not(.ebullientworks-nix-heading-marker) .print h5:not(:has(.collapse-indicator))::before,
+body:not(.ebullientworks-nix-heading-marker) .print h6:not(:has(.collapse-indicator))::before {
+  content: " § ";
   font-size: 0.5em;
   font-weight: 200;
   position: relative;
   vertical-align: middle;
   font-family: var(--font-default);
+  visibility: visible;
+}
+body:not(.ebullientworks-nix-heading-marker) .markdown-rendered h1 .collapse-indicator,
+body:not(.ebullientworks-nix-heading-marker) .markdown-rendered h2 .collapse-indicator,
+body:not(.ebullientworks-nix-heading-marker) .markdown-rendered h3 .collapse-indicator,
+body:not(.ebullientworks-nix-heading-marker) .markdown-rendered h4 .collapse-indicator,
+body:not(.ebullientworks-nix-heading-marker) .markdown-rendered h5 .collapse-indicator,
+body:not(.ebullientworks-nix-heading-marker) .markdown-rendered h6 .collapse-indicator,
+body:not(.ebullientworks-nix-heading-marker) .print h1 .collapse-indicator,
+body:not(.ebullientworks-nix-heading-marker) .print h2 .collapse-indicator,
+body:not(.ebullientworks-nix-heading-marker) .print h3 .collapse-indicator,
+body:not(.ebullientworks-nix-heading-marker) .print h4 .collapse-indicator,
+body:not(.ebullientworks-nix-heading-marker) .print h5 .collapse-indicator,
+body:not(.ebullientworks-nix-heading-marker) .print h6 .collapse-indicator {
+  opacity: 1;
+  visibility: hidden;
+  margin-left: var(--ebw-collapse-icon-width);
+}
+body:not(.ebullientworks-nix-heading-marker) .markdown-rendered h1 .collapse-indicator:hover,
+body:not(.ebullientworks-nix-heading-marker) .markdown-rendered h2 .collapse-indicator:hover,
+body:not(.ebullientworks-nix-heading-marker) .markdown-rendered h3 .collapse-indicator:hover,
+body:not(.ebullientworks-nix-heading-marker) .markdown-rendered h4 .collapse-indicator:hover,
+body:not(.ebullientworks-nix-heading-marker) .markdown-rendered h5 .collapse-indicator:hover,
+body:not(.ebullientworks-nix-heading-marker) .markdown-rendered h6 .collapse-indicator:hover,
+body:not(.ebullientworks-nix-heading-marker) .print h1 .collapse-indicator:hover,
+body:not(.ebullientworks-nix-heading-marker) .print h2 .collapse-indicator:hover,
+body:not(.ebullientworks-nix-heading-marker) .print h3 .collapse-indicator:hover,
+body:not(.ebullientworks-nix-heading-marker) .print h4 .collapse-indicator:hover,
+body:not(.ebullientworks-nix-heading-marker) .print h5 .collapse-indicator:hover,
+body:not(.ebullientworks-nix-heading-marker) .print h6 .collapse-indicator:hover {
+  visibility: visible;
+}
+body:not(.ebullientworks-nix-heading-marker) .markdown-rendered h1 .collapse-indicator:after,
+body:not(.ebullientworks-nix-heading-marker) .markdown-rendered h2 .collapse-indicator:after,
+body:not(.ebullientworks-nix-heading-marker) .markdown-rendered h3 .collapse-indicator:after,
+body:not(.ebullientworks-nix-heading-marker) .markdown-rendered h4 .collapse-indicator:after,
+body:not(.ebullientworks-nix-heading-marker) .markdown-rendered h5 .collapse-indicator:after,
+body:not(.ebullientworks-nix-heading-marker) .markdown-rendered h6 .collapse-indicator:after,
+body:not(.ebullientworks-nix-heading-marker) .print h1 .collapse-indicator:after,
+body:not(.ebullientworks-nix-heading-marker) .print h2 .collapse-indicator:after,
+body:not(.ebullientworks-nix-heading-marker) .print h3 .collapse-indicator:after,
+body:not(.ebullientworks-nix-heading-marker) .print h4 .collapse-indicator:after,
+body:not(.ebullientworks-nix-heading-marker) .print h5 .collapse-indicator:after,
+body:not(.ebullientworks-nix-heading-marker) .print h6 .collapse-indicator:after {
+  content: " § ";
+  font-size: 0.5em;
+  font-weight: 200;
+  position: relative;
+  vertical-align: middle;
+  font-family: var(--font-default);
+  visibility: visible;
 }
 
 /* Tag formatting */
@@ -1172,7 +1252,7 @@ h6 a.tag {
 
 /* HR tags */
 .workspace > .workspace-split.mod-root .markdown-rendered hr,
-.workspace > .workspace-split.mod-root hr {
+.workspace > .workspace-split.mod-root hr:not(.workspace-leaf-resize-handle) {
   border: none;
   border-top: 1px dotted var(--interactive-accent);
   color: var(--interactive-hover);
@@ -1183,7 +1263,7 @@ h6 a.tag {
   margin-block: calc((var(--font-text-size, 1rem) * var(--line-height-normal) - var(--hr-thickness)) / 2 + var(--p-spacing));
 }
 .workspace > .workspace-split.mod-root .markdown-rendered hr::after,
-.workspace > .workspace-split.mod-root hr::after {
+.workspace > .workspace-split.mod-root hr:not(.workspace-leaf-resize-handle)::after {
   background: var(--background-primary);
   font-family: "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   content: " ✧ ✧ ✧ ";
@@ -1197,36 +1277,35 @@ h6 a.tag {
   font-variant-caps: var(--ebw-header-font-caps-variant);
 }
 
-.HyperMD-header .is-live-preview .HyperMD-header .cm-header::before h1::before,
-.HyperMD-header .is-live-preview .HyperMD-header .cm-header::before h2::before,
-.HyperMD-header .is-live-preview .HyperMD-header .cm-header::before h3::before,
-.HyperMD-header .is-live-preview .HyperMD-header .cm-header::before h4::before,
-.HyperMD-header .is-live-preview .HyperMD-header .cm-header::before h5::before,
-.HyperMD-header .is-live-preview .HyperMD-header .cm-header::before h6::before,
-.HyperMD-header .workspace h1::before,
-.HyperMD-header .workspace h2::before,
-.HyperMD-header .workspace h3::before,
-.HyperMD-header .workspace h4::before,
-.HyperMD-header .workspace h5::before,
-.HyperMD-header .workspace h6::before,
-.workspace .is-live-preview .HyperMD-header .cm-header::before h1::before,
-.workspace .is-live-preview .HyperMD-header .cm-header::before h2::before,
-.workspace .is-live-preview .HyperMD-header .cm-header::before h3::before,
-.workspace .is-live-preview .HyperMD-header .cm-header::before h4::before,
-.workspace .is-live-preview .HyperMD-header .cm-header::before h5::before,
-.workspace .is-live-preview .HyperMD-header .cm-header::before h6::before,
-.workspace .workspace h1::before,
-.workspace .workspace h2::before,
-.workspace .workspace h3::before,
-.workspace .workspace h4::before,
-.workspace .workspace h5::before,
-.workspace .workspace h6::before {
-  content: "§ ";
+/* Mark headers as sections § */
+body:not(.ebullientworks-nix-heading-marker) .is-live-preview .HyperMD-header {
+  --ebw-collapse-icon-width: -26px;
+}
+body:not(.ebullientworks-nix-heading-marker) .is-live-preview .HyperMD-header:not(:has(.collapse-indicator))::before {
+  content: " § ";
   font-size: 0.5em;
   font-weight: 200;
   position: relative;
   vertical-align: middle;
   font-family: var(--font-default);
+  visibility: visible;
+}
+body:not(.ebullientworks-nix-heading-marker) .is-live-preview .HyperMD-header .collapse-indicator {
+  opacity: 1;
+  visibility: hidden;
+  margin-left: var(--ebw-collapse-icon-width);
+}
+body:not(.ebullientworks-nix-heading-marker) .is-live-preview .HyperMD-header .collapse-indicator:hover {
+  visibility: visible;
+}
+body:not(.ebullientworks-nix-heading-marker) .is-live-preview .HyperMD-header .collapse-indicator:after {
+  content: " § ";
+  font-size: 0.5em;
+  font-weight: 200;
+  position: relative;
+  vertical-align: middle;
+  font-family: var(--font-default);
+  visibility: visible;
 }
 
 .cm-s-obsidian .cm-header.cm-inline-code {
@@ -1286,7 +1365,7 @@ h6 a.tag {
   color: var(--tag-color);
 }
 
-.theme-dark {
+body {
   --bold-color: var(--blue-3);
   --italic-color: var(--pink-2);
   --ebw-strong-em: var(--yellow-2);
@@ -1294,7 +1373,16 @@ h6 a.tag {
   --ebw-link-hidden: var(--cyan-4);
   --link-color: var(--gray-light-1);
   --link-color-hover: var(--cyan-2);
-  --ebw-del-link-decoration-color: rgba(203, 203, 203, 0.5);
+  --link-decoration: underline;
+  --link-decoration-hover: underline;
+  --link-unresolved-color: var(--link-color);
+  --link-unresolved-opacity: 0.9;
+  --link-unresolved-decoration-style: dotted;
+  --link-unresolved-decoration-color: var(--ebw-link-underline);
+  --link-external-color: var(--link-color);
+  --link-external-color-hover: var(--link-color-hover);
+  --link-external-decoration: underline;
+  --link-external-decoration-hover: underline;
 }
 
 .theme-light {
@@ -1305,70 +1393,46 @@ h6 a.tag {
   --ebw-link-hidden: var(--cyan-2);
   --link-color: var(--gray-dark-3);
   --link-color-hover: var(--cyan-4);
-  --ebw-del-link-decoration-color: rgba(100, 100, 100, 0.5);
-}
-
-body {
-  --link-decoration: underline;
-  --link-decoration-hover: underline;
-  --link-external-decoration: underline;
-  --link-external-decoration-hover: underline;
-  --link-decoration-color: var(--ebw-link-underline);
-  --link-external-color: var(--link-color);
-  --link-external-color-hover: var(--link-color-hover);
-  --link-unresolved-color: var(--link-color);
-  --link-unresolved-opacity: 0.9;
-  --link-unresolved-decoration-style: dotted;
-  --link-unresolved-decoration-color: var(--ebw-link-underline);
-}
-
-strong em,
-strong em a.internal-link {
-  color: var(--ebw-strong-em);
-}
-
-.markdown-rendered del a.external-link,
-.markdown-rendered del a.internal-link,
-.markdown-rendered del a.internal-link.is-unresolved {
-  text-decoration: line-through var(--link-decoration-color);
 }
 
 a {
-  text-decoration-color: var(--link-decoration-color);
+  text-decoration-color: var(--ebw-link-underline);
 }
 
-del a,
-.markdown-rendered del a.external-link,
-.markdown-rendered del a.internal-link,
-.markdown-rendered del a.internal-link.is-unresolved {
-  text-decoration-color: var(--ebw-del-link-decoration-color);
+.markdown-rendered a del,
+.markdown-rendered del a,
+.markdown-rendered del a.internal-link {
+  color: var(--text-muted);
 }
-
+.markdown-rendered em a,
+.markdown-rendered em a.internal-link,
+.markdown-rendered em a.internal-link.is-unresolved {
+  color: var(--italic-color);
+}
+.markdown-rendered strong a,
+.markdown-rendered strong a.internal-link,
+.markdown-rendered strong a.internal-link.is-unresolved {
+  color: var(--bold-color);
+}
+.markdown-rendered strong em,
+.markdown-rendered strong em a.external-link,
+.markdown-rendered strong em a.internal-link,
+.markdown-rendered strong em a.internal-link.is-unresolved {
+  color: var(--ebw-strong-em);
+}
+.markdown-rendered .internal-link.is-unresolved {
+  text-decoration-line: var(--link-decoration);
+  text-decoration-color: var(--ebw-link-underline);
+}
 .markdown-rendered .internal-link.is-unresolved::after {
   content: " ✎";
   color: var(--ebw-link-underline);
-}
-
-em a {
-  color: var(--italic-color);
-  text-decoration: var(--link-decoration);
-  text-decoration-color: var(--link-decoration-color);
-}
-
-strong a {
-  color: var(--bold-color);
-  text-decoration: var(--link-decoration);
 }
 
 em a:hover,
 strong a:hover {
   color: var(--link-color-hover);
   text-decoration: var(--link-decoration-hover);
-}
-
-.external-link {
-  background-position: center right;
-  background-size: 0.9em;
 }
 
 .search-result-file-matched-text,
@@ -1380,49 +1444,197 @@ strong a:hover {
 .cm-s-obsidian span.cm-quote.cm-em {
   color: var(--italic-color);
 }
-
 .cm-s-obsidian span.cm-quote.cm-strong {
   color: var(--bold-color);
 }
-
 .cm-s-obsidian span.cm-strong.cm-em,
 .cm-s-obsidian span.cm-quote.cm-strong.cm-em {
   color: var(--ebw-strong-em);
 }
 
-.markdown-source-view.mod-cm6 .cm-url.cm-strikethrough,
-.markdown-source-view.mod-cm6 .cm-url.cm-strikethrough .cm-underline,
-.markdown-source-view.mod-cm6 .cm-link.cm-strikethrough,
-.markdown-source-view.mod-cm6 .cm-link.cm-strikethrough .cm-underline,
-.markdown-source-view.mod-cm6 .cm-hmd-internal-link.cm-strikethrough,
-.cm-s-obsidian .cm-url.cm-strikethrough,
-.cm-s-obsidian .cm-link.cm-strikethrough,
-.cm-s-obsidian .cm-hmd-internal-link.cm-strikethrough {
-  text-decoration: line-through var(--link-decoration-color);
+.cm-s-obsidian .cm-formatting-strikethrough,
+.markdown-source-view.mod-cm6 .cm-formatting-strikethrough {
+  text-decoration: none;
+  color: var(--text-faint);
 }
-
-.cm-s-obsidian span.cm-string.cm-url {
-  color: var(--ebw-link-hidden);
+.cm-s-obsidian .cm-strikethrough:not(.cm-formatting-strikethrough),
+.markdown-source-view.mod-cm6 .cm-strikethrough:not(.cm-formatting-strikethrough) {
+  text-decoration-line: line-through;
+  text-decoration-thickness: var(--link-decoration-thickness);
 }
-
-.cm-s-obsidian span.cm-link.cm-em {
-  color: var(--italic-color);
-  text-decoration: var(--link-decoration);
-  text-decoration-color: var(--link-decoration-color);
+.cm-s-obsidian span.cm-hmd-internal-link .cm-underline,
+.cm-s-obsidian span.cm-link .cm-underline,
+.markdown-source-view.mod-cm6 span.cm-hmd-internal-link .cm-underline,
+.markdown-source-view.mod-cm6 span.cm-link .cm-underline {
+  text-decoration: none;
 }
-
-.cm-s-obsidian span.cm-link.cm-strong {
-  color: var(--bold-color);
-  text-decoration: var(--link-decoration);
+.cm-s-obsidian span.cm-hmd-internal-link.cm-strikethrough .cm-underline,
+.cm-s-obsidian span.cm-link.cm-strikethrough .cm-underline,
+.markdown-source-view.mod-cm6 span.cm-hmd-internal-link.cm-strikethrough .cm-underline,
+.markdown-source-view.mod-cm6 span.cm-link.cm-strikethrough .cm-underline {
+  color: var(--text-muted);
+  text-decoration-line: line-through;
+  text-decoration-thickness: var(--link-decoration-thickness);
 }
-
+.cm-s-obsidian span.cm-hmd-internal-link.cm-strikethrough:has(.cm-underline):not(:has(.is-unresolved)):after,
+.cm-s-obsidian span.cm-link.cm-strikethrough:has(.cm-underline):not(:has(.is-unresolved)):after,
+.markdown-source-view.mod-cm6 span.cm-hmd-internal-link.cm-strikethrough:has(.cm-underline):not(:has(.is-unresolved)):after,
+.markdown-source-view.mod-cm6 span.cm-link.cm-strikethrough:has(.cm-underline):not(:has(.is-unresolved)):after {
+  content: " ➹";
+  font-size: 0.8rem;
+  opacity: 0.5;
+}
+.cm-s-obsidian span.cm-hmd-internal-link.cm-strikethrough:not(.cm-formatting-strikethrough):not(:has(.cm-underline)),
+.cm-s-obsidian span.cm-link.cm-strikethrough:not(.cm-formatting-strikethrough):not(:has(.cm-underline)),
+.markdown-source-view.mod-cm6 span.cm-hmd-internal-link.cm-strikethrough:not(.cm-formatting-strikethrough):not(:has(.cm-underline)),
+.markdown-source-view.mod-cm6 span.cm-link.cm-strikethrough:not(.cm-formatting-strikethrough):not(:has(.cm-underline)) {
+  color: var(--text-muted);
+  text-decoration-line: line-through;
+  text-decoration-thickness: var(--link-decoration-thickness);
+  text-decoration-color: var(--text-normal);
+}
+.cm-s-obsidian span.cm-hmd-internal-link.cm-formatting-strikethrough,
+.cm-s-obsidian span.cm-link.cm-formatting-strikethrough,
+.markdown-source-view.mod-cm6 span.cm-hmd-internal-link.cm-formatting-strikethrough,
+.markdown-source-view.mod-cm6 span.cm-link.cm-formatting-strikethrough {
+  color: var(--text-faint);
+  text-decoration: none;
+}
+.cm-s-obsidian span.cm-hmd-internal-link:not(:has(.is-unresolved)), .cm-s-obsidian span.cm-hmd-internal-link.cm-em:not(:has(.is-unresolved)), .cm-s-obsidian span.cm-hmd-internal-link.cm-strong:not(:has(.is-unresolved)), .cm-s-obsidian span.cm-hmd-internal-link.cm-em.cm-strong:not(:has(.is-unresolved)),
+.cm-s-obsidian span.cm-link:not(:has(.is-unresolved)),
+.cm-s-obsidian span.cm-link.cm-em:not(:has(.is-unresolved)),
+.cm-s-obsidian span.cm-link.cm-strong:not(:has(.is-unresolved)),
+.cm-s-obsidian span.cm-link.cm-em.cm-strong:not(:has(.is-unresolved)),
+.markdown-source-view.mod-cm6 span.cm-hmd-internal-link:not(:has(.is-unresolved)),
+.markdown-source-view.mod-cm6 span.cm-hmd-internal-link.cm-em:not(:has(.is-unresolved)),
+.markdown-source-view.mod-cm6 span.cm-hmd-internal-link.cm-strong:not(:has(.is-unresolved)),
+.markdown-source-view.mod-cm6 span.cm-hmd-internal-link.cm-em.cm-strong:not(:has(.is-unresolved)),
+.markdown-source-view.mod-cm6 span.cm-link:not(:has(.is-unresolved)),
+.markdown-source-view.mod-cm6 span.cm-link.cm-em:not(:has(.is-unresolved)),
+.markdown-source-view.mod-cm6 span.cm-link.cm-strong:not(:has(.is-unresolved)),
+.markdown-source-view.mod-cm6 span.cm-link.cm-em.cm-strong:not(:has(.is-unresolved)) {
+  text-decoration-line: var(--link-decoration);
+  text-decoration-color: var(--ebw-link-underline);
+}
+.cm-s-obsidian span.cm-hmd-internal-link:has(.is-unresolved), .cm-s-obsidian span.cm-hmd-internal-link.cm-em:has(.is-unresolved), .cm-s-obsidian span.cm-hmd-internal-link.cm-strong:has(.is-unresolved), .cm-s-obsidian span.cm-hmd-internal-link.cm-em.cm-strong:has(.is-unresolved),
+.cm-s-obsidian span.cm-link:has(.is-unresolved),
+.cm-s-obsidian span.cm-link.cm-em:has(.is-unresolved),
+.cm-s-obsidian span.cm-link.cm-strong:has(.is-unresolved),
+.cm-s-obsidian span.cm-link.cm-em.cm-strong:has(.is-unresolved),
+.markdown-source-view.mod-cm6 span.cm-hmd-internal-link:has(.is-unresolved),
+.markdown-source-view.mod-cm6 span.cm-hmd-internal-link.cm-em:has(.is-unresolved),
+.markdown-source-view.mod-cm6 span.cm-hmd-internal-link.cm-strong:has(.is-unresolved),
+.markdown-source-view.mod-cm6 span.cm-hmd-internal-link.cm-em.cm-strong:has(.is-unresolved),
+.markdown-source-view.mod-cm6 span.cm-link:has(.is-unresolved),
+.markdown-source-view.mod-cm6 span.cm-link.cm-em:has(.is-unresolved),
+.markdown-source-view.mod-cm6 span.cm-link.cm-strong:has(.is-unresolved),
+.markdown-source-view.mod-cm6 span.cm-link.cm-em.cm-strong:has(.is-unresolved) {
+  text-decoration-line: var(--link-decoration);
+  text-decoration-color: var(--ebw-link-underline);
+  text-decoration-style: var(--link-unresolved-decoration-style);
+}
+.cm-s-obsidian span.cm-hmd-internal-link:has(.is-unresolved):after, .cm-s-obsidian span.cm-hmd-internal-link.cm-em:has(.is-unresolved):after, .cm-s-obsidian span.cm-hmd-internal-link.cm-strong:has(.is-unresolved):after, .cm-s-obsidian span.cm-hmd-internal-link.cm-em.cm-strong:has(.is-unresolved):after,
+.cm-s-obsidian span.cm-link:has(.is-unresolved):after,
+.cm-s-obsidian span.cm-link.cm-em:has(.is-unresolved):after,
+.cm-s-obsidian span.cm-link.cm-strong:has(.is-unresolved):after,
+.cm-s-obsidian span.cm-link.cm-em.cm-strong:has(.is-unresolved):after,
+.markdown-source-view.mod-cm6 span.cm-hmd-internal-link:has(.is-unresolved):after,
+.markdown-source-view.mod-cm6 span.cm-hmd-internal-link.cm-em:has(.is-unresolved):after,
+.markdown-source-view.mod-cm6 span.cm-hmd-internal-link.cm-strong:has(.is-unresolved):after,
+.markdown-source-view.mod-cm6 span.cm-hmd-internal-link.cm-em.cm-strong:has(.is-unresolved):after,
+.markdown-source-view.mod-cm6 span.cm-link:has(.is-unresolved):after,
+.markdown-source-view.mod-cm6 span.cm-link.cm-em:has(.is-unresolved):after,
+.markdown-source-view.mod-cm6 span.cm-link.cm-strong:has(.is-unresolved):after,
+.markdown-source-view.mod-cm6 span.cm-link.cm-em.cm-strong:has(.is-unresolved):after {
+  content: " ✎";
+  color: var(--ebw-link-underline);
+}
+.cm-s-obsidian .cm-line .cm-url.cm-link,
+.markdown-source-view.mod-cm6 .cm-line .cm-url.cm-link {
+  color: var(--link-external-color);
+  opacity: unset;
+}
+.cm-s-obsidian .cm-line:has(.cm-url):not(:has(.cm-link)) .cm-url:not(.cm-link),
+.markdown-source-view.mod-cm6 .cm-line:has(.cm-url):not(:has(.cm-link)) .cm-url:not(.cm-link) {
+  color: var(--text-normal);
+  font-weight: normal;
+  font-style: normal;
+}
+.cm-s-obsidian span.cm-hmd-internal-link.cm-em:hover, .cm-s-obsidian span.cm-hmd-internal-link.cm-strong:hover, .cm-s-obsidian span.cm-hmd-internal-link.cm-em.cm-strong:hover,
 .cm-s-obsidian span.cm-link.cm-em:hover,
-.cm-s-obsidian span.cm-link.cm-strong:hover {
+.cm-s-obsidian span.cm-link.cm-strong:hover,
+.cm-s-obsidian span.cm-link.cm-em.cm-strong:hover,
+.cm-s-obsidian span.cm-url.cm-link.cm-em:hover,
+.cm-s-obsidian span.cm-url.cm-link.cm-strong:hover,
+.cm-s-obsidian span.cm-url.cm-link.cm-em.cm-strong:hover,
+.markdown-source-view.mod-cm6 span.cm-hmd-internal-link.cm-em:hover,
+.markdown-source-view.mod-cm6 span.cm-hmd-internal-link.cm-strong:hover,
+.markdown-source-view.mod-cm6 span.cm-hmd-internal-link.cm-em.cm-strong:hover,
+.markdown-source-view.mod-cm6 span.cm-link.cm-em:hover,
+.markdown-source-view.mod-cm6 span.cm-link.cm-strong:hover,
+.markdown-source-view.mod-cm6 span.cm-link.cm-em.cm-strong:hover,
+.markdown-source-view.mod-cm6 span.cm-url.cm-link.cm-em:hover,
+.markdown-source-view.mod-cm6 span.cm-url.cm-link.cm-strong:hover,
+.markdown-source-view.mod-cm6 span.cm-url.cm-link.cm-em.cm-strong:hover {
   color: var(--link-color-hover);
-  text-decoration: var(--link-decoration-hover);
+  text-decoration-line: var(--link-decoration-hover);
+}
+.cm-s-obsidian span.cm-hmd-internal-link.cm-em, .cm-s-obsidian span.cm-hmd-internal-link.cm-em .is-unresolved,
+.cm-s-obsidian span.cm-link.cm-em,
+.cm-s-obsidian span.cm-link.cm-em .is-unresolved,
+.cm-s-obsidian span.cm-url.cm-link.cm-em,
+.cm-s-obsidian span.cm-url.cm-link.cm-em .is-unresolved,
+.markdown-source-view.mod-cm6 span.cm-hmd-internal-link.cm-em,
+.markdown-source-view.mod-cm6 span.cm-hmd-internal-link.cm-em .is-unresolved,
+.markdown-source-view.mod-cm6 span.cm-link.cm-em,
+.markdown-source-view.mod-cm6 span.cm-link.cm-em .is-unresolved,
+.markdown-source-view.mod-cm6 span.cm-url.cm-link.cm-em,
+.markdown-source-view.mod-cm6 span.cm-url.cm-link.cm-em .is-unresolved {
+  color: var(--italic-color);
+}
+.cm-s-obsidian span.cm-hmd-internal-link.cm-strong, .cm-s-obsidian span.cm-hmd-internal-link.cm-strong .is-unresolved,
+.cm-s-obsidian span.cm-link.cm-strong,
+.cm-s-obsidian span.cm-link.cm-strong .is-unresolved,
+.cm-s-obsidian span.cm-url.cm-link.cm-strong,
+.cm-s-obsidian span.cm-url.cm-link.cm-strong .is-unresolved,
+.markdown-source-view.mod-cm6 span.cm-hmd-internal-link.cm-strong,
+.markdown-source-view.mod-cm6 span.cm-hmd-internal-link.cm-strong .is-unresolved,
+.markdown-source-view.mod-cm6 span.cm-link.cm-strong,
+.markdown-source-view.mod-cm6 span.cm-link.cm-strong .is-unresolved,
+.markdown-source-view.mod-cm6 span.cm-url.cm-link.cm-strong,
+.markdown-source-view.mod-cm6 span.cm-url.cm-link.cm-strong .is-unresolved {
+  color: var(--bold-color);
+}
+.cm-s-obsidian span.cm-hmd-internal-link.cm-em.cm-strong, .cm-s-obsidian span.cm-hmd-internal-link.cm-em.cm-strong .is-unresolved,
+.cm-s-obsidian span.cm-link.cm-em.cm-strong,
+.cm-s-obsidian span.cm-link.cm-em.cm-strong .is-unresolved,
+.cm-s-obsidian span.cm-url.cm-link.cm-em.cm-strong,
+.cm-s-obsidian span.cm-url.cm-link.cm-em.cm-strong .is-unresolved,
+.markdown-source-view.mod-cm6 span.cm-hmd-internal-link.cm-em.cm-strong,
+.markdown-source-view.mod-cm6 span.cm-hmd-internal-link.cm-em.cm-strong .is-unresolved,
+.markdown-source-view.mod-cm6 span.cm-link.cm-em.cm-strong,
+.markdown-source-view.mod-cm6 span.cm-link.cm-em.cm-strong .is-unresolved,
+.markdown-source-view.mod-cm6 span.cm-url.cm-link.cm-em.cm-strong,
+.markdown-source-view.mod-cm6 span.cm-url.cm-link.cm-em.cm-strong .is-unresolved {
+  color: var(--ebw-strong-em);
+}
+.cm-s-obsidian span.cm-formatting-link:not(.cm-url.cm-link),
+.markdown-source-view.mod-cm6 span.cm-formatting-link:not(.cm-url.cm-link) {
+  font-weight: normal;
+  font-style: normal;
+  opacity: 0.7;
+}
+.cm-s-obsidian span.cm-string.cm-url,
+.markdown-source-view.mod-cm6 span.cm-string.cm-url {
+  color: var(--ebw-link-hidden);
+  font-weight: normal;
+  font-style: normal;
 }
 
 /* Collapse external links / markdown links in edit mode */
+body:not(.ebullientworks-show-edit-mode-links) .markdown-source-view.mod-cm6 div.cm-line:not(.cm-active) > .cm-string.cm-url {
+  text-decoration: none;
+}
 body:not(.ebullientworks-show-edit-mode-links) .markdown-source-view.mod-cm6 div.cm-line:not(.cm-active) > .cm-string.cm-url:not(.cm-formatting) {
   font-size: 0;
 }
@@ -1447,8 +1659,7 @@ div.CodeMirror.cm-s-obsidian span.cm-highlight.CodeMirror-selectedtext {
   --text-selection: var(--text-highlight-bg-active);
 }
 
-.markdown-source-view.mod-cm6 .cm-selection,
-::selection {
+.ebw-test-select {
   background-color: var(--text-selection);
 }
 
@@ -2430,6 +2641,15 @@ li .internal-embed .markdown-embed-content {
 .day-planner-progress-value {
   height: 14px;
   background-color: var(--day-planner-timeline-fg);
+}
+
+.folder-note-underline-path .has-folder-note.view-header-breadcrumb,
+.folder-note-underline .has-folder-note .nav-folder-title-content {
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
+  text-decoration-color: var(--color-base-40);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
 }
 
 .mod-cta .setting-item-description,
