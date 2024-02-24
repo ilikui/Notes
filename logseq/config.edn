@@ -71,7 +71,7 @@
 
  ;; Enable whiteboards.
  ;; Default value: true
- ;; :feature/enable-whiteboards? true
+ :feature/enable-whiteboards? true
 
  ;; Disable the journal's built-in 'Scheduled tasks and deadlines' query.
  ;; Default value: false
@@ -144,7 +144,7 @@
 
  ;; Set the default location for storing whiteboards.
  ;; Default value: "whiteboards"
- ;; :whiteboards-directory "whiteboards"
+ :whiteboards-directory "whiteboards"
 
  ;; Enabling this option converts
  ;; [[Grant Ideas]] to [[file:./grant_ideas.org][Grant Ideas]] for org-mode.
