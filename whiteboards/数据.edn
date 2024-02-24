@@ -1,0 +1,78 @@
+{:blocks (
+{:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 0
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "pencil"
+:points [[0 28 0.5] [0 29 0.5] [1 35 0.5] [15 47 0.5] [32 56 0.5] [62 64 0.5] [96 69 0.5] [140 69 0.5] [162 63 0.5] [170 57 0.5] [173 52 0.5] [173 46 0.5] [173 37 0.5] [169 29 0.5] [167 22 0.5] [165 17 0.5] [161 10 0.5] [158 5 0.5] [156 3 0.5] [153 1 0.5] [150 0 0.5] [144 0 0.5] [138 4 0.5] [126 16 0.5] [116 35 0.5] [109 70 0.5] [107 92 0.5] [107 103 0.5] [107 112 0.5] [109 119 0.5] [111 123 0.5] [111 124 0.5] [111 116 0.5] [112 105 0.5]]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "00add620-d324-11ee-a684-713006eea729"
+:noFill true
+:point [542.5 234.5]
+:parentId "65da020c-f2d1-41ec-8c42-1b75e596cda8"
+:nonce 1708786207909
+:isComplete true}}
+:block/updated-at 1708786210069} 
+{:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 1
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "pencil"
+:points [[48 0 0.5] [47 0 0.5] [45 0 0.5] [41 3 0.5] [36 6 0.5] [23 13 0.5] [15 17 0.5] [7 20 0.5] [3 21 0.5] [1 22 0.5] [1 23 0.5] [0 23 0.5] [0 24 0.5] [7 24 0.5] [10 24 0.5]]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "011dfd10-d324-11ee-a684-713006eea729"
+:noFill true
+:point [603.5 300.5]
+:parentId "65da020c-f2d1-41ec-8c42-1b75e596cda8"
+:nonce 1708786208625
+:isComplete true}}
+:block/updated-at 1708786210070} 
+{:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:index 2
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "pencil"
+:points [[28 0 0.5] [31 2 0.5] [37 7 0.5] [43 12 0.5] [49 16 0.5] [52 20 0.5] [52 21 0.5] [52 22 0.5] [52 23 0.5] [48 24 0.5] [35 26 0.5] [29 26 0.5] [24 26 0.5] [23 26 0.5] [23 30 0.5] [24 35 0.5] [26 42 0.5] [29 51 0.5] [34 59 0.5] [37 65 0.5] [38 67 0.5] [39 68 0.5] [40 69 0.5] [40 70 0.5] [38 70 0.5] [30 70 0.5] [20 69 0.5] [8 65 0.5] [5 64 0.5] [0 61 0.5] [0 60 0.5] [0 57 0.5] [3 55 0.5] [12 53 0.5] [27 50 0.5] [47 49 0.5] [57 49 0.5] [60 49 0.5] [61 49 0.5]]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "014cfc50-d324-11ee-a684-713006eea729"
+:noFill true
+:point [633.5 313.5]
+:parentId "65da020c-f2d1-41ec-8c42-1b75e596cda8"
+:nonce 1708786208957
+:isComplete true}}
+:block/updated-at 1708786210070})
+:pages (
+{:block/uuid #uuid "65da020c-f2d1-41ec-8c42-1b75e596cda8"
+:block/properties 
+{:ls-type :whiteboard-page
+:logseq.tldraw.page 
+{:id "65da020c-f2d1-41ec-8c42-1b75e596cda8"
+:name "数据"
+:bindings 
+{}
+:nonce 1
+:assets []
+:shapes-index ("00add620-d324-11ee-a684-713006eea729" "011dfd10-d324-11ee-a684-713006eea729" "014cfc50-d324-11ee-a684-713006eea729")}}
+:block/updated-at 1708786210069
+:block/created-at 1708786188576
+:block/type "whiteboard"
+:block/name "数据"
+:block/original-name "数据"})}
