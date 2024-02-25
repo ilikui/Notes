@@ -1,0 +1,16 @@
+{:logseq-bonofix-theme {:version "v3.8.5", :repo "sansui233/logseq-bonofix-theme", :effect false, :theme true}
+ :logseq-dev-theme {:version "v1.26.16", :repo "pengx17/logseq-dev-theme", :effect false, :theme true}
+ :logseq-atlas-theme {:version "v0.3.5", :repo "sethfair/logseq-atlas-theme", :effect false, :theme true}
+ :logseq-heatmap {:version "v2.4.3", :repo "pengx17/logseq-plugin-heatmap", :effect true, :theme false}
+ :logseq-journals-calendar {:version "v0.10.10", :repo "xyhp915/logseq-journals-calendar", :effect false, :theme false}
+ :logseq-mark-map {:version "v0.4.1", :repo "vipzhicheng/logseq-plugin-mark-map", :effect false, :theme false}
+ :logseq-markdown-table {:version "v1.8.0", :repo "haydenull/logseq-plugin-markdown-table", :effect false, :theme false}
+ :logseq-pdf-export-plugin {:version "2.2.10", :repo "sawhney17/logseq-pdf-export", :effect true, :theme false}
+ :logseq-tags {:version "v0.1.2", :repo "gidongkwon/logseq-plugin-tags", :effect false, :theme false}
+ :logseq-graph-analysis {:version "0.9.1", :repo "trashhalo/logseq-graph-analysis", :effect false, :theme false}
+ :logseq-banners-plugin {:version "v3.4.11", :repo "yoyurec/logseq-banners-plugin", :effect true, :theme false}
+ :logseq-bullet-threading {:version "v1.1.1", :repo "pengx17/logseq-plugin-bullet-threading", :effect false, :theme false}
+ :logseq-tocgen {:version "v2.3.0", :repo "sethyuan/logseq-plugin-tocgen", :effect true, :theme false}
+ :logseq-calendars-plugin {:version "2.2.2", :repo "sawhney17/logseq-calendars-plugin", :effect true, :theme false}
+ :logseq-awesome-links {:version "v1.15.16", :repo "yoyurec/logseq-awesome-links", :effect true, :theme false}
+ :logseq-tabs {:version "v1.19.4", :repo "pengx17/logseq-plugin-tabs", :effect true, :theme false}}

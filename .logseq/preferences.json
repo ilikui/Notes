@@ -1,0 +1,26 @@
+{
+  "theme": {
+    "name": "Dev theme",
+    "url": "assets://C:\\Users\\lenovo\\.logseq\\plugins\\logseq-dev-theme\\custom.css",
+    "pid": "logseq-dev-theme"
+  },
+  "themes": {
+    "mode": "light",
+    "light": {
+      "name": "Bonofix Theme",
+      "url": "assets://C:\\Users\\lenovo\\.logseq\\plugins\\logseq-bonofix-theme\\custom.css",
+      "description": "A custom theme focus on UI bug fix and mobile improvement",
+      "pid": "logseq-bonofix-theme",
+      "group-first": true,
+      "group-desc": "light & dark themes",
+      "mode": "light",
+      "selected": false
+    },
+    "dark": null
+  },
+  "externals": [],
+  "pinnedToolbarItems": [
+    "logseq-journals-calendar:open-calendar",
+    "logseq-tocgen:open-toc"
+  ]
+}
