@@ -3,9 +3,4 @@
 - 如何使用Logseq?
 - {{renderer code_diagram,plantuml}}
 	- ```plantuml
-	  @startuml
-	  autonumber
-	  Bob -> Alice : Authentication Request
-	  Bob <- Alice : Authentication Response
-	  @enduml
 	  ```
