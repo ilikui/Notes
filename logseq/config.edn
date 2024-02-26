@@ -299,7 +299,7 @@
  ;;  :charge-range    600}   ; Default value: 600
 
  ;; Favorites to list on the left sidebar
- :favorites ["知识管理"]
+ :favorites ["考试管理" "工作管理" "知识管理"]
 
  ;; Set flashcards interval.
  ;; Expected value:
