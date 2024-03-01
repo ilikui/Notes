@@ -1,4 +1,7 @@
 - Data Transfer Instructions
 	- MOV
 	- XCHG
--
+- Arithmetic Instructions
+	- ADD
+	- SUB
+- Control Transfer Instr
