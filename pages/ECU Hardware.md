@@ -1,3 +1,3 @@
 - [[Microcontroller]]
 - [[Memory]]
-- [[Communication]]
+- [[Communication Interfaces]]
