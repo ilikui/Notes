@@ -1,1 +1,9 @@
-- In
+- Instruction Pointer
+	- EIP
+- Index Registers
+	- ESI
+	- EDI
+- Pointer Registers
+	- EBP
+	- ESP
+- Gen
