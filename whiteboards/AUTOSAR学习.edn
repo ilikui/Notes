@@ -1,0 +1,45 @@
+{:blocks (
+{:block/created-at 1709300632257
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:blockType "P"
+:stroke ""
+:collapsed false
+:borderRadius 8
+:index 0
+:scale [1 1]
+:pageId "AUTOSAR"
+:scaleLevel "md"
+:fill ""
+:compact false
+:isAutoResizing true
+:type "logseq-portal"
+:size [400 760.125]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:id "b4339480-d7d1-11ee-8305-69250af8de56"
+:noFill false
+:point [168 96]
+:parentId "65e1db46-c7e3-4646-a29d-e240edef5488"
+:collapsedHeight 0
+:nonce 1709300616747}}
+:block/updated-at 1709300632257})
+:pages (
+{:block/uuid #uuid "65e1db46-c7e3-4646-a29d-e240edef5488"
+:block/properties 
+{:ls-type :whiteboard-page
+:logseq.tldraw.page 
+{:id "65e1db46-c7e3-4646-a29d-e240edef5488"
+:name "autosar学习"
+:bindings 
+{}
+:nonce 1
+:assets []
+:shapes-index ("b4339480-d7d1-11ee-8305-69250af8de56")}}
+:block/updated-at 1709300694294
+:block/created-at 1709300550023
+:block/type "whiteboard"
+:block/name "autosar学习"
+:block/original-name "AUTOSAR学习"})}
