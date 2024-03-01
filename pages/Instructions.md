@@ -1,0 +1,4 @@
+- Data Transfer Instructions
+	- MOV
+	- XCHG
+-
