@@ -1,3 +1,4 @@
+- https://explorer.globe.engineer/?q=Autosar+Classic+Platform
 - [[Architecture]]
 - [[Methodology]]
 - [[Standards]]
