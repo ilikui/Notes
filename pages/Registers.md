@@ -6,4 +6,13 @@
 - Pointer Registers
 	- EBP
 	- ESP
-- Gen
+- General Purpose Registers
+	- EAX
+	- EBX
+	- ECX
+	- EDX
+- Segment Registers
+	- CS
+	- DS
+	- ES
+	- SS
