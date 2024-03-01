@@ -1,1 +1,4 @@
-- Requiremnets Eng
+- Requirements Enginnering
+- System Design
+- Software Implements
+- Integration and Testing
