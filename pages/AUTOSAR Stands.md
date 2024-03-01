@@ -1,1 +1,4 @@
-- AUTOSA
+- AUTOSAR Software Architecture Standard
+- AUTOSAR Communication Standard
+- AUTOSAR OS Standard
+-
