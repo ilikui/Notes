@@ -4,4 +4,9 @@
 - Arithmetic Instructions
 	- ADD
 	- SUB
-- Control Transfer Instr
+- Control Transfer Instructions
+	- JMP
+	- CALL
+- Logical Instrctions
+	- AND
+	- OR
