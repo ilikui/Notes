@@ -1,2 +1,9 @@
 - Data Definition
--
+	- DB
+	- DW
+- Segment Directives
+	- SEGMENT
+	- ENDP
+- Code Directives
+	- PROC
+	- ENDP
