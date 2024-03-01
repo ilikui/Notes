@@ -242,7 +242,8 @@
 :collapsedHeight 0
 :nonce 1709300778764}}
 :block/updated-at 1709300794384} 
-{:block/properties 
+{:block/created-at 1709300885822
+:block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
 {:stroke ""
@@ -275,7 +276,32 @@
 :parentId "65e1db46-c7e3-4646-a29d-e240edef5488"
 :nonce 1709300798744
 :italic false}}
-:block/updated-at 1709300800225})
+:block/updated-at 1709300885822} 
+{:block/created-at 1709301223856
+:block/properties 
+{:ls-type :whiteboard-shape
+:logseq.tldraw.shape 
+{:stroke ""
+:borderRadius 2
+:index 9
+:scale [1 1]
+:scaleLevel "md"
+:fill ""
+:type "box"
+:size [512 328]
+:strokeType "line"
+:strokeWidth 2
+:opacity 1
+:label ""
+:id "18a1eb00-d7d3-11ee-8305-69250af8de56"
+:fontWeight 400
+:noFill false
+:point [1472 144]
+:fontSize 20
+:parentId "65e1db46-c7e3-4646-a29d-e240edef5488"
+:nonce 1709301214663
+:italic false}}
+:block/updated-at 1709301223856})
 :pages (
 {:block/uuid #uuid "65e1db46-c7e3-4646-a29d-e240edef5488"
 :block/properties 
@@ -334,8 +360,8 @@
 :distance 4}}
 :nonce 1
 :assets []
-:shapes-index ("b4339480-d7d1-11ee-8305-69250af8de56" "e30e3580-d7d1-11ee-8305-69250af8de56" "ef08c492-d7d1-11ee-8305-69250af8de56" "f34c3aa0-d7d1-11ee-8305-69250af8de56" "fdba3642-d7d1-11ee-8305-69250af8de56" "09b2f090-d7d2-11ee-8305-69250af8de56" "11da5792-d7d2-11ee-8305-69250af8de56" "14c62ce0-d7d2-11ee-8305-69250af8de56" "20b45fe2-d7d2-11ee-8305-69250af8de56")}}
-:block/updated-at 1709300800225
+:shapes-index ("b4339480-d7d1-11ee-8305-69250af8de56" "e30e3580-d7d1-11ee-8305-69250af8de56" "ef08c492-d7d1-11ee-8305-69250af8de56" "f34c3aa0-d7d1-11ee-8305-69250af8de56" "fdba3642-d7d1-11ee-8305-69250af8de56" "09b2f090-d7d2-11ee-8305-69250af8de56" "11da5792-d7d2-11ee-8305-69250af8de56" "14c62ce0-d7d2-11ee-8305-69250af8de56" "20b45fe2-d7d2-11ee-8305-69250af8de56" "18a1eb00-d7d3-11ee-8305-69250af8de56")}}
+:block/updated-at 1709301223856
 :block/created-at 1709300550023
 :block/type "whiteboard"
 :block/name "autosar学习"
