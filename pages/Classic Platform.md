@@ -1,2 +1,3 @@
 - [[Architecture]]
--
+- [[Methodology]]
+- [[Standards]]
