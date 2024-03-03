@@ -1,4 +1,5 @@
 - 进阶主题
+  collapsed:: true
 	- 多线程编程
 		- 线程创建与管理
 		- 线程同步
@@ -71,6 +72,7 @@
 		- 函数参数
 		- 递归函数
 - 高级概念
+  collapsed:: true
 	- 内存管理
 	  collapsed:: true
 		- 动态内存分配
