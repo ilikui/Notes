@@ -8,7 +8,7 @@
 	- 跨平台开发
 		- 编译器与标准库
 		- Makefile使用
-- ![](https://www.runoob.com/wp-content/uploads/2014/09/c-mini-logo.png)
+- collapsed:: true
 	- 基本概念
 	- 数据类型
 		- 基本数据类型
