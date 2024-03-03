@@ -1,0 +1,1 @@
+- 中文版学习链接 https://gitlab.com/wsdjeg/vim-galore-zh_cn
