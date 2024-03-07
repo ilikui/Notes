@@ -53,6 +53,22 @@
 		- `do...while`循环
 	- 指针
 		- 指针的定义
+		  id:: 65e6a7a5-dca9-4478-946b-0a81e6ecf4be
+		  ![](https://www.runoob.com/wp-content/uploads/2014/09/c-pointer.png)
+		  > 每一个变量都有一个内存位置，每一个内存位置都定义了可使用 &运算符访问的地址，它表示了在内存中的个地址。
+		- > 指针也就是内存地址，指针变量是用来存放内存地址的变量。就像其他变量或常量一样，您必须在使用指针存储其他变量地址之前，对其进行声明。
+		- ```c
+		  
+		  int main ()
+		  {
+		      int var_runoob = 10;
+		      int *p;              // 定义指针变量
+		      p = &var_runoob;
+		   
+		     printf("var_runoob 变量的地址： %p\n", p);
+		     return 0;
+		  }
+		  ```
 		- 指针的运算
 		- 指针与数组
 		- 指针与结构体
