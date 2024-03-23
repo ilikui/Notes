@@ -7,11 +7,8 @@
 		  |数据类型|`char`|`short`|`int`|`long int`|`float`|`double`|
 		  |长度|1|2|4|4|4|8|
 		- 基本数据类型
-		  collapsed:: true
 			- 数值类型
-			  collapsed:: true
 				- 整型
-				  collapsed:: true
 					- 短整型 `short`
 					- 整型 `int`
 					- 长整型 `long`
