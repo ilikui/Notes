@@ -78,8 +78,28 @@
 	- 函数
 		- 函数申明
 			- ```c
+			  #include <stdio.h>
+			  #deifne ADDRESS "101 Megabuck Plaza"
+			  #define PLACE "Megapolis, CA 94904"
+			  #define WIDTH 40
+			  
+			  void starbar(void);/*函数申明*/
+			  
+			  int main(void)
+			  {
+			    
+			    starbar();/*函数调用*/
+			    
+			    return 0;
+			  }
+			  
+			  void starbar(void)/*函数定义*/
+			  {
+			    printf("*************************")
+			  }
 			  
 			  ```
+			- 其中 `void starbar(void);/*函数申明*/`
 		- 函数定义
 		- 函数参数
 		- 递归函数
