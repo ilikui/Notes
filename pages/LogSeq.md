@@ -2,3 +2,4 @@
 - [how-to-setup-and-use-logseq-sync](https://blog.logseq.com/how-to-setup-and-use-logseq-sync/)
 - 如何使用Logseq?
 	- 数学公式$$a^2+b^2=c^2$$
+- 使用 `Ctrl+Enter` 来使用待办
