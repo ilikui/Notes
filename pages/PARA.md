@@ -3,3 +3,4 @@
 - 相关的案例：
 	- https://leon21.notion.site/PARA-ceae6018654a4496854e51151cf57acf
 	- https://www.fufusee.com/blog/secondbrain-03
+	- https://fm-chen.tw/post/para-method/
