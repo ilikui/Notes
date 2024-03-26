@@ -2,3 +2,4 @@
 - 使用PARA的一些技巧 https://workflowy.com/systems/para-method/
 - 相关的案例：
 	- https://leon21.notion.site/PARA-ceae6018654a4496854e51151cf57acf
+	- https://www.fufusee.com/blog/secondbrain-03
