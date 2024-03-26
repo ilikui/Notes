@@ -1,2 +1,4 @@
 - ![](https://assets-global.website-files.com/608aecd1e643ecaa961a7a67/634f2c0e118fe558757fffa0_PARA%2001.png)
 - 使用PARA的一些技巧 https://workflowy.com/systems/para-method/
+- 相关的案例：
+	- https://leon21.notion.site/PARA-ceae6018654a4496854e51151cf57acf
