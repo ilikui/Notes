@@ -286,10 +286,10 @@
  ;; Graph view configuration.
  ;; Example usage:
  :graph/settings
- {:orphan-pages?   true   ; Default value: true
- :builtin-pages?   true  ; Default value: false
- :excluded-pages?  true  ; Default value: false
- :journal?         false} ; Default value: false
+ {:orphan-pages? true
+ :builtin-pages? true
+ :excluded-pages? true
+ :journal? false} ; Default value: false
 
  ;; Graph view configuration.
  ;; Example usage:

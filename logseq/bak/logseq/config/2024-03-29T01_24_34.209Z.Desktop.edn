@@ -10,7 +10,7 @@
  ;; Available options:
  ;; - :now for NOW/LATER style (default)
  ;; - :todo for TODO/DOING style
- :preferred-workflow :todo
+ :preferred-workflow :now
 
  ;; Exclude directories/files.
  ;; Example usage:
@@ -38,7 +38,7 @@
 
  ;; Enable tooltip preview on hover.
  ;; Default value: true
- :ui/enable-tooltip? false
+ :ui/enable-tooltip? true
 
  ;; Display brackets [[]] around page references.
  ;; Default value: true
@@ -50,7 +50,7 @@
 
  ;; Automatically expand block references when zooming in.
  ;; Default value: true
- :ui/auto-expand-block-refs? false
+ :ui/auto-expand-block-refs? true
 
  ;; Enable Block timestamps.
  ;; Default value: false
@@ -299,7 +299,7 @@
  ;;  :charge-range    600}   ; Default value: 600
 
  ;; Favorites to list on the left sidebar
- :favorites ["主页管理" "知识管理" "学习管理" "工作管理" "笔记管理" "阅读管理" "考试管理" "搜藏管理"]
+ :favorites ["主页管理" "知识管理" "学习管理" "工作管理" "笔记管理" "阅读管理" "考试管理" "搜藏管理" "日记管理"]
  ;; Set flashcards interval.
  ;; Expected value:
  ;; - Float between 0 and 1
@@ -418,5 +418,4 @@
  ;;      ;use triple underscore `___` for slash `/` in page title
  ;;      ;use Percent-encoding for other invalid characters
  :file/name-format :triple-lowbar
- :zotero/settings-v2 {"default" {:zotero-data-directory ""}}
- :feature/enable-timetracking? false}
+ :graph/forcesettings {:charge-range 1500}}
