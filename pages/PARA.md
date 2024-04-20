@@ -6,4 +6,8 @@
 	- https://fm-chen.tw/post/para-method/
 	- https://www.cnblogs.com/luchaoshuai/p/18064969
 	- https://waynerv.com/posts/reading-notes-of-building-a-second-brain/
-- 我的PARA系统
+- 我的PARA系统分类
+	- [[Project]]
+	- [[Area]]
+	- [[Resource]]
+	- [[Archive]]
