@@ -299,7 +299,7 @@
  ;;  :charge-range    600}   ; Default value: 600
 
  ;; Favorites to list on the left sidebar
- :favorites ["日记管理" "主页管理" "知识管理" "学习管理" "工作管理" "笔记管理" "阅读管理" "考试管理" "搜藏管理"]
+ :favorites ["主页管理" "知识管理" "学习管理" "工作管理" "笔记管理" "阅读管理" "考试管理" "搜藏管理" "日记管理"]
  ;; Set flashcards interval.
  ;; Expected value:
  ;; - Float between 0 and 1
@@ -417,4 +417,5 @@
  ;;   - :triple-lowbar (default)
  ;;      ;use triple underscore `___` for slash `/` in page title
  ;;      ;use Percent-encoding for other invalid characters
- :file/name-format :triple-lowbar}
+ :file/name-format :triple-lowbar
+ :graph/forcesettings {:charge-range 1500}}
