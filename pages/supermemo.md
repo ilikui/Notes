@@ -1,0 +1,2 @@
+- 学习参考链接：[L-M-Sherlock/sm18-lazy-package: SuperMemo 18 中文懒人包](https://github.com/L-M-Sherlock/sm18-lazy-package)
+-
