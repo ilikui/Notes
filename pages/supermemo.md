@@ -1,2 +1,3 @@
 - 学习参考链接：[L-M-Sherlock/sm18-lazy-package: SuperMemo 18 中文懒人包](https://github.com/L-M-Sherlock/sm18-lazy-package)
 - Github [supermemo/awesome-supermemo: A list of resources which can be used with SuperMemo.](https://github.com/supermemo/awesome-supermemo)
+- 帮助文档：[Quorafind/SMDoc-CN: SuperMemo 文档中文版](https://github.com/Quorafind/SMDoc-CN/tree/master)
