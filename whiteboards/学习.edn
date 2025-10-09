@@ -569,17 +569,17 @@
 :nonce 1759987955736
 :italic false}}
 :block/updated-at 1759988023476} 
-{:block/created-at 1759988025299
+{:block/created-at 1759988285426
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
-{:stroke ""
+{:stroke "blue"
 :rotation 0
 :borderRadius 2
 :index 0
 :scale [1 1]
 :scaleLevel "md"
-:fill ""
+:fill "blue"
 :type "box"
 :size [6736 2000]
 :strokeType "line"
@@ -592,9 +592,9 @@
 :point [-728 -216]
 :fontSize 20
 :parentId "68e741b5-9754-4753-8009-583fcb3f86ff"
-:nonce 1759988012320
+:nonce 1759988012331
 :italic false}}
-:block/updated-at 1759988025299})
+:block/updated-at 1759988285426})
 :pages (
 {:block/uuid #uuid "68e741b5-9754-4753-8009-583fcb3f86ff"
 :block/properties 
@@ -734,7 +734,7 @@
 :nonce 1
 :assets []
 :shapes-index ("7e39c240-a4d1-11f0-8f44-0f72194a59e0" "33e12750-a4cd-11f0-8f44-0f72194a59e0" "3c348050-a4cd-11f0-8f44-0f72194a59e0" "43733500-a4cd-11f0-8f44-0f72194a59e0" "3550c010-a4d1-11f0-8f44-0f72194a59e0" "3550e720-a4d1-11f0-8f44-0f72194a59e0" "3a1ec2e0-a4d1-11f0-8f44-0f72194a59e0" "3a1ec2e1-a4d1-11f0-8f44-0f72194a59e0" "4832e320-a4d1-11f0-8f44-0f72194a59e0" "4832e321-a4d1-11f0-8f44-0f72194a59e0" "4b847f20-a4d1-11f0-8f44-0f72194a59e0" "4b847f21-a4d1-11f0-8f44-0f72194a59e0" "4ea56e30-a4d1-11f0-8f44-0f72194a59e0" "4ea59540-a4d1-11f0-8f44-0f72194a59e0" "539550e0-a4d1-11f0-8f44-0f72194a59e0" "5a148620-a4d1-11f0-8f44-0f72194a59e0" "5a148621-a4d1-11f0-8f44-0f72194a59e0" "5c87d010-a4d1-11f0-8f44-0f72194a59e0" "5c87d011-a4d1-11f0-8f44-0f72194a59e0")}}
-:block/updated-at 1759988025299
+:block/updated-at 1759988285426
 :block/created-at 1759986101539
 :block/type "whiteboard"
 :block/name "学习"
