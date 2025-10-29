@@ -351,7 +351,7 @@
 :collapsedHeight 0
 :nonce 1759987927255}}
 :block/updated-at 1759988022395} 
-{:block/created-at 1759988022395
+{:block/created-at 1759988717468
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -367,7 +367,7 @@
 :compact false
 :isAutoResizing true
 :type "logseq-portal"
-:size [400 382.96871663428277]
+:size [400 382.96871836445024]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
@@ -377,9 +377,9 @@
 :point [4176 320]
 :parentId "68e741b5-9754-4753-8009-583fcb3f86ff"
 :collapsedHeight 0
-:nonce 1759987932450}}
-:block/updated-at 1759988022395} 
-{:block/created-at 1759988022395
+:nonce 1759987932452}}
+:block/updated-at 1759988717468} 
+{:block/created-at 1759988717523
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -411,10 +411,10 @@
 :decorations 
 {:end "arrow"}
 :parentId "68e741b5-9754-4753-8009-583fcb3f86ff"
-:nonce 1759987932361
+:nonce 1759987932363
 :italic false}}
-:block/updated-at 1759988022395} 
-{:block/created-at 1759988022395
+:block/updated-at 1759988717523} 
+{:block/created-at 1759988717472
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -430,7 +430,7 @@
 :compact false
 :isAutoResizing true
 :type "logseq-portal"
-:size [400 353.3748848948685]
+:size [400 353.3747852125719]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
@@ -440,9 +440,9 @@
 :point [-160 1040]
 :parentId "68e741b5-9754-4753-8009-583fcb3f86ff"
 :collapsedHeight 0
-:nonce 1759987940821}}
-:block/updated-at 1759988022395} 
-{:block/created-at 1759988022396
+:nonce 1759987940823}}
+:block/updated-at 1759988717472} 
+{:block/created-at 1759988717527
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -474,10 +474,10 @@
 :decorations 
 {:end "arrow"}
 :parentId "68e741b5-9754-4753-8009-583fcb3f86ff"
-:nonce 1759987951572
+:nonce 1759987951574
 :italic false}}
-:block/updated-at 1759988022396} 
-{:block/created-at 1759988022395
+:block/updated-at 1759988717527} 
+{:block/created-at 1759988717475
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -494,7 +494,7 @@
 :compact false
 :isAutoResizing true
 :type "logseq-portal"
-:size [400 441.1095035222016]
+:size [400 441.109284329426]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
@@ -504,9 +504,9 @@
 :point [576 1008]
 :parentId "68e741b5-9754-4753-8009-583fcb3f86ff"
 :collapsedHeight 0
-:nonce 1759987951657}}
-:block/updated-at 1759988022395} 
-{:block/created-at 1759988023470
+:nonce 1759987951659}}
+:block/updated-at 1759988717475} 
+{:block/created-at 1760059264428
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -522,7 +522,7 @@
 :compact false
 :isAutoResizing true
 :type "logseq-portal"
-:size [400 155.99997276303827]
+:size [400 155.99994089871575]
 :strokeType "line"
 :strokeWidth 2
 :opacity 1
@@ -532,9 +532,9 @@
 :point [1272 1160]
 :parentId "68e741b5-9754-4753-8009-583fcb3f86ff"
 :collapsedHeight 0
-:nonce 1759987955832}}
-:block/updated-at 1759988023470} 
-{:block/created-at 1759988023476
+:nonce 1759987955834}}
+:block/updated-at 1760059264428} 
+{:block/created-at 1760059264456
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
@@ -566,20 +566,20 @@
 :decorations 
 {:end "arrow"}
 :parentId "68e741b5-9754-4753-8009-583fcb3f86ff"
-:nonce 1759987955736
+:nonce 1759987955740
 :italic false}}
-:block/updated-at 1759988023476} 
-{:block/created-at 1759988285426
+:block/updated-at 1760059264456} 
+{:block/created-at 1760059276253
 :block/properties 
 {:ls-type :whiteboard-shape
 :logseq.tldraw.shape 
-{:stroke "blue"
+{:stroke "gray"
 :rotation 0
 :borderRadius 2
 :index 0
 :scale [1 1]
 :scaleLevel "md"
-:fill "blue"
+:fill "gray"
 :type "box"
 :size [6736 2000]
 :strokeType "line"
@@ -592,9 +592,9 @@
 :point [-728 -216]
 :fontSize 20
 :parentId "68e741b5-9754-4753-8009-583fcb3f86ff"
-:nonce 1759988012331
+:nonce 1759988012335
 :italic false}}
-:block/updated-at 1759988285426})
+:block/updated-at 1760059276253})
 :pages (
 {:block/uuid #uuid "68e741b5-9754-4753-8009-583fcb3f86ff"
 :block/properties 
@@ -734,7 +734,7 @@
 :nonce 1
 :assets []
 :shapes-index ("7e39c240-a4d1-11f0-8f44-0f72194a59e0" "33e12750-a4cd-11f0-8f44-0f72194a59e0" "3c348050-a4cd-11f0-8f44-0f72194a59e0" "43733500-a4cd-11f0-8f44-0f72194a59e0" "3550c010-a4d1-11f0-8f44-0f72194a59e0" "3550e720-a4d1-11f0-8f44-0f72194a59e0" "3a1ec2e0-a4d1-11f0-8f44-0f72194a59e0" "3a1ec2e1-a4d1-11f0-8f44-0f72194a59e0" "4832e320-a4d1-11f0-8f44-0f72194a59e0" "4832e321-a4d1-11f0-8f44-0f72194a59e0" "4b847f20-a4d1-11f0-8f44-0f72194a59e0" "4b847f21-a4d1-11f0-8f44-0f72194a59e0" "4ea56e30-a4d1-11f0-8f44-0f72194a59e0" "4ea59540-a4d1-11f0-8f44-0f72194a59e0" "539550e0-a4d1-11f0-8f44-0f72194a59e0" "5a148620-a4d1-11f0-8f44-0f72194a59e0" "5a148621-a4d1-11f0-8f44-0f72194a59e0" "5c87d010-a4d1-11f0-8f44-0f72194a59e0" "5c87d011-a4d1-11f0-8f44-0f72194a59e0")}}
-:block/updated-at 1759988285426
+:block/updated-at 1760059276253
 :block/created-at 1759986101539
 :block/type "whiteboard"
 :block/name "学习"
