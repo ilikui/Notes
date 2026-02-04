@@ -128,7 +128,6 @@
 		- 函数参数
 		- 递归函数
 - 进阶主题
-  collapsed:: true
 	- 多线程编程
 		- 线程创建与管理
 		- 线程同步
@@ -139,7 +138,6 @@
 		- 编译器与标准库
 		- Makefile使用
 - 高级概念
-  collapsed:: true
 	- 内存管理
 	  collapsed:: true
 		- 动态内存分配
@@ -154,7 +152,6 @@
 		- 文件打开与关闭
 		- 读写文件
 	- 预处理器指令
-	  collapsed:: true
 		- `#define指令`
 		- `#include指令`
 	- 指针高级应用
