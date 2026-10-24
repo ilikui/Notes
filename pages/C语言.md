@@ -28,7 +28,7 @@ int main(void)
     size_t count = sizeof values / sizeof values[0];
 
     for (size_t i = 0; i < count; ++i) {
-        printf("values[%zu] = %d\\n", i, values[i]);
+        printf("values[%zu] = %d\n", i, values[i]);
     }
 
     return 0;
