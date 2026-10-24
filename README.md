@@ -1,101 +1,180 @@
-# Notes · 个人知识库
+# Notes | Personal Knowledge System
 
-> 将零散的信息整理成可以检索、连接、复用和持续成长的知识。
+<p align="center">
+  <strong>Capture ideas. Connect knowledge. Build understanding.</strong>
+</p>
 
-[![Logseq](https://img.shields.io/badge/Knowledge%20Base-Logseq-5B5BD6?logo=logseq&logoColor=white)](https://logseq.com/)
-[![Markdown](https://img.shields.io/badge/Format-Markdown-083FA1?logo=markdown&logoColor=white)](https://www.markdownguide.org/)
-[![Publish](https://img.shields.io/badge/Publish-GitHub%20Pages-222222?logo=githubpages&logoColor=white)](https://pages.github.com/)
+<p align="center">
+  A long-term, evolving knowledge base for embedded systems, automotive software, computer science, learning, and personal knowledge management.
+</p>
 
-这是一个以 Logseq 和 Markdown 为基础的个人知识库。仓库保留日常记录、主题笔记、学习资料和可视化白板，并通过持续整理，让知识从“保存下来”逐渐走向“理解、关联与应用”。
+<p align="center">
+  <a href="https://logseq.com/"><img alt="Logseq" src="https://img.shields.io/badge/Knowledge%20Graph-Logseq-5B5BD6?logo=logseq&logoColor=white"></a>
+  <a href="https://www.markdownguide.org/"><img alt="Markdown" src="https://img.shields.io/badge/Content-Markdown-083FA1?logo=markdown&logoColor=white"></a>
+  <a href="https://mermaid.js.org/"><img alt="Diagrams-Mermaid" src="https://img.shields.io/badge/Diagrams-Mermaid-FF3670?logo=mermaid&logoColor=white"></a>
+  <a href="https://github.com/ilikui/Notes"><img alt="GitHub repository" src="https://img.shields.io/badge/Version%20Control-GitHub-181717?logo=github&logoColor=white"></a>
+</p>
 
-![个人知识库工作流](assets/knowledge-workflow.svg)
+---
 
-> 图示：收集 → 理解 → 提炼 → 关联 → 实践 → 复盘。
+## Overview
 
-## 快速开始
+**Notes** is a Markdown-first personal knowledge repository organized around durable understanding rather than passive information storage. It combines daily capture, topic-oriented notes, linked concepts, visual diagrams, and practical learning records.
 
-| 目标 | 入口 |
+The goal is to turn fragmented information into a system that can be searched, connected, reviewed, tested, and reused.
+
+![Knowledge workflow](assets/knowledge-workflow.svg)
+
+<p align="center"><em>Capture → Understand → Distill → Connect → Apply → Reflect</em></p>
+
+## Explore the Knowledge Base
+
+| Area | Start here |
 | --- | --- |
-| 浏览主题与学习路线 | [知识库导航](pages/知识库导航.md) |
-| 了解全库持续完善策略 | [知识库全量完善计划](pages/知识库全量完善计划.md) |
-| 统一笔记结构与写作方法 | [笔记编写规范](pages/笔记编写规范.md) |
-| 查看现有页面目录 | [页面目录](pages/contents.md) |
-| 学习 Logseq | [Logseq 笔记](pages/LogSeq.md) |
-| 汽车电子与 AUTOSAR | [AUTOSAR](pages/AUTOSAR.md)、[Classic Platform](pages/Classic%20Platform.md)、[通信栈](pages/Communication%20Stack.md)、[诊断栈](pages/Diagnostic%20Stack.md) |
-| 嵌入式与计算机基础 | [嵌入式](pages/嵌入式.md)、[C 语言](pages/C语言.md)、[计算机自学指南](pages/CS自学指南.md) |
-| 知识管理与卡片笔记 | [知识管理](pages/知识管理.md)、[卡片笔记](pages/卡片笔记.md)、[阅读管理](pages/阅读管理.md) |
+| **Knowledge navigation** | [Knowledge Base Index](pages/知识库导航.md) |
+| **Repository roadmap** | [Continuous Improvement Plan](pages/知识库全量完善计划.md) |
+| **Writing conventions** | [Note Writing Guidelines](pages/笔记编写规范.md) |
+| **Page catalogue** | [Page Catalogue](pages/contents.md) |
+| **Logseq workflow** | [Logseq Notes](pages/LogSeq.md) |
+| **Automotive software** | [AUTOSAR](pages/AUTOSAR.md) · [Classic Platform](pages/Classic%20Platform.md) · [Communication Stack](pages/Communication%20Stack.md) · [Diagnostic Stack](pages/Diagnostic%20Stack.md) |
+| **Embedded & computer science** | [Embedded Systems](pages/嵌入式.md) · [C Language](pages/C语言.md) · [Computer Science Roadmap](pages/CS自学指南.md) |
+| **Learning & knowledge management** | [Knowledge Management](pages/知识管理.md) · [Card Notes](pages/卡片笔记.md) · [Reading Management](pages/阅读管理.md) |
 
-## 知识库结构
+## Knowledge Architecture
 
 ```mermaid
-flowchart TD
-    A["Notes 个人知识库"] --> B["日常记录"]
-    A --> C["主题知识"]
-    A --> D["学习与实践"]
-    A --> E["知识管理"]
-    B --> B1["journals/ 日记与灵感"]
-    C --> C1["pages/ 主题页面"]
-    C --> C2["whiteboards/ 可视化白板"]
-    D --> D1["概念与原理"]
-    D --> D2["示例与实验"]
-    D --> D3["工程案例与复盘"]
-    E --> E1["索引与双向链接"]
-    E --> E2["复习与迭代"]
+flowchart TB
+    N["Notes · Personal Knowledge System"]
+    N --> D["Daily Capture"]
+    N --> T["Topic Knowledge"]
+    N --> P["Learning & Practice"]
+    N --> K["Knowledge Operations"]
+    D --> D1["Journals · Ideas · Questions"]
+    T --> T1["Concepts · Principles · References"]
+    T --> T2["Mermaid Maps · Whiteboards"]
+    P --> P1["Runnable Examples"]
+    P --> P2["Experiments · Engineering Cases"]
+    P --> P3["Review · Lessons Learned"]
+    K --> K1["Indexes · Backlinks"]
+    K --> K2["Review · Refactoring"]
 ```
 
-## 推荐学习闭环
+## The Learning Loop
 
 ```mermaid
 flowchart LR
-    A["收集问题"] --> B["理解概念"]
-    B --> C["写出自己的解释"]
-    C --> D["连接相关笔记"]
-    D --> E["实践或验证"]
-    E --> F["复盘并更新"]
+    A["Capture a question"] --> B["Understand the concept"]
+    B --> C["Explain it in your own words"]
+    C --> D["Connect related notes"]
+    D --> E["Test through practice"]
+    E --> F["Reflect and revise"]
     F --> C
 ```
 
-1. **先记录：** 在日记中保留问题、想法、来源和待办。
-2. **再提炼：** 将有长期价值的内容整理成独立主题页面。
-3. **建立连接：** 使用 Logseq 页面链接关联相关概念、反例和实践。
-4. **通过实践检验：** 补充代码、图表、实验结果或真实案例。
-5. **定期复盘：** 修正过时结论、补充来源，并更新主题索引。
+1. **Capture:** Record questions, ideas, sources, and open tasks while they are fresh.
+2. **Distill:** Turn useful information into focused, independently understandable notes.
+3. **Connect:** Link concepts, assumptions, examples, counterexamples, and related projects.
+4. **Validate:** Add code, measurements, diagrams, references, or reproducible experiments.
+5. **Review:** Correct outdated statements and improve navigation as understanding grows.
 
-## 主题地图
+## Mermaid Diagram Support
 
-### 工程与计算机
-- **汽车电子与嵌入式：** [汽车电子](pages/汽车电子.md)、[电子电气架构](pages/电子电气架构.md)、[AUTOSAR](pages/AUTOSAR.md)、[嵌入式](pages/嵌入式.md)、[嵌入式软件](pages/嵌入式软件.md)、[嵌入式硬件](pages/嵌入式硬件.md)。
-- **AUTOSAR 工程：** [Classic Platform](pages/Classic%20Platform.md)、[BSW 分层](pages/Basic%20Software%20Layer.md)、[配置](pages/Configuration.md)、[通信栈](pages/Communication%20Stack.md)、[诊断栈](pages/Diagnostic%20Stack.md)、[模块索引](pages/Modules.md)、[工具](pages/Tools.md)。
-- **编程与计算机基础：** [C 语言](pages/C语言.md)、[计算机自学指南](pages/CS自学指南.md)、[数据结构](pages/数据结构.md)、[编译原理](pages/编译原理.md)、[Git](pages/Git.md)。
-- **系统与架构：** [架构设计](pages/架构设计.md)、[软件工程](pages/软件工程.md)、[软件定义汽车](pages/软件定义汽车.md)。
+Mermaid is the preferred text-based diagram format in this repository because diagrams can be reviewed alongside the notes, version-controlled, and updated without a separate drawing tool.
 
-### 学习与知识管理
-- **学习方法：** [学习方法](pages/学习方法.md)、[学习策略](pages/学习策略.md)、[学习管理](pages/学习管理.md)。
-- **个人知识系统：** [知识管理](pages/知识管理.md)、[笔记管理](pages/笔记管理.md)、[卡片笔记](pages/卡片笔记.md)、[打造第二大脑](pages/打造第二大脑.md)。
-- **阅读与信息输入：** [阅读管理](pages/阅读管理.md)、[博客收集](pages/博客收集.md)、[好书推荐](pages/好书推荐.md)。
+### Supported diagram types
 
-> 以上入口指向仓库中已有的页面。导航不代表每个专题都已完成，请以页面实际内容为准。
+| Diagram | Typical use |
+| --- | --- |
+| `flowchart` | Learning paths, software layers, troubleshooting and decision flows |
+| `sequenceDiagram` | API interactions, runtime calls and communication sequences |
+| `classDiagram` | Data models, interfaces and object relationships |
+| `stateDiagram-v2` | State machines, lifecycle and mode transitions |
+| `erDiagram` | Data entities and their relationships |
+| `timeline` | Milestones and historical sequences |
+| `mindmap` | Topic maps and knowledge decomposition |
+| `pie` / `xychart` | Simple proportions and data comparisons, where supported |
 
-## 笔记质量标准
+### Example: troubleshooting a technical issue
 
-一篇可复用的主题笔记应尽可能回答：**是什么、为什么、如何工作、如何验证、何时不适用、与什么有关、依据是什么。** 对技术标准、软件行为和易变事实，注明来源、版本和验证环境。
+```mermaid
+flowchart TD
+    A["Observe the symptom"] --> B["Reproduce the issue"]
+    B --> C["Collect logs and measurements"]
+    C --> D{"Evidence identifies the layer?"}
+    D -- "Yes" --> E["Test a focused fix"]
+    D -- "No" --> F["Narrow the scope"]
+    F --> C
+    E --> G["Regression test"]
+    G --> H["Record the result"]
+```
 
-## 本地使用与发布
+### Authoring conventions
 
-1. 安装 [Logseq](https://logseq.com/)。
-2. 克隆仓库，在 Logseq 中打开仓库目录。
-3. 在 `pages/` 中维护主题页面，在 `journals/` 中记录日常内容；新增页面时补充相关索引和链接。
-4. 提交前检查 Markdown 链接、Mermaid 语法与图片路径。
-5. 仓库已有 GitHub Actions 工作流。发布后请检查 Actions 运行结果及 GitHub Pages 配置，不要仅凭提交成功判断网站已正确更新。
+- Use fenced code blocks with the language identifier `mermaid`.
+- Keep node labels concise; quote labels containing punctuation, parentheses, or special characters.
+- Prefer a small number of meaningful nodes over a dense diagram.
+- Give each diagram a title or a short sentence explaining what it models.
+- Verify that arrow direction, layer boundaries, and decision branches reflect the actual system.
+- For engineering notes, distinguish conceptual diagrams from project-specific architecture and identify version/toolchain assumptions where relevant.
 
-## 维护原则
+### Rendering and compatibility
 
-- 优先新增导航和补充内容，不批量删除原始日记、白板或插件配置。
-- 先检查已有页面，尽量更新与链接旧页面，避免重复建页。
-- 图片使用自有图示、合法素材或官方文档图片，并注明来源。
-- Mermaid 图用于解释真实关系，不以复杂度代替准确性。
-- 外部资料应提炼成自己的理解并保留出处，避免无来源的大段复制。
-- 重要结构调整先在独立分支完成，检查链接和发布流程后再合并。
-- 按[全库完善计划](pages/知识库全量完善计划.md)分批推进，记录已完成范围与未验证事项。
+GitHub renders supported Mermaid code blocks directly in Markdown files. Other readers—such as Logseq-based sites, plugins, static-site generators, and custom single-page applications—may require Mermaid to be explicitly enabled and initialized by that application's renderer.
 
-**目标：** 让每条笔记不仅能被找到，还能被理解、连接、验证，并在未来的学习和工作中再次发挥作用。
+If a Mermaid block appears as plain text or does not display:
+
+1. Confirm the fenced block starts with ```mermaid and has a matching closing fence.
+2. Check the browser console for Mermaid initialization or parsing errors.
+3. Check the Network panel for failed Mermaid JavaScript/module requests.
+4. Confirm the reader's Markdown renderer supports Mermaid and that its version supports the diagram syntax used.
+5. For important diagrams, consider committing an SVG/PNG fallback and referencing it with a relative Markdown image path.
+
+> **Important:** Adding Mermaid source to a note does not, by itself, enable Mermaid in every publishing platform. Rendering support is a responsibility of the target reader or site's build/runtime configuration.
+
+## Repository Layout
+
+| Path | Purpose |
+| --- | --- |
+| `pages/` | Topic notes, learning guides, indexes, and reference material |
+| `journals/` | Daily notes, observations, and idea capture |
+| `whiteboards/` | Visual thinking spaces and spatial notes |
+| `assets/` | Diagrams and other local visual resources |
+| `.github/workflows/` | Repository automation and publishing workflows, when configured |
+
+The exact set of folders and workflows may evolve; use the repository tree as the source of truth.
+
+## Note Quality Principles
+
+A useful note should answer as many of these questions as appropriate:
+
+- **What is it?** Define the concept and its scope.
+- **Why does it matter?** Explain the problem it solves.
+- **How does it work?** Describe the mechanism, structure, or sequence.
+- **How can it be verified?** Provide examples, tests, measurements, or references.
+- **When does it not apply?** Record assumptions, limitations, and counterexamples.
+- **What is it connected to?** Link related concepts and practical applications.
+- **What supports the claim?** Cite reliable sources and note versions for changing technical behavior.
+
+## Working with the Repository
+
+1. Open the repository as a graph in [Logseq](https://logseq.com/).
+2. Keep daily capture separate from polished, reusable topic notes.
+3. Prefer updating and linking existing pages over creating duplicate pages.
+4. Before committing, review Markdown links, Mermaid fences, image paths, and source references.
+5. After publishing, inspect the workflow result and the deployed site; a successful commit alone does not prove that the site rendered correctly.
+
+## Maintenance Principles
+
+- Preserve original journals and whiteboards unless a change is explicitly intended.
+- Make substantial structural changes in a dedicated branch and review them before merging.
+- Prefer original diagrams, properly licensed assets, and official documentation; attribute external material.
+- Use diagrams to improve explanation, not as decoration or a substitute for technical accuracy.
+- For standards and tool-specific behavior, record the applicable release, configuration context, and validation evidence.
+- Track unfinished areas in the [continuous improvement plan](pages/知识库全量完善计划.md), and distinguish completed edits from checks that have not yet been performed.
+
+---
+
+<p align="center">
+  <strong>A knowledge system should do more than store information.</strong><br>
+  It should help ideas connect, understanding deepen, and learning turn into practice.
+</p>
