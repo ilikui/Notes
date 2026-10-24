@@ -13,11 +13,13 @@
 | 目标 | 入口 |
 | --- | --- |
 | 浏览主题与学习路线 | [知识库导航](pages/知识库导航.md) |
+| 了解全库持续完善策略 | [知识库全量完善计划](pages/知识库全量完善计划.md) |
 | 统一笔记结构与写作方法 | [笔记编写规范](pages/笔记编写规范.md) |
 | 查看现有页面目录 | [页面目录](pages/contents.md) |
 | 学习 Logseq | [Logseq 笔记](pages/LogSeq.md) |
-| 汽车电子与 AUTOSAR | [AUTOSAR](pages/AUTOSAR.md)、[汽车电子](pages/汽车电子.md)、[电子电气架构](pages/电子电气架构.md) |
-| C 语言与计算机基础 | [C 语言](pages/C语言.md)、[计算机自学指南](pages/CS自学指南.md) |
+| 汽车电子与 AUTOSAR | [AUTOSAR](pages/AUTOSAR.md)、[Classic Platform](pages/Classic%20Platform.md)、[通信栈](pages/Communication%20Stack.md)、[诊断栈](pages/Diagnostic%20Stack.md) |
+| 嵌入式与计算机基础 | [嵌入式](pages/嵌入式.md)、[C 语言](pages/C语言.md)、[计算机自学指南](pages/CS自学指南.md) |
+| 知识管理与卡片笔记 | [知识管理](pages/知识管理.md)、[卡片笔记](pages/卡片笔记.md)、[阅读管理](pages/阅读管理.md) |
 
 ## 知识库结构
 
@@ -59,6 +61,7 @@ flowchart LR
 
 ### 工程与计算机
 - **汽车电子与嵌入式：** [汽车电子](pages/汽车电子.md)、[电子电气架构](pages/电子电气架构.md)、[AUTOSAR](pages/AUTOSAR.md)、[嵌入式](pages/嵌入式.md)、[嵌入式软件](pages/嵌入式软件.md)、[嵌入式硬件](pages/嵌入式硬件.md)。
+- **AUTOSAR 工程：** [Classic Platform](pages/Classic%20Platform.md)、[BSW 分层](pages/Basic%20Software%20Layer.md)、[配置](pages/Configuration.md)、[通信栈](pages/Communication%20Stack.md)、[诊断栈](pages/Diagnostic%20Stack.md)、[模块索引](pages/Modules.md)、[工具](pages/Tools.md)。
 - **编程与计算机基础：** [C 语言](pages/C语言.md)、[计算机自学指南](pages/CS自学指南.md)、[数据结构](pages/数据结构.md)、[编译原理](pages/编译原理.md)、[Git](pages/Git.md)。
 - **系统与架构：** [架构设计](pages/架构设计.md)、[软件工程](pages/软件工程.md)、[软件定义汽车](pages/软件定义汽车.md)。
 
@@ -89,5 +92,6 @@ flowchart LR
 - Mermaid 图用于解释真实关系，不以复杂度代替准确性。
 - 外部资料应提炼成自己的理解并保留出处，避免无来源的大段复制。
 - 重要结构调整先在独立分支完成，检查链接和发布流程后再合并。
+- 按[全库完善计划](pages/知识库全量完善计划.md)分批推进，记录已完成范围与未验证事项。
 
 **目标：** 让每条笔记不仅能被找到，还能被理解、连接、验证，并在未来的学习和工作中再次发挥作用。
