@@ -52,7 +52,7 @@ assets/                   # 经过检查的图片与附件
 
 ### 2026-11-01 · 第一批原始快照
 
-已在分支 `flomo-sync/2026-11-01` 导入 80 条 Flomo 原始笔记，全部通过 `memo_batch_get` 获取完整正文（无 `content_truncated`、无 omitted IDs），并写入 `pages/Flomo Archive/<memo-id>.md`：
+已在分支 `flomo-sync/2026-11-01` 导入 110 条 Flomo 原始笔记，全部通过 `memo_batch_get` 获取完整正文（无 `content_truncated`、无 omitted IDs），并写入 `pages/Flomo Archive/<memo-id>.md`：
 
 - AUTOSAR / MCAL：10 条
 - C 语言：10 条
@@ -62,8 +62,11 @@ assets/                   # 经过检查的图片与附件
 - 电气与电子：10 条
 - 硬件：10 条
 - 通信：10 条
+- 知识管理：10 条
+- 学习管理：10 条
+- 方法与资源：10 条
 
-目录索引：[`Flomo Archive`](Flomo%20Archive/README.md)。本批是首轮样本，不代表 Flomo 全量迁移完成；多个标签检索达到 50 条上限，需按日期继续分段查询。
+目录索引：[`Flomo Archive`](Flomo%20Archive/README.md)。本批是首轮样本，不代表 Flomo 全量迁移完成；多个标签检索达到 50 条上限，需按日期继续分段查询。个人成长、职业、财富、日记等可能包含私人或工作敏感信息的类别暂不公开导入，先做隐私审查。
 
 ## 6. 后续全量迁移队列
 
