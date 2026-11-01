@@ -2,24 +2,95 @@
 
 > 本目录保存从 Flomo 导入的原始笔记快照。每篇以 Flomo ID 命名，保留创建/更新时间、标签、来源链接与原始正文。不要覆盖原文；专题知识页应引用本目录中的来源卡片。
 
-## 导入批次 2026-11-01 · AUTOSAR / 嵌入式
+## 2026-11-01 首批导入（80 条）
 
-| Flomo ID | 创建时间 | 主题 | 来源 |
+| 来源分类 | Flomo ID | Notes 原文快照 | Flomo 原文 |
 |---|---|---|---|
-| MjYxNDE5OTQ5 | 2026-10-17 | [AUTOSAR 1000问 · 通信与网络Q1：从 SWC 端口到总线报文，数据是怎么流的？](MjYxNDE5OTQ5.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjYxNDE5OTQ5) |
-| MjYxMzU2NTI1 | 2026-10-17 | [AUTOSAR 1000问 · OS&调度Q4：OS 的保护与错误处理怎么做？](MjYxMzU2NTI1.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjYxMzU2NTI1) |
-| MjYxMzU2NDQ4 | 2026-10-17 | [AUTOSAR 1000问 · OS&调度Q3：任务周期和优先级怎么定，跟 Runnable 的 TimingEvent 怎么互相约束？](MjYxMzU2NDQ4.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjYxMzU2NDQ4) |
-| MjYxMzU2MzQ3 | 2026-10-17 | [AUTOSAR 1000问 · SWC类型Q6：RTE 生成之后怎么验证接对了？](MjYxMzU2MzQ3.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjYxMzU2MzQ3) |
-| MjYxMzU2Mjc5 | 2026-10-17 | [AUTOSAR 1000问 · SWC类型Q5：Port Connector 怎么连、生成 RTE 前要检查什么？](MjYxMzU2Mjc5.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjYxMzU2Mjc5) |
-| MjYxMzU2MjA5 | 2026-10-17 | [AUTOSAR 1000问 · SWC类型Q4：Runnable 怎么配、怎么挂到 Task 上？](MjYxMzU2MjA5.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjYxMzU2MjA5) |
-| MjYxMzU1MTQ3 | 2026-10-17 | [AUTOSAR 1000问 · SWC类型Q3：如何配置 SWC？](MjYxMzU1MTQ3.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjYxMzU1MTQ3) |
-| MjYxMzU1MDgy | 2026-10-17 | [AUTOSAR 1000问 · OS&调度Q2：如何在 DaVinci 新增一个 Task？](MjYxMzU1MDgy.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjYxMzU1MDgy) |
-| MjU3Mzc2MjI1 | 2026-09-19 | [AUTOSAR 1000问 · 工具链 Q1：如何保证工具链生成的代码就是自己配置的？](MjU3Mzc2MjI1.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjU3Mzc2MjI1) |
-| MjU1NzY1Nzgx | 2026-09-09 | [AUTOSAR MCAL 配置示例 · 深化篇② Port](MjU1NzY1Nzgx.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjU1NzY1Nzgx) |
+| AUTOSAR / MCAL | MjYxNDE5OTQ5 | [MjYxNDE5OTQ5.md](MjYxNDE5OTQ5.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjYxNDE5OTQ5) |
+| AUTOSAR / MCAL | MjYxMzU2NTI1 | [MjYxMzU2NTI1.md](MjYxMzU2NTI1.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjYxMzU2NTI1) |
+| AUTOSAR / MCAL | MjYxMzU2NDQ4 | [MjYxMzU2NDQ4.md](MjYxMzU2NDQ4.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjYxMzU2NDQ4) |
+| AUTOSAR / MCAL | MjYxMzU2MzQ3 | [MjYxMzU2MzQ3.md](MjYxMzU2MzQ3.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjYxMzU2MzQ3) |
+| AUTOSAR / MCAL | MjYxMzU2Mjc5 | [MjYxMzU2Mjc5.md](MjYxMzU2Mjc5.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjYxMzU2Mjc5) |
+| AUTOSAR / MCAL | MjYxMzU2MjA5 | [MjYxMzU2MjA5.md](MjYxMzU2MjA5.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjYxMzU2MjA5) |
+| AUTOSAR / MCAL | MjYxMzU1MTQ3 | [MjYxMzU1MTQ3.md](MjYxMzU1MTQ3.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjYxMzU1MTQ3) |
+| AUTOSAR / MCAL | MjYxMzU1MDgy | [MjYxMzU1MDgy.md](MjYxMzU1MDgy.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjYxMzU1MDgy) |
+| AUTOSAR / MCAL | MjU3Mzc2MjI1 | [MjU3Mzc2MjI1.md](MjU3Mzc2MjI1.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjU3Mzc2MjI1) |
+| AUTOSAR / MCAL | MjU1NzY1Nzgx | [MjU1NzY1Nzgx.md](MjU1NzY1Nzgx.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjU1NzY1Nzgx) |
+| C 语言 | MjU2NDUxMjUw | [MjU2NDUxMjUw.md](MjU2NDUxMjUw.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjU2NDUxMjUw) |
+| C 语言 | MjU2NDUxMjAw | [MjU2NDUxMjAw.md](MjU2NDUxMjAw.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjU2NDUxMjAw) |
+| C 语言 | MjU2NDUxMTU2 | [MjU2NDUxMTU2.md](MjU2NDUxMTU2.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjU2NDUxMTU2) |
+| C 语言 | MjU2NDUxMTA5 | [MjU2NDUxMTA5.md](MjU2NDUxMTA5.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjU2NDUxMTA5) |
+| C 语言 | MjU2NDUxMDQ4 | [MjU2NDUxMDQ4.md](MjU2NDUxMDQ4.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjU2NDUxMDQ4) |
+| C 语言 | MjU2NDUwOTk5 | [MjU2NDUwOTk5.md](MjU2NDUwOTk5.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjU2NDUwOTk5) |
+| C 语言 | MjU2NDUwOTUz | [MjU2NDUwOTUz.md](MjU2NDUwOTUz.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjU2NDUwOTUz) |
+| C 语言 | MjU2NDUwODk5 | [MjU2NDUwODk5.md](MjU2NDUwODk5.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjU2NDUwODk5) |
+| C 语言 | MjU2NDUwODMx | [MjU2NDUwODMx.md](MjU2NDUwODMx.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjU2NDUwODMx) |
+| C 语言 | MjU2NDUwNzcz | [MjU2NDUwNzcz.md](MjU2NDUwNzcz.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjU2NDUwNzcz) |
+| 嵌入式 | MjU2NDUyMDg0 | [MjU2NDUyMDg0.md](MjU2NDUyMDg0.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjU2NDUyMDg0) |
+| 嵌入式 | MjU2NDUxOTQx | [MjU2NDUxOTQx.md](MjU2NDUxOTQx.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjU2NDUxOTQx) |
+| 嵌入式 | MjU2NDUxODUy | [MjU2NDUxODUy.md](MjU2NDUxODUy.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjU2NDUxODUy) |
+| 嵌入式 | MjUxODA3Mzc2 | [MjUxODA3Mzc2.md](MjUxODA3Mzc2.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUxODA3Mzc2) |
+| 嵌入式 | MjUxMjA1MTM5 | [MjUxMjA1MTM5.md](MjUxMjA1MTM5.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUxMjA1MTM5) |
+| 嵌入式 | MjUxMjA1MTEy | [MjUxMjA1MTEy.md](MjUxMjA1MTEy.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUxMjA1MTEy) |
+| 嵌入式 | MjUxMjA1MDkw | [MjUxMjA1MDkw.md](MjUxMjA1MDkw.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUxMjA1MDkw) |
+| 嵌入式 | MjUxMjA1MDcx | [MjUxMjA1MDcx.md](MjUxMjA1MDcx.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUxMjA1MDcx) |
+| 嵌入式 | MjUwNTg0NTQy | [MjUwNTg0NTQy.md](MjUwNTg0NTQy.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUwNTg0NTQy) |
+| 嵌入式 | MjUwNTg0NTQz | [MjUwNTg0NTQz.md](MjUwNTg0NTQz.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUwNTg0NTQz) |
+| AI | MjYyMjU3NDU5 | [MjYyMjU3NDU5.md](MjYyMjU3NDU5.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjYyMjU3NDU5) |
+| AI | MjYyMjQ2Mjg4 | [MjYyMjQ2Mjg4.md](MjYyMjQ2Mjg4.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjYyMjQ2Mjg4) |
+| AI | MjYxMjU1MTQz | [MjYxMjU1MTQz.md](MjYxMjU1MTQz.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjYxMjU1MTQz) |
+| AI | MjUxMDI5NzQw | [MjUxMDI5NzQw.md](MjUxMDI5NzQw.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUxMDI5NzQw) |
+| AI | MjUxMDI5NzE4 | [MjUxMDI5NzE4.md](MjUxMDI5NzE4.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUxMDI5NzE4) |
+| AI | MjUxMDI5NzAy | [MjUxMDI5NzAy.md](MjUxMDI5NzAy.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUxMDI5NzAy) |
+| AI | MjUxMDI5Njgz | [MjUxMDI5Njgz.md](MjUxMDI5Njgz.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUxMDI5Njgz) |
+| AI | MjUwNTg2NDAz | [MjUwNTg2NDAz.md](MjUwNTg2NDAz.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUwNTg2NDAz) |
+| AI | MjUwNTg2NDA0 | [MjUwNTg2NDA0.md](MjUwNTg2NDA0.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUwNTg2NDA0) |
+| AI | MjUwNTg2NDA1 | [MjUwNTg2NDA1.md](MjUwNTg2NDA1.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUwNTg2NDA1) |
+| 自动驾驶 | MjU2NTMzMzMx | [MjU2NTMzMzMx.md](MjU2NTMzMzMx.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjU2NTMzMzMx) |
+| 自动驾驶 | MjU2MzA4ODAy | [MjU2MzA4ODAy.md](MjU2MzA4ODAy.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjU2MzA4ODAy) |
+| 自动驾驶 | MjU2Mjc3Nzg5 | [MjU2Mjc3Nzg5.md](MjU2Mjc3Nzg5.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjU2Mjc3Nzg5) |
+| 自动驾驶 | MjU2Mjc3NjY3 | [MjU2Mjc3NjY3.md](MjU2Mjc3NjY3.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjU2Mjc3NjY3) |
+| 自动驾驶 | MjU2Mjc0MjYy | [MjU2Mjc0MjYy.md](MjU2Mjc0MjYy.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjU2Mjc0MjYy) |
+| 自动驾驶 | MjU2MjczMDM4 | [MjU2MjczMDM4.md](MjU2MjczMDM4.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjU2MjczMDM4) |
+| 自动驾驶 | MjU2MjY2NTA1 | [MjU2MjY2NTA1.md](MjU2MjY2NTA1.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjU2MjY2NTA1) |
+| 自动驾驶 | MjU2MjY2NDQ2 | [MjU2MjY2NDQ2.md](MjU2MjY2NDQ2.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjU2MjY2NDQ2) |
+| 自动驾驶 | MjU2MjY2MDg3 | [MjU2MjY2MDg3.md](MjU2MjY2MDg3.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjU2MjY2MDg3) |
+| 自动驾驶 | MjU2MjY1NjEw | [MjU2MjY1NjEw.md](MjU2MjY1NjEw.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjU2MjY1NjEw) |
+| 电气与电子 | MjUzMzkxMjQ5 | [MjUzMzkxMjQ5.md](MjUzMzkxMjQ5.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUzMzkxMjQ5) |
+| 电气与电子 | MjUzMzkxMjM3 | [MjUzMzkxMjM3.md](MjUzMzkxMjM3.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUzMzkxMjM3) |
+| 电气与电子 | MjUzMzkxMTY4 | [MjUzMzkxMTY4.md](MjUzMzkxMTY4.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUzMzkxMTY4) |
+| 电气与电子 | MjUzMzkxMTYy | [MjUzMzkxMTYy.md](MjUzMzkxMTYy.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUzMzkxMTYy) |
+| 电气与电子 | MjUzMzkxMDcz | [MjUzMzkxMDcz.md](MjUzMzkxMDcz.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUzMzkxMDcz) |
+| 电气与电子 | MjUzMzkxMDYz | [MjUzMzkxMDYz.md](MjUzMzkxMDYz.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUzMzkxMDYz) |
+| 电气与电子 | MjUzMzkwNjUw | [MjUzMzkwNjUw.md](MjUzMzkwNjUw.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUzMzkwNjUw) |
+| 电气与电子 | MjUzMzkwNjQx | [MjUzMzkwNjQx.md](MjUzMzkwNjQx.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUzMzkwNjQx) |
+| 电气与电子 | MjUzMzkwNTIy | [MjUzMzkwNTIy.md](MjUzMzkwNTIy.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUzMzkwNTIy) |
+| 电气与电子 | MjUzMzkwNTE3 | [MjUzMzkwNTE3.md](MjUzMzkwNTE3.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUzMzkwNTE3) |
+| 硬件 | MjUxMDMwMDIw | [MjUxMDMwMDIw.md](MjUxMDMwMDIw.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUxMDMwMDIw) |
+| 硬件 | MjUxMDMwMDAz | [MjUxMDMwMDAz.md](MjUxMDMwMDAz.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUxMDMwMDAz) |
+| 硬件 | MjUxMDI5OTc5 | [MjUxMDI5OTc5.md](MjUxMDI5OTc5.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUxMDI5OTc5) |
+| 硬件 | MjUxMDI5OTU4 | [MjUxMDI5OTU4.md](MjUxMDI5OTU4.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUxMDI5OTU4) |
+| 硬件 | MjQ3NTQ2NjU0 | [MjQ3NTQ2NjU0.md](MjQ3NTQ2NjU0.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ3NTQ2NjU0) |
+| 硬件 | MjQ3NTQ2NjE2 | [MjQ3NTQ2NjE2.md](MjQ3NTQ2NjE2.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ3NTQ2NjE2) |
+| 硬件 | MjQ3NTQ2NTg2 | [MjQ3NTQ2NTg2.md](MjQ3NTQ2NTg2.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ3NTQ2NTg2) |
+| 硬件 | MjQ3NTQ2NTQ1 | [MjQ3NTQ2NTQ1.md](MjQ3NTQ2NTQ1.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ3NTQ2NTQ1) |
+| 硬件 | MjQ3NTQ2NTA5 | [MjQ3NTQ2NTA5.md](MjQ3NTQ2NTA5.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ3NTQ2NTA5) |
+| 硬件 | MjQ3NTQ2NDgw | [MjQ3NTQ2NDgw.md](MjQ3NTQ2NDgw.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ3NTQ2NDgw) |
+| 通信 | MjUxMTkxNDk3 | [MjUxMTkxNDk3.md](MjUxMTkxNDk3.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUxMTkxNDk3) |
+| 通信 | MjUxMDI5MjY2 | [MjUxMDI5MjY2.md](MjUxMDI5MjY2.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUxMDI5MjY2) |
+| 通信 | MjUxMDI5MjAz | [MjUxMDI5MjAz.md](MjUxMDI5MjAz.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUxMDI5MjAz) |
+| 通信 | MjUxMDI5MTM2 | [MjUxMDI5MTM2.md](MjUxMDI5MTM2.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUxMDI5MTM2) |
+| 通信 | MjUxMDI5MDYy | [MjUxMDI5MDYy.md](MjUxMDI5MDYy.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUxMDI5MDYy) |
+| 通信 | MjQ5OTUyNTkx | [MjQ5OTUyNTkx.md](MjQ5OTUyNTkx.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ5OTUyNTkx) |
+| 通信 | MjQ5NTIwODgw | [MjQ5NTIwODgw.md](MjQ5NTIwODgw.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ5NTIwODgw) |
+| 通信 | MjQ5NTIwODI2 | [MjQ5NTIwODI2.md](MjQ5NTIwODI2.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ5NTIwODI2) |
+| 通信 | MjQ5MDc5MTAz | [MjQ5MDc5MTAz.md](MjQ5MDc5MTAz.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ5MDc5MTAz) |
+| 通信 | MjQ5MDc5MDY4 | [MjQ5MDc5MDY4.md](MjQ5MDc5MDY4.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ5MDc5MDY4) |
 
 ## 导入约定
 
 - 原始正文只读保存；后续更正应追加说明或在专题页中订正，不静默覆盖来源。
 - 使用 Flomo ID 做幂等去重；同一 ID 不重复导入。
-- `Archive/MigratedWiki`、`Archive/MigratedNotion` 等源标签保留在元数据中，不作为删除或跳过的依据。
+- `Archive/MigratedWiki`、`Archive/MigratedNotion` 等源标签保留在笔记元数据中，不作为删除或跳过的依据。
 - 迁移完成状态必须以正文完整回读、文件写入成功和目录索引更新为准。
+- 本索引只列出已经写入 Git 分支的 80 条笔记，不代表 Flomo 全量同步完成。
