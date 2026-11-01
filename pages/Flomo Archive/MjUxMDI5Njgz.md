@@ -1,0 +1,55 @@
+flomo-id:: MjUxMDI5Njgz
+flomo-created-at:: 2026-08-09T18:29:10+08:00
+flomo-updated-at:: 2026-11-01T09:17:25+08:00
+flomo-tags:: Area/技术/AI
+flomo-source:: https://v.flomoapp.com/mine/?memo_id=MjUxMDI5Njgz
+flomo-word-count:: 1436
+flomo-migration-status:: raw-import
+
+# 专栏⑯·补充一：本地模型部署与量化——你的数字分身跑在什么上
+
+> 原始 Flomo 笔记归档。正文按 Flomo 返回内容保留；专题提炼请链接到对应主题页。
+
+**专栏⑯·补充一：本地模型部署与量化——你的数字分身跑在什么上**
+
+**▎为什么本地跑，而不是全云端**
+
+你的数字教育 AI 分身（4/14 记的）、笔记 RAG 问答——这些场景要隐私、要可控、要省 token 费。云端 API 的问题：按 token 计费、数据出境、延迟不稳定。本地跑的前提是三件套：开源权重 + 量化压缩 + 推理引擎。
+
+**▎一条链路：模型 → 量化 → 引擎**
+
+1. 模型文件格式：GGUF（llama.cpp 的格式，权重 + 分词器 + 超参打包成一个文件）、ONNX、MLX（Apple 芯片）
+2. 推理引擎：llama.cpp（C++，CPU/GPU 都能跑）、Ollama（封装 llama.cpp，一条命令起服务）、vLLM（服务器高吞吐）
+3. 量化：FP16 → INT8 → INT4，用更少比特存权重
+
+- GGUF 档位：Q4\_K\_M、Q5\_K\_M、Q8\_0 常见；Q2 掉智严重，数学/代码任务上 Q5/Q8
+- 大小估算：7B FP16 ≈ 14GB，Q4 ≈ 4GB；常识/对话损失小，推理精度可能掉
+
+**▎硬件怎么选**
+
+显存决定能跑多大：7B Q4 要 ~4-6GB，13B Q4 ~8-10GB，33B Q4 ~20GB。显存不够就 CPU offload——慢 10 倍，能跑但别当主力。
+
+**▎你的落地路径**
+
+- 数字分身 / 笔记 RAG：Ollama + 本地 embedding（bge-m3 这类）+ flomo 向量库，全程不出本机
+- 注意两条线别混：MCU 端侧是 TinyML 路线（第7篇），PC 本地是 llama.cpp 路线——一个跑 KB 级模型，一个跑 GB 级模型
+
+**▎三个坑**
+
+1. 显存没算就硬跑：内存交换慢 10 倍；先按 Q4 算大小再选模型
+2. 量化档位选错：Q2 对话能看，代码/数学任务掉精度
+3. 上下文没设够：RAG 检索回的片段放不进 context 就被截断，答非所问
+
+**▎一句话总结**：本地跑大模型 = 开源权重 \+ 量化 \+ 推理引擎三件套；按显存选模型、按任务选量化档位，你的数字分身和笔记 RAG 都能落地。
+
+📎 第7篇：AI+嵌入式（MCU 端侧）→ [https://v.flomoapp.com/mine/?memo\_id=MjUwNTg2NDAz](https://v.flomoapp.com/mine/?memo_id=MjUwNTg2NDAz)<br><br><br>
+📎 AI 数字分身想法 → [https://v.flomoapp.com/mine/?memo\_id=MjMxMzk0MjAx](https://v.flomoapp.com/mine/?memo_id=MjMxMzk0MjAx)<br><br><br>
+📎 专栏⑯导航 → [https://v.flomoapp.com/mine/?memo\_id=MjQ2Mzc0NzUw](https://v.flomoapp.com/mine/?memo_id=MjQ2Mzc0NzUw)
+
+**专栏⑯进度：10/10 + 补充一**
+
+#Area/技术/AI
+
+#Archive/MigratedWiki #Archive/DeleteCandidate
+
+#Archive/MigratedNotion
