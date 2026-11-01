@@ -1,0 +1,62 @@
+flomo-id:: MjUwNTg0NTQz
+flomo-created-at:: 2026-08-06T18:49:30+08:00
+flomo-updated-at:: 2026-11-01T09:22:59+08:00
+flomo-tags:: Area/技术/嵌入式
+flomo-source:: https://v.flomoapp.com/mine/?memo_id=MjUwNTg0NTQz
+flomo-word-count:: 1828
+flomo-migration-status:: raw-import
+
+# 专栏⑮·第10篇：嵌入式 15 项自检清单——上车前逐项打勾
+
+> 原始 Flomo 笔记归档。正文按 Flomo 返回内容保留；专题提炼请链接到对应主题页。
+
+**专栏⑮·第10篇：嵌入式 15 项自检清单——上车前逐项打勾**
+
+📎 第9篇：调试三板斧 → [https://v.flomoapp.com/mine/?memo\_id=MjUwNTg0NTQy](https://v.flomoapp.com/mine/?memo_id=MjUwNTg0NTQy)
+
+前九篇从上电启动（第1篇）、时钟（第2篇）、定时器/PWM（第3篇）、链接脚本（第4篇）、学习路径（第5篇）、基础架构（第6篇）、中断（第7篇）、Linux 驱动（第8篇）、调试（第9篇）铺完整个嵌入式实战体系。收官篇把整个专栏压成上车前逐项打勾的清单。
+
+**清单分 4 组：启动与链接（4项）→ 时钟与实时（4项）→ 中断与并发（4项）→ 调试与交付（3项）**
+
+**组 A：启动与链接**
+
+1. 启动文件检查过吗——Reset\_Handler 做了栈初始化、拷贝 .data、清 .bss、调 main 吗（第1篇）
+2. 向量表偏移（VTOR）跟链接脚本的 FLASH 起始地址一致吗——Bootloader 跳 APP 场景重点查（第1篇）
+3. 链接脚本的 MEMORY 区域、段分配、LMA/VMA 对吗——用 map 文件核对过各段地址和大小吗（第4篇）
+4. 栈顶地址（\_\_initial\_sp/\_\_stack\_top）指向了正确的 RAM 区域吗——跟 Bootloader 的 RAM 区域重叠没有（第1/4篇）
+
+**组 B：时钟与实时**
+
+1. 时钟配置顺序对吗——HSE→PLL→SYSCLK，来源就绪再切换，铁律守了吗（第2篇）
+2. 外设挂的总线分频够吗——APB1/APB2 上限跟外设需求核对过吗（第2篇）
+3. PWM 频率和占空比算对了吗——f=SYSCLK/(PSC+1)/(ARR+1)，CCR/ARR 出占空比（第3篇）
+4. 实时性预算做了吗——最差中断延迟、任务抖动、WCET 有数吗（1000问实时性章节）
+
+**组 C：中断与并发**
+
+1. ISR 做到"短"了吗——只置标志/塞队列，重活在主循环或下半部（第7篇）
+2. 临界区保护对了吗——任务里用关中断/互斥量，ISR 里只能关中断，没在 ISR 里等锁吧（第7篇）
+3. 共享数据（环形缓冲区、全局标志）的竞争考虑了吗——ISR 和任务同时访问的场景（第7篇）
+4. volatile 用对了吗——硬件寄存器、ISR 共享标志都加了 volatile 吧（第6篇 + 专栏⑭第4篇）
+
+**组 D：调试与交付**
+
+1. 硬件先于软件查了吗——供电→时钟→复位→调试口，四步过了再怀疑代码（第9篇）
+2. 调试手段选对了吗——物理层用示波器、协议层用逻辑分析仪，printf 不会改变实时性吧（第9篇）
+3. 交付物齐了吗——map 文件、烧录记录、复位源记录、启动日志（HardFault 现场打印）都在吗（第9篇）
+
+**一句话总结**：嵌入式的清单 15 项，本质是三层防线——启动别跑飞、段别放错（A 组）；时钟别乱序、实时别超标（B 组）；中断别竞争、共享别裸奔（C 组）；调试别瞎猜、交付别裸交（D 组）。每一条都是前九篇里的一个坑，上车前逐项打勾。
+
+📎 第9篇：调试三板斧 → [https://v.flomoapp.com/mine/?memo\_id=MjUwNTg0NTQy](https://v.flomoapp.com/mine/?memo_id=MjUwNTg0NTQy)
+
+📎 专栏⑮导航 → [https://v.flomoapp.com/mine/?memo\_id=MjQ1NzMzNDk3](https://v.flomoapp.com/mine/?memo_id=MjQ1NzMzNDk3)
+
+📎 专栏⑭C语言第10篇：15 项自检清单 → [https://v.flomoapp.com/mine/?memo\_id=MjUwNDAyOTgw](https://v.flomoapp.com/mine/?memo_id=MjUwNDAyOTgw)
+
+**专栏⑮进度：10/10篇 ✅ 全部完成**
+
+#Area/技术/嵌入式
+
+#Archive/MigratedWiki #Archive/DeleteCandidate
+
+#Archive/MigratedNotion
