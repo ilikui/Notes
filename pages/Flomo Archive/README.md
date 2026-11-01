@@ -1,8 +1,8 @@
 # Flomo 原始笔记归档
 
-> 本目录保存从 Flomo 导入的原始笔记快照。每篇以 Flomo ID 命名，保留创建/更新时间、标签、来源链接与原始正文。不要覆盖原文；专题知识页应引用本目录中的来源卡片。
+> 本目录保存从 Flomo 导入的原始笔记快照。每篇以 Flomo ID 命名，保留创建/更新时间、原始标签、来源链接与正文。不要覆盖原文；专题知识页应引用本目录中的来源卡片。
 
-## 2026-11-01 首批导入（80 条）
+## 2026-11-01 已导入（110 条）
 
 | 来源分类 | Flomo ID | Notes 原文快照 | Flomo 原文 |
 |---|---|---|---|
@@ -86,11 +86,41 @@
 | 通信 | MjQ5NTIwODI2 | [MjQ5NTIwODI2.md](MjQ5NTIwODI2.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ5NTIwODI2) |
 | 通信 | MjQ5MDc5MTAz | [MjQ5MDc5MTAz.md](MjQ5MDc5MTAz.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ5MDc5MTAz) |
 | 通信 | MjQ5MDc5MDY4 | [MjQ5MDc5MDY4.md](MjQ5MDc5MDY4.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ5MDc5MDY4) |
+| 知识管理 | MjUxNzY2OTUz | [MjUxNzY2OTUz.md](MjUxNzY2OTUz.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUxNzY2OTUz) |
+| 知识管理 | MjUxNzEzMjQw | [MjUxNzEzMjQw.md](MjUxNzEzMjQw.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUxNzEzMjQw) |
+| 知识管理 | MjUxNzEzMjQx | [MjUxNzEzMjQx.md](MjUxNzEzMjQx.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUxNzEzMjQx) |
+| 知识管理 | MjUxNzEzMTQz | [MjUxNzEzMTQz.md](MjUxNzEzMTQz.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUxNzEzMTQz) |
+| 知识管理 | MjUxNzEzMTQ0 | [MjUxNzEzMTQ0.md](MjUxNzEzMTQ0.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUxNzEzMTQ0) |
+| 知识管理 | MjUxNzEzMDEz | [MjUxNzEzMDEz.md](MjUxNzEzMDEz.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUxNzEzMDEz) |
+| 知识管理 | MjUxNzEzMDE0 | [MjUxNzEzMDE0.md](MjUxNzEzMDE0.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUxNzEzMDE0) |
+| 知识管理 | MjUxNzEyODc1 | [MjUxNzEyODc1.md](MjUxNzEyODc1.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUxNzEyODc1) |
+| 知识管理 | MjUxNzEyODc2 | [MjUxNzEyODc2.md](MjUxNzEyODc2.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUxNzEyODc2) |
+| 知识管理 | MjUxNzEyNzAx | [MjUxNzEyNzAx.md](MjUxNzEyNzAx.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUxNzEyNzAx) |
+| 学习管理 | MjU1OTI4ODA5 | [MjU1OTI4ODA5.md](MjU1OTI4ODA5.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjU1OTI4ODA5) |
+| 学习管理 | MjQ5MzQ1Nzg5 | [MjQ5MzQ1Nzg5.md](MjQ5MzQ1Nzg5.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ5MzQ1Nzg5) |
+| 学习管理 | MjQ5MzM1NTE3 | [MjQ5MzM1NTE3.md](MjQ5MzM1NTE3.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ5MzM1NTE3) |
+| 学习管理 | MjQ5MzM1NDg2 | [MjQ5MzM1NDg2.md](MjQ5MzM1NDg2.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ5MzM1NDg2) |
+| 学习管理 | MjQ5MDI5MDM4 | [MjQ5MDI5MDM4.md](MjQ5MDI5MDM4.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ5MDI5MDM4) |
+| 学习管理 | MjQ5MDI5MDA0 | [MjQ5MDI5MDA0.md](MjQ5MDI5MDA0.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ5MDI5MDA0) |
+| 学习管理 | MjQ5MDI4OTc1 | [MjQ5MDI4OTc1.md](MjQ5MDI4OTc1.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ5MDI4OTc1) |
+| 学习管理 | MjQ5MDI4NTg4 | [MjQ5MDI4NTg4.md](MjQ5MDI4NTg4.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ5MDI4NTg4) |
+| 学习管理 | MjQ5MDI4NTQ1 | [MjQ5MDI4NTQ1.md](MjQ5MDI4NTQ1.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ5MDI4NTQ1) |
+| 学习管理 | MjQ5MDI4NTE3 | [MjQ5MDI4NTE3.md](MjQ5MDI4NTE3.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ5MDI4NTE3) |
+| 方法与资源 | MjU5MTgyOTc1 | [MjU5MTgyOTc1.md](MjU5MTgyOTc1.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjU5MTgyOTc1) |
+| 方法与资源 | MjU3NTg0ODY5 | [MjU3NTg0ODY5.md](MjU3NTg0ODY5.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjU3NTg0ODY5) |
+| 方法与资源 | MjU3Mzc2NTg4 | [MjU3Mzc2NTg4.md](MjU3Mzc2NTg4.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjU3Mzc2NTg4) |
+| 方法与资源 | MjU3MzczMjM3 | [MjU3MzczMjM3.md](MjU3MzczMjM3.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjU3MzczMjM3) |
+| 方法与资源 | MjU3MzczMTYy | [MjU3MzczMTYy.md](MjU3MzczMTYy.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjU3MzczMTYy) |
+| 方法与资源 | MjQ3Njc2MDkw | [MjQ3Njc2MDkw.md](MjQ3Njc2MDkw.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ3Njc2MDkw) |
+| 方法与资源 | MjQ3Njc2MDgy | [MjQ3Njc2MDgy.md](MjQ3Njc2MDgy.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ3Njc2MDgy) |
+| 方法与资源 | MTQwNDY0Nzg0 | [MTQwNDY0Nzg0.md](MTQwNDY0Nzg0.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MTQwNDY0Nzg0) |
+| 方法与资源 | MTM2MTM2MDEz | [MTM2MTM2MDEz.md](MTM2MTM2MDEz.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MTM2MTM2MDEz) |
+| 方法与资源 | MTM1NTEwNjU2 | [MTM1NTEwNjU2.md](MTM1NTEwNjU2.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MTM1NTEwNjU2) |
 
 ## 导入约定
 
 - 原始正文只读保存；后续更正应追加说明或在专题页中订正，不静默覆盖来源。
 - 使用 Flomo ID 做幂等去重；同一 ID 不重复导入。
-- `Archive/MigratedWiki`、`Archive/MigratedNotion` 等源标签保留在笔记元数据中，不作为删除或跳过的依据。
-- 迁移完成状态必须以正文完整回读、文件写入成功和目录索引更新为准。
-- 本索引只列出已经写入 Git 分支的 80 条笔记，不代表 Flomo 全量同步完成。
+- `Archive/MigratedWiki`、`Archive/MigratedNotion`、`Archive/DeleteCandidate` 等源标签保留在笔记元数据中，不作为删除或跳过的依据。
+- 迁移完成状态必须以正文完整读取、文件写入成功和目录索引更新为准。
+- 当前索引只列出已经写入分支的 110 条笔记，不代表 Flomo 全量同步完成。
