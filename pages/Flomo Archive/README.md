@@ -84,8 +84,8 @@
 | 通信 | MjQ5OTUyNTkx | [MjQ5OTUyNTkx.md](MjQ5OTUyNTkx.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ5OTUyNTkx) |
 | 通信 | MjQ5NTIwODgw | [MjQ5NTIwODgw.md](MjQ5NTIwODgw.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ5NTIwODgw) |
 | 通信 | MjQ5NTIwODI2 | [MjQ5NTIwODI2.md](MjQ5NTIwODI2.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ5NTIwODI2) |
-| 通信 | MjQ5MDc5MTAz | [MjQ5MDc5MTAz.md](MjQ5MDc5MTAz.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ5MDc5MTAz) |
-| 通信 | MjQ5MDc5MDY4 | [MjQ5MDc5MDY4.md](MjQ5MDc5MDY4.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ5MDc5MDY4) |
+| 通信 | MjQ5MDc5MTAz | [专栏⑫·第7篇：RS-485 多节点组网——使能时序、终端电阻、收发器方向切换、Modbus 帧解析.md](专栏⑫·第7篇：RS-485 多节点组网——使能时序、终端电阻、收发器方向切换、Modbus 帧解析.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ5MDc5MTAz) |
+| 通信 | MjQ5MDc5MDY4 | [专栏⑫·第6篇：I2C 传感器 EEPROM 深入——时钟拉伸、多主仲裁、上拉电阻选值.md](专栏⑫·第6篇：I2C 传感器 EEPROM 深入——时钟拉伸、多主仲裁、上拉电阻选值.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ5MDc5MDY4) |
 | 知识管理 | MjUxNzY2OTUz | [MjUxNzY2OTUz.md](MjUxNzY2OTUz.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUxNzY2OTUz) |
 | 知识管理 | MjUxNzEzMjQw | [MjUxNzEzMjQw.md](MjUxNzEzMjQw.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUxNzEzMjQw) |
 | 知识管理 | MjUxNzEzMjQx | [MjUxNzEzMjQx.md](MjUxNzEzMjQx.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUxNzEzMjQx) |
@@ -98,14 +98,14 @@
 | 知识管理 | MjUxNzEyNzAx | [MjUxNzEyNzAx.md](MjUxNzEyNzAx.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUxNzEyNzAx) |
 | 学习管理 | MjU1OTI4ODA5 | [MjU1OTI4ODA5.md](MjU1OTI4ODA5.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjU1OTI4ODA5) |
 | 学习管理 | MjQ5MzQ1Nzg5 | [MjQ5MzQ1Nzg5.md](MjQ5MzQ1Nzg5.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ5MzQ1Nzg5) |
-| 学习管理 | MjQ5MzM1NTE3 | [MjQ5MzM1NTE3.md](MjQ5MzM1NTE3.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ5MzM1NTE3) |
-| 学习管理 | MjQ5MzM1NDg2 | [MjQ5MzM1NDg2.md](MjQ5MzM1NDg2.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ5MzM1NDg2) |
-| 学习管理 | MjQ5MDI5MDM4 | [MjQ5MDI5MDM4.md](MjQ5MDI5MDM4.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ5MDI5MDM4) |
-| 学习管理 | MjQ5MDI5MDA0 | [MjQ5MDI5MDA0.md](MjQ5MDI5MDA0.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ5MDI5MDA0) |
-| 学习管理 | MjQ5MDI4OTc1 | [MjQ5MDI4OTc1.md](MjQ5MDI4OTc1.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ5MDI4OTc1) |
-| 学习管理 | MjQ5MDI4NTg4 | [MjQ5MDI4NTg4.md](MjQ5MDI4NTg4.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ5MDI4NTg4) |
-| 学习管理 | MjQ5MDI4NTQ1 | [MjQ5MDI4NTQ1.md](MjQ5MDI4NTQ1.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ5MDI4NTQ1) |
-| 学习管理 | MjQ5MDI4NTE3 | [MjQ5MDI4NTE3.md](MjQ5MDI4NTE3.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ5MDI4NTE3) |
+| 学习管理 | MjQ5MzM1NTE3 | [三问答·其三：堆问题法—— 技术树 深挖 vs 知识面 铺开，问题设计标准不同.md](三问答·其三：堆问题法—— 技术树 深挖 vs 知识面 铺开，问题设计标准不同.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ5MzM1NTE3) |
+| 学习管理 | MjQ5MzM1NDg2 | [三问答·其二：MCU 电源轨时序——VDDIO 先于 VDD Core 上电，ESD 二极管会不会烧.md](三问答·其二：MCU 电源轨时序——VDDIO 先于 VDD Core 上电，ESD 二极管会不会烧.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ5MzM1NDg2) |
+| 学习管理 | MjQ5MDI5MDM4 | [软考三问·其三：嵌入式项目中最常打交道的项目管理知识领域——风险管理 沟通管理 采购管理.md](软考三问·其三：嵌入式项目中最常打交道的项目管理知识领域——风险管理 沟通管理 采购管理.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ5MDI5MDM4) |
+| 学习管理 | MjQ5MDI5MDA0 | [软考三问·其二：系统架构师论文——准备的 项目背景 模板和选哪个项目.md](软考三问·其二：系统架构师论文——准备的 项目背景 模板和选哪个项目.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ5MDI5MDA0) |
+| 学习管理 | MjQ5MDI4OTc1 | [软考三问·其一：系统架构师考试 vs AUTOSAR BSW 架构设计——概念重叠 60%，思维方式不同.md](软考三问·其一：系统架构师考试 vs AUTOSAR BSW 架构设计——概念重叠 60%，思维方式不同.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ5MDI4OTc1) |
+| 学习管理 | MjQ5MDI4NTg4 | [硬件学习三问·其三：软件背景学习者最该先搞懂的基础元件——电容的 滤波 vs 去耦.md](硬件学习三问·其三：软件背景学习者最该先搞懂的基础元件——电容的 滤波 vs 去耦.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ5MDI4NTg4) |
+| 学习管理 | MjQ5MDI4NTQ1 | [硬件学习三问·其二：软件兜底但硬件根因——CAN 通信偶尔断连的 共模电感 案.md](硬件学习三问·其二：软件兜底但硬件根因——CAN 通信偶尔断连的 共模电感 案.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ5MDI4NTQ1) |
+| 学习管理 | MjQ5MDI4NTE3 | [硬件学习三问·其一：软件转硬件最难转的思维方式—— 一次成型、不可重来 的容差思维.md](硬件学习三问·其一：软件转硬件最难转的思维方式—— 一次成型、不可重来 的容差思维.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ5MDI4NTE3) |
 | 方法与资源 | MjU5MTgyOTc1 | [MjU5MTgyOTc1.md](MjU5MTgyOTc1.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjU5MTgyOTc1) |
 | 方法与资源 | MjU3NTg0ODY5 | [MjU3NTg0ODY5.md](MjU3NTg0ODY5.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjU3NTg0ODY5) |
 | 方法与资源 | MjU3Mzc2NTg4 | [MjU3Mzc2NTg4.md](MjU3Mzc2NTg4.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjU3Mzc2NTg4) |
@@ -143,8 +143,8 @@
 
 | 来源分类 | Flomo ID | Notes 原文快照 | Flomo 原文 |
 |---|---|---|---|
-| 数学 / 专栏⑰第3篇 | MjQ5MDI4Mjk3 | [MjQ5MDI4Mjk3.md](MjQ5MDI4Mjk3.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ5MDI4Mjk3) |
-| 数学 / 专栏⑰第4篇 | MjQ5MDI4MzMy | [MjQ5MDI4MzMy.md](MjQ5MDI4MzMy.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ5MDI4MzMy) |
+| 数学 / 专栏⑰第3篇 | MjQ5MDI4Mjk3 | [专栏⑰·第3篇：堆问题法在数学上的矛盾——先列问题还是先学原理.md](专栏⑰·第3篇：堆问题法在数学上的矛盾——先列问题还是先学原理.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ5MDI4Mjk3) |
+| 数学 / 专栏⑰第4篇 | MjQ5MDI4MzMy | [专栏⑰·第4篇：课本定义的数学概念 vs 工程里的实际用法—— 最短路径 和 特征分解 的差距.md](专栏⑰·第4篇：课本定义的数学概念 vs 工程里的实际用法—— 最短路径 和 特征分解 的差距.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ5MDI4MzMy) |
 | 数学 / 专栏⑰第5篇 | MjUwNzczOTgz | [MjUwNzczOTgz.md](MjUwNzczOTgz.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUwNzczOTgz) |
 | 数学 / 专栏⑰第6篇 | MjUwNzczOTg0 | [MjUwNzczOTg0.md](MjUwNzczOTg0.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUwNzczOTg0) |
 | 数学 / 专栏⑰第7篇 | MjUwNzczOTg1 | [MjUwNzczOTg1.md](MjUwNzczOTg1.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUwNzczOTg1) |
