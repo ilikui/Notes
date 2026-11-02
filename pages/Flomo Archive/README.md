@@ -123,7 +123,7 @@
 - 使用 Flomo ID 做幂等去重；同一 ID 不重复导入。
 - `Archive/MigratedWiki`、`Archive/MigratedNotion`、`Archive/DeleteCandidate` 等源标签保留在笔记元数据中，不作为删除或跳过的依据。
 - 迁移完成状态必须以正文完整读取、文件写入成功和目录索引更新为准。
-- 当前索引共列出 123 条原始笔记快照（首批 110 条 + 2026-11-02 数学专题 13 条），不代表 Flomo 全量同步完成。
+- 当前索引共列出 126 条原始笔记快照（首批 110 条 + 数学专题 13 条 + AUTOSAR 专题 3 条），不代表 Flomo 全量同步完成。
 
 
 ## 2026-11-02 数学专题补充（5 条）
@@ -153,3 +153,14 @@
 | 数学 / 专栏⑰第10篇 | MjUwNzc0MDg3 | [MjUwNzc0MDg3.md](MjUwNzc0MDg3.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUwNzc0MDg3) |
 
 > 本批为专栏⑰第 3–10 篇；所有正文均完整回读（content_truncated=false、无 omitted IDs），与前一批导航、线代/概率问题库和马尔可夫链专题共同构成数学系列原始资料。
+
+
+## 2026-11-02 AUTOSAR 专题补充（3 条）
+
+| 来源分类 | Flomo ID | Notes 原文快照 | Flomo 原文 |
+|---|---|---|---|
+| AUTOSAR / 方法论练习 | ODUzMzk0ODU | [ODUzMzk0ODU.md](ODUzMzk0ODU.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=ODUzMzk0ODU) |
+| AUTOSAR / SWC 架构思考 | MjQ4NDc0Mzk3 | [MjQ4NDc0Mzk3.md](MjQ4NDc0Mzk3.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ4NDc0Mzk3) |
+| AUTOSAR / 架构本质 | MjQ5MDI0OTgy | [MjQ5MDI0OTgy.md](MjQ5MDI0OTgy.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ5MDI0OTgy) |
+
+> 三条原文均已完整回读（content_truncated=false、无 omitted IDs），并保存为独立快照。
