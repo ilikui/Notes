@@ -164,3 +164,18 @@
 | AUTOSAR / 架构本质 | MjQ5MDI0OTgy | [MjQ5MDI0OTgy.md](MjQ5MDI0OTgy.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ5MDI0OTgy) |
 
 > 三条原文均已完整回读（content_truncated=false、无 omitted IDs），并保存为独立快照。
+
+
+## 2026-11-02 Linux 与 AUTOSAR OS 补充（5 条）
+
+| 来源分类 | Flomo ID | Notes 原文快照 | Flomo 原文 |
+|---|---|---|---|
+| Linux / 系统命令速查 | OTAzNDYyOTc | [OTAzNDYyOTc.md](OTAzNDYyOTc.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=OTAzNDYyOTc) |
+| Linux / 权限指令提醒 | MTE3ODI0MzE1 | [MTE3ODI0MzE1.md](MTE3ODI0MzE1.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MTE3ODI0MzE1) |
+| Linux 驱动 / GCC | OTQ5MTEyMzE | [OTQ5MTEyMzE.md](OTQ5MTEyMzE.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=OTQ5MTEyMzE) |
+| Linux 驱动 / 学习资源与流程 | OTQ1OTg5Nzg | [OTQ1OTg5Nzg.md](OTQ1OTg5Nzg.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=OTQ1OTg5Nzg) |
+| AUTOSAR / OS 调度 Q1 | MjUzNTQxMjIz | [MjUzNTQxMjIz.md](MjUzNTQxMjIz.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUzNTQxMjIz) |
+
+> 本批 5 条正文均已完整回读（content_truncated=false、无 omitted IDs），并完成独立快照写入。Linux 权限笔记保留原文，同时在归档说明中补充了 777 权限的安全警示。
+
+当前索引共列出 131 条原始笔记快照（此前 126 条 + 本批 5 条）。
