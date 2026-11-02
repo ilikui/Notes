@@ -123,7 +123,7 @@
 - 使用 Flomo ID 做幂等去重；同一 ID 不重复导入。
 - `Archive/MigratedWiki`、`Archive/MigratedNotion`、`Archive/DeleteCandidate` 等源标签保留在笔记元数据中，不作为删除或跳过的依据。
 - 迁移完成状态必须以正文完整读取、文件写入成功和目录索引更新为准。
-- 当前索引只列出已经写入分支的 110 条笔记，不代表 Flomo 全量同步完成。
+- 当前索引共列出 123 条原始笔记快照（首批 110 条 + 2026-11-02 数学专题 13 条），不代表 Flomo 全量同步完成。
 
 
 ## 2026-11-02 数学专题补充（5 条）
@@ -137,3 +137,19 @@
 | 数学 / 矩阵变换与工程应用 | MjQ5MDI4Mjc5 | [MjQ5MDI4Mjc5.md](MjQ5MDI4Mjc5.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ5MDI4Mjc5) |
 
 > 本批次均通过 Flomo 完整回读（content_truncated=false、无 omitted IDs），原始正文保存在独立快照中。
+
+
+### 2026-11-02 数学专栏⑰续篇（8 条）
+
+| 来源分类 | Flomo ID | Notes 原文快照 | Flomo 原文 |
+|---|---|---|---|
+| 数学 / 专栏⑰第3篇 | MjQ5MDI4Mjk3 | [MjQ5MDI4Mjk3.md](MjQ5MDI4Mjk3.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ5MDI4Mjk3) |
+| 数学 / 专栏⑰第4篇 | MjQ5MDI4MzMy | [MjQ5MDI4MzMy.md](MjQ5MDI4MzMy.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ5MDI4MzMy) |
+| 数学 / 专栏⑰第5篇 | MjUwNzczOTgz | [MjUwNzczOTgz.md](MjUwNzczOTgz.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUwNzczOTgz) |
+| 数学 / 专栏⑰第6篇 | MjUwNzczOTg0 | [MjUwNzczOTg0.md](MjUwNzczOTg0.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUwNzczOTg0) |
+| 数学 / 专栏⑰第7篇 | MjUwNzczOTg1 | [MjUwNzczOTg1.md](MjUwNzczOTg1.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUwNzczOTg1) |
+| 数学 / 专栏⑰第8篇 | MjUwNzc0MDg1 | [MjUwNzc0MDg1.md](MjUwNzc0MDg1.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUwNzc0MDg1) |
+| 数学 / 专栏⑰第9篇 | MjUwNzc0MDg2 | [MjUwNzc0MDg2.md](MjUwNzc0MDg2.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUwNzc0MDg2) |
+| 数学 / 专栏⑰第10篇 | MjUwNzc0MDg3 | [MjUwNzc0MDg3.md](MjUwNzc0MDg3.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUwNzc0MDg3) |
+
+> 本批为专栏⑰第 3–10 篇；所有正文均完整回读（content_truncated=false、无 omitted IDs），与前一批导航、线代/概率问题库和马尔可夫链专题共同构成数学系列原始资料。
