@@ -190,4 +190,16 @@
 
 > 两条正文均已完整回读。Cortex-M3 笔记的原始内容不完整，快照明确保留缺项，不自行推断补齐。
 
-当前索引共列出 133 条原始笔记快照（此前 131 条 + 本批 2 条）。
+当前索引共列出 135 条原始笔记快照（此前 131 条 + 本批 2 条）。
+
+
+## 2026-11-02 C 语言基础资料补充（2 条）
+
+| 来源分类 | Flomo ID | Notes 原文快照 | Flomo 原文 |
+|---|---|---|---|
+| C语言 / C简介 | MTMwODAwMDA2 | [MTMwODAwMDA2.md](MTMwODAwMDA2.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MTMwODAwMDA2) |
+| C语言 / 学习目录 | MTMwNzQxNjk5 | [MTMwNzQxNjk5.md](MTMwNzQxNjk5.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MTMwNzQxNjk5) |
+
+> 两条笔记均通过 Flomo 详情完整回读（content_truncated=false、无 omitted_ids）。C简介快照保留原文，并将标准时间线等订正放在独立说明中，不覆盖源文。
+
+当前索引共列出 135 条原始笔记快照（此前 133 条 + 本批 2 条）。
