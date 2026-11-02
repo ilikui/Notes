@@ -35,7 +35,7 @@
 | 嵌入式 | MjUxMjA1MDkw | [MjUxMjA1MDkw.md](MjUxMjA1MDkw.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUxMjA1MDkw) |
 | 嵌入式 | MjUxMjA1MDcx | [MjUxMjA1MDcx.md](MjUxMjA1MDcx.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUxMjA1MDcx) |
 | 嵌入式 | MjUwNTg0NTQy | [专栏⑮·第9篇：嵌入式调试三板斧——HardFault 定位、printf 的坑、示波器 vs 逻辑分析仪.md](专栏⑮·第9篇：嵌入式调试三板斧——HardFault 定位、printf 的坑、示波器 vs 逻辑分析仪.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUwNTg0NTQy) |
-| 嵌入式 | MjUwNTg0NTQz | [MjUwNTg0NTQz.md](MjUwNTg0NTQz.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUwNTg0NTQz) |
+| 嵌入式 | MjUwNTg0NTQz | [专栏⑮·第10篇：嵌入式 15 项自检清单——上车前逐项打勾.md](专栏⑮·第10篇：嵌入式 15 项自检清单——上车前逐项打勾.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUwNTg0NTQz) |
 | AI | MjYyMjU3NDU5 | [MjYyMjU3NDU5.md](MjYyMjU3NDU5.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjYyMjU3NDU5) |
 | AI | MjYyMjQ2Mjg4 | [MjYyMjQ2Mjg4.md](MjYyMjQ2Mjg4.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjYyMjQ2Mjg4) |
 | AI | MjYxMjU1MTQz | [MjYxMjU1MTQz.md](MjYxMjU1MTQz.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjYxMjU1MTQz) |
@@ -43,9 +43,9 @@
 | AI | MjUxMDI5NzE4 | [MjUxMDI5NzE4.md](MjUxMDI5NzE4.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUxMDI5NzE4) |
 | AI | MjUxMDI5NzAy | [MjUxMDI5NzAy.md](MjUxMDI5NzAy.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUxMDI5NzAy) |
 | AI | MjUxMDI5Njgz | [MjUxMDI5Njgz.md](MjUxMDI5Njgz.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUxMDI5Njgz) |
-| AI | MjUwNTg2NDAz | [MjUwNTg2NDAz.md](MjUwNTg2NDAz.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUwNTg2NDAz) |
-| AI | MjUwNTg2NDA0 | [MjUwNTg2NDA0.md](MjUwNTg2NDA0.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUwNTg2NDA0) |
-| AI | MjUwNTg2NDA1 | [MjUwNTg2NDA1.md](MjUwNTg2NDA1.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUwNTg2NDA1) |
+| AI | MjUwNTg2NDAz | [专栏⑯·第7篇：AI + 嵌入式——端侧推理、TinyML、量化部署，你的双专业交叉点.md](专栏⑯·第7篇：AI + 嵌入式——端侧推理、TinyML、量化部署，你的双专业交叉点.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUwNTg2NDAz) |
+| AI | MjUwNTg2NDA0 | [专栏⑯·第8篇：AI 内容创作与风险——视频生成、新闻解析、版权与幻觉.md](专栏⑯·第8篇：AI 内容创作与风险——视频生成、新闻解析、版权与幻觉.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUwNTg2NDA0) |
+| AI | MjUwNTg2NDA1 | [专栏⑯·第9篇：AI 与知识管理方法论——从 1000 问到个人知识库的闭环.md](专栏⑯·第9篇：AI 与知识管理方法论——从 1000 问到个人知识库的闭环.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUwNTg2NDA1) |
 | 自动驾驶 | MjU2NTMzMzMx | [自动驾驶 1000问 · 补充Q1：什么是端到端（End-to-End）自动驾驶？.md](自动驾驶 1000问 · 补充Q1：什么是端到端（End-to-End）自动驾驶？.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjU2NTMzMzMx) |
 | 自动驾驶 | MjU2MzA4ODAy | [自动驾驶 1000问 · 十三 · 第 37 题：量产自动驾驶最烧钱的是哪一块？.md](自动驾驶 1000问 · 十三 · 第 37 题：量产自动驾驶最烧钱的是哪一块？.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjU2MzA4ODAy) |
 | 自动驾驶 | MjU2Mjc3Nzg5 | [自动驾驶 1000问 · 十三 · 第 36 题：数据闭环的四个环节，哪个最重要？.md](自动驾驶 1000问 · 十三 · 第 36 题：数据闭环的四个环节，哪个最重要？.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjU2Mjc3Nzg5) |
@@ -79,8 +79,8 @@
 | 通信 | MjUxMTkxNDk3 | [MjUxMTkxNDk3.md](MjUxMTkxNDk3.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUxMTkxNDk3) |
 | 通信 | MjUxMDI5MjY2 | [MjUxMDI5MjY2.md](MjUxMDI5MjY2.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUxMDI5MjY2) |
 | 通信 | MjUxMDI5MjAz | [MjUxMDI5MjAz.md](MjUxMDI5MjAz.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUxMDI5MjAz) |
-| 通信 | MjUxMDI5MTM2 | [MjUxMDI5MTM2.md](MjUxMDI5MTM2.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUxMDI5MTM2) |
-| 通信 | MjUxMDI5MDYy | [MjUxMDI5MDYy.md](MjUxMDI5MDYy.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUxMDI5MDYy) |
+| 通信 | MjUxMDI5MTM2 | [专栏⑫·补充二：SDIO——SD 卡和 WiFi 模块都走这条线.md](专栏⑫·补充二：SDIO——SD 卡和 WiFi 模块都走这条线.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUxMDI5MTM2) |
+| 通信 | MjUxMDI5MDYy | [专栏⑫·补充一：LIN 总线——UART 底子、成本优先的车上第二大巴.md](专栏⑫·补充一：LIN 总线——UART 底子、成本优先的车上第二大巴.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUxMDI5MDYy) |
 | 通信 | MjQ5OTUyNTkx | [专栏⑫·第十篇：通信技术自检清单——上车前逐项打勾的 15 项.md](专栏⑫·第十篇：通信技术自检清单——上车前逐项打勾的 15 项.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ5OTUyNTkx) |
 | 通信 | MjQ5NTIwODgw | [专栏⑫·第9篇：USB 设备通信——HID CDC 自定义类的选择与坑.md](专栏⑫·第9篇：USB 设备通信——HID CDC 自定义类的选择与坑.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ5NTIwODgw) |
 | 通信 | MjQ5NTIwODI2 | [专栏⑫·第8篇：SENT（Single Edge Nibble Transmission）——汽车传感器的 单线传真.md](专栏⑫·第8篇：SENT（Single Edge Nibble Transmission）——汽车传感器的 单线传真.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ5NTIwODI2) |
@@ -145,12 +145,12 @@
 |---|---|---|---|
 | 数学 / 专栏⑰第3篇 | MjQ5MDI4Mjk3 | [专栏⑰·第3篇：堆问题法在数学上的矛盾——先列问题还是先学原理.md](专栏⑰·第3篇：堆问题法在数学上的矛盾——先列问题还是先学原理.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ5MDI4Mjk3) |
 | 数学 / 专栏⑰第4篇 | MjQ5MDI4MzMy | [专栏⑰·第4篇：课本定义的数学概念 vs 工程里的实际用法—— 最短路径 和 特征分解 的差距.md](专栏⑰·第4篇：课本定义的数学概念 vs 工程里的实际用法—— 最短路径 和 特征分解 的差距.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ5MDI4MzMy) |
-| 数学 / 专栏⑰第5篇 | MjUwNzczOTgz | [MjUwNzczOTgz.md](MjUwNzczOTgz.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUwNzczOTgz) |
-| 数学 / 专栏⑰第6篇 | MjUwNzczOTg0 | [MjUwNzczOTg0.md](MjUwNzczOTg0.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUwNzczOTg0) |
-| 数学 / 专栏⑰第7篇 | MjUwNzczOTg1 | [MjUwNzczOTg1.md](MjUwNzczOTg1.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUwNzczOTg1) |
-| 数学 / 专栏⑰第8篇 | MjUwNzc0MDg1 | [MjUwNzc0MDg1.md](MjUwNzc0MDg1.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUwNzc0MDg1) |
-| 数学 / 专栏⑰第9篇 | MjUwNzc0MDg2 | [MjUwNzc0MDg2.md](MjUwNzc0MDg2.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUwNzc0MDg2) |
-| 数学 / 专栏⑰第10篇 | MjUwNzc0MDg3 | [MjUwNzc0MDg3.md](MjUwNzc0MDg3.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUwNzc0MDg3) |
+| 数学 / 专栏⑰第5篇 | MjUwNzczOTgz | [专栏⑰·第5篇：极限与导数实战——微积分 × ADC 采样离散化.md](专栏⑰·第5篇：极限与导数实战——微积分 × ADC 采样离散化.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUwNzczOTgz) |
+| 数学 / 专栏⑰第6篇 | MjUwNzczOTg0 | [专栏⑰·第6篇：线性代数实战——矩阵变换 × DBC 解析 Park 变换 RTE.md](专栏⑰·第6篇：线性代数实战——矩阵变换 × DBC 解析 Park 变换 RTE.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUwNzczOTg0) |
+| 数学 / 专栏⑰第7篇 | MjUwNzczOTg1 | [专栏⑰·第7篇：概率论实战——贝叶斯 × 诊断故障推理 数据有效性判断.md](专栏⑰·第7篇：概率论实战——贝叶斯 × 诊断故障推理 数据有效性判断.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUwNzczOTg1) |
+| 数学 / 专栏⑰第8篇 | MjUwNzc0MDg1 | [专栏⑰·第8篇：马尔可夫链工程应用——× BswM 状态机 网络管理 刷写流程.md](专栏⑰·第8篇：马尔可夫链工程应用——× BswM 状态机 网络管理 刷写流程.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUwNzc0MDg1) |
+| 数学 / 专栏⑰第9篇 | MjUwNzc0MDg2 | [专栏⑰·第9篇：考研数学应试方法论——堆问题法分轮次实战.md](专栏⑰·第9篇：考研数学应试方法论——堆问题法分轮次实战.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUwNzc0MDg2) |
+| 数学 / 专栏⑰第10篇 | MjUwNzc0MDg3 | [专栏⑰·第10篇：数学 15 项自检清单——上车前逐项打勾.md](专栏⑰·第10篇：数学 15 项自检清单——上车前逐项打勾.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUwNzc0MDg3) |
 
 > 本批为专栏⑰第 3–10 篇；所有正文均完整回读（content_truncated=false、无 omitted IDs），与前一批导航、线代/概率问题库和马尔可夫链专题共同构成数学系列原始资料。
 
