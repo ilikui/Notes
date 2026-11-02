@@ -14,9 +14,9 @@
 | AUTOSAR / MCAL | MjYxMzU2MjA5 | [MjYxMzU2MjA5.md](MjYxMzU2MjA5.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjYxMzU2MjA5) |
 | AUTOSAR / MCAL | MjYxMzU1MTQ3 | [MjYxMzU1MTQ3.md](MjYxMzU1MTQ3.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjYxMzU1MTQ3) |
 | AUTOSAR / MCAL | MjYxMzU1MDgy | [MjYxMzU1MDgy.md](MjYxMzU1MDgy.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjYxMzU1MDgy) |
-| AUTOSAR / MCAL | MjU3Mzc2MjI1 | [MjU3Mzc2MjI1.md](MjU3Mzc2MjI1.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjU3Mzc2MjI1) |
+| AUTOSAR / MCAL | MjU3Mzc2MjI1 | [AUTOSAR 1000问 · 工具链 Q1：如何保证工具链生成的代码就是自己配置的？.md](AUTOSAR 1000问 · 工具链 Q1：如何保证工具链生成的代码就是自己配置的？.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjU3Mzc2MjI1) |
 | AUTOSAR / MCAL | MjU1NzY1Nzgx | [AUTOSAR MCAL 配置示例 · 深化篇② Port.md](AUTOSAR MCAL 配置示例 · 深化篇② Port.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjU1NzY1Nzgx) |
-| C 语言 | MjU2NDUxMjUw | [MjU2NDUxMjUw.md](MjU2NDUxMjUw.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjU2NDUxMjUw) |
+| C 语言 | MjU2NDUxMjUw | [C语言 1000问 · 未定义行为Q4：有符号整数溢出为什么比无符号危险？有符号与无符号混用比较的陷阱有哪些？.md](C语言 1000问 · 未定义行为Q4：有符号整数溢出为什么比无符号危险？有符号与无符号混用比较的陷阱有哪些？.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjU2NDUxMjUw) |
 | C 语言 | MjU2NDUxMjAw | [C语言 1000问 · 未定义行为Q3：什么是严格别名（strict aliasing）规则？为什么用不同类型的指针访问同一内存会出问题？.md](C语言 1000问 · 未定义行为Q3：什么是严格别名（strict aliasing）规则？为什么用不同类型的指针访问同一内存会出问题？.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjU2NDUxMjAw) |
 | C 语言 | MjU2NDUxMTU2 | [C语言 1000问 · 未定义行为Q2：序列点（sequence point）是什么？为什么 i = i++ + ++i 是未定义行为？.md](C语言 1000问 · 未定义行为Q2：序列点（sequence point）是什么？为什么 i = i++ + ++i 是未定义行为？.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjU2NDUxMTU2) |
 | C 语言 | MjU2NDUxMTA5 | [C语言 1000问 · 未定义行为Q1：什么是未定义行为（UB）？为什么说「看起来能用」不代表没问题？举几个最常见的 UB.md](C语言 1000问 · 未定义行为Q1：什么是未定义行为（UB）？为什么说「看起来能用」不代表没问题？举几个最常见的 UB.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjU2NDUxMTA5) |
@@ -26,15 +26,15 @@
 | C 语言 | MjU2NDUwODk5 | [C语言 1000问 · 函数与递归Q3：函数指针是什么？它有哪些典型用途——回调、跳转表、qsort？.md](C语言 1000问 · 函数与递归Q3：函数指针是什么？它有哪些典型用途——回调、跳转表、qsort？.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjU2NDUwODk5) |
 | C 语言 | MjU2NDUwODMx | [C语言 1000问 · 函数与递归Q2：递归和迭代该怎么选？递归的代价在哪，尾递归优化有效吗？.md](C语言 1000问 · 函数与递归Q2：递归和迭代该怎么选？递归的代价在哪，尾递归优化有效吗？.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjU2NDUwODMx) |
 | C 语言 | MjU2NDUwNzcz | [C语言 1000问 · 函数与递归Q1：一次函数调用在底层发生了什么？栈帧（stack frame）里都放了什么？.md](C语言 1000问 · 函数与递归Q1：一次函数调用在底层发生了什么？栈帧（stack frame）里都放了什么？.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjU2NDUwNzcz) |
-| 嵌入式 | MjU2NDUyMDg0 | [MjU2NDUyMDg0.md](MjU2NDUyMDg0.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjU2NDUyMDg0) |
-| 嵌入式 | MjU2NDUxOTQx | [MjU2NDUxOTQx.md](MjU2NDUxOTQx.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjU2NDUxOTQx) |
-| 嵌入式 | MjU2NDUxODUy | [MjU2NDUxODUy.md](MjU2NDUxODUy.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjU2NDUxODUy) |
+| 嵌入式 | MjU2NDUyMDg0 | [嵌入式 1000问 · 基础概念Q3：冯诺依曼结构和哈佛结构在嵌入式里怎么体现？STM32 是哪一种？.md](嵌入式 1000问 · 基础概念Q3：冯诺依曼结构和哈佛结构在嵌入式里怎么体现？STM32 是哪一种？.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjU2NDUyMDg0) |
+| 嵌入式 | MjU2NDUxOTQx | [嵌入式 1000问 · 基础概念Q2：MCU 和 MPU 的核心区别是什么？什么时候该选 MCU，什么时候该选 MPU？.md](嵌入式 1000问 · 基础概念Q2：MCU 和 MPU 的核心区别是什么？什么时候该选 MCU，什么时候该选 MPU？.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjU2NDUxOTQx) |
+| 嵌入式 | MjU2NDUxODUy | [嵌入式 1000问 · 基础概念Q1：嵌入式系统和通用计算机系统最本质的区别是什么？这个区别决定了哪些设计上的不同？.md](嵌入式 1000问 · 基础概念Q1：嵌入式系统和通用计算机系统最本质的区别是什么？这个区别决定了哪些设计上的不同？.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjU2NDUxODUy) |
 | 嵌入式 | MjUxODA3Mzc2 | [MjUxODA3Mzc2.md](MjUxODA3Mzc2.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUxODA3Mzc2) |
 | 嵌入式 | MjUxMjA1MTM5 | [MjUxMjA1MTM5.md](MjUxMjA1MTM5.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUxMjA1MTM5) |
 | 嵌入式 | MjUxMjA1MTEy | [MjUxMjA1MTEy.md](MjUxMjA1MTEy.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUxMjA1MTEy) |
 | 嵌入式 | MjUxMjA1MDkw | [MjUxMjA1MDkw.md](MjUxMjA1MDkw.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUxMjA1MDkw) |
 | 嵌入式 | MjUxMjA1MDcx | [MjUxMjA1MDcx.md](MjUxMjA1MDcx.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUxMjA1MDcx) |
-| 嵌入式 | MjUwNTg0NTQy | [MjUwNTg0NTQy.md](MjUwNTg0NTQy.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUwNTg0NTQy) |
+| 嵌入式 | MjUwNTg0NTQy | [专栏⑮·第9篇：嵌入式调试三板斧——HardFault 定位、printf 的坑、示波器 vs 逻辑分析仪.md](专栏⑮·第9篇：嵌入式调试三板斧——HardFault 定位、printf 的坑、示波器 vs 逻辑分析仪.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUwNTg0NTQy) |
 | 嵌入式 | MjUwNTg0NTQz | [MjUwNTg0NTQz.md](MjUwNTg0NTQz.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUwNTg0NTQz) |
 | AI | MjYyMjU3NDU5 | [MjYyMjU3NDU5.md](MjYyMjU3NDU5.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjYyMjU3NDU5) |
 | AI | MjYyMjQ2Mjg4 | [MjYyMjQ2Mjg4.md](MjYyMjQ2Mjg4.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjYyMjQ2Mjg4) |
@@ -46,7 +46,7 @@
 | AI | MjUwNTg2NDAz | [MjUwNTg2NDAz.md](MjUwNTg2NDAz.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUwNTg2NDAz) |
 | AI | MjUwNTg2NDA0 | [MjUwNTg2NDA0.md](MjUwNTg2NDA0.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUwNTg2NDA0) |
 | AI | MjUwNTg2NDA1 | [MjUwNTg2NDA1.md](MjUwNTg2NDA1.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUwNTg2NDA1) |
-| 自动驾驶 | MjU2NTMzMzMx | [MjU2NTMzMzMx.md](MjU2NTMzMzMx.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjU2NTMzMzMx) |
+| 自动驾驶 | MjU2NTMzMzMx | [自动驾驶 1000问 · 补充Q1：什么是端到端（End-to-End）自动驾驶？.md](自动驾驶 1000问 · 补充Q1：什么是端到端（End-to-End）自动驾驶？.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjU2NTMzMzMx) |
 | 自动驾驶 | MjU2MzA4ODAy | [自动驾驶 1000问 · 十三 · 第 37 题：量产自动驾驶最烧钱的是哪一块？.md](自动驾驶 1000问 · 十三 · 第 37 题：量产自动驾驶最烧钱的是哪一块？.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjU2MzA4ODAy) |
 | 自动驾驶 | MjU2Mjc3Nzg5 | [自动驾驶 1000问 · 十三 · 第 36 题：数据闭环的四个环节，哪个最重要？.md](自动驾驶 1000问 · 十三 · 第 36 题：数据闭环的四个环节，哪个最重要？.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjU2Mjc3Nzg5) |
 | 自动驾驶 | MjU2Mjc3NjY3 | [自动驾驶 1000问 · 十二 · 第 35 题：V2X 能解决单车智能解决不了的什么问题？.md](自动驾驶 1000问 · 十二 · 第 35 题：V2X 能解决单车智能解决不了的什么问题？.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjU2Mjc3NjY3) |
@@ -106,11 +106,11 @@
 | 学习管理 | MjQ5MDI4NTg4 | [硬件学习三问·其三：软件背景学习者最该先搞懂的基础元件——电容的 滤波 vs 去耦.md](硬件学习三问·其三：软件背景学习者最该先搞懂的基础元件——电容的 滤波 vs 去耦.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ5MDI4NTg4) |
 | 学习管理 | MjQ5MDI4NTQ1 | [硬件学习三问·其二：软件兜底但硬件根因——CAN 通信偶尔断连的 共模电感 案.md](硬件学习三问·其二：软件兜底但硬件根因——CAN 通信偶尔断连的 共模电感 案.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ5MDI4NTQ1) |
 | 学习管理 | MjQ5MDI4NTE3 | [硬件学习三问·其一：软件转硬件最难转的思维方式—— 一次成型、不可重来 的容差思维.md](硬件学习三问·其一：软件转硬件最难转的思维方式—— 一次成型、不可重来 的容差思维.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ5MDI4NTE3) |
-| 方法与资源 | MjU5MTgyOTc1 | [MjU5MTgyOTc1.md](MjU5MTgyOTc1.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjU5MTgyOTc1) |
-| 方法与资源 | MjU3NTg0ODY5 | [MjU3NTg0ODY5.md](MjU3NTg0ODY5.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjU3NTg0ODY5) |
-| 方法与资源 | MjU3Mzc2NTg4 | [MjU3Mzc2NTg4.md](MjU3Mzc2NTg4.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjU3Mzc2NTg4) |
-| 方法与资源 | MjU3MzczMjM3 | [MjU3MzczMjM3.md](MjU3MzczMjM3.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjU3MzczMjM3) |
-| 方法与资源 | MjU3MzczMTYy | [MjU3MzczMTYy.md](MjU3MzczMTYy.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjU3MzczMTYy) |
+| 方法与资源 | MjU5MTgyOTc1 | [如何做好的产品重0-1的突破.md](如何做好的产品重0-1的突破.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjU5MTgyOTc1) |
+| 方法与资源 | MjU3NTg0ODY5 | [MCP 在 VSCode 中运行 · 技术方案.md](MCP 在 VSCode 中运行 · 技术方案.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjU3NTg0ODY5) |
+| 方法与资源 | MjU3Mzc2NTg4 | [MCP 全景方案 = 基石 × 四域 × 三层.md](MCP 全景方案 = 基石 × 四域 × 三层.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjU3Mzc2NTg4) |
+| 方法与资源 | MjU3MzczMjM3 | [需求映射卡模板.md](需求映射卡模板.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjU3MzczMjM3) |
+| 方法与资源 | MjU3MzczMTYy | [AI 需求↔代码索引关系图 · 落地方案.md](AI 需求↔代码索引关系图 · 落地方案.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjU3MzczMTYy) |
 | 方法与资源 | MjQ3Njc2MDkw | [付费专栏写作法（以AUTOSAR实战为例）.md](付费专栏写作法（以AUTOSAR实战为例）.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ3Njc2MDkw) |
 | 方法与资源 | MjQ3Njc2MDgy | [▎ 堆问题学习法.md](▎ 堆问题学习法.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ3Njc2MDgy) |
 | 方法与资源 | MTQwNDY0Nzg0 | [1 . 外部化思考：把脑子里的东西“拿出来”.md](1 . 外部化思考：把脑子里的东西“拿出来”.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MTQwNDY0Nzg0) |
