@@ -115,7 +115,7 @@
 | 方法与资源 | MjQ3Njc2MDgy | [▎ 堆问题学习法.md](▎ 堆问题学习法.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ3Njc2MDgy) |
 | 方法与资源 | MTQwNDY0Nzg0 | [1 . 外部化思考：把脑子里的东西“拿出来”.md](1 . 外部化思考：把脑子里的东西“拿出来”.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MTQwNDY0Nzg0) |
 | 方法与资源 | MTM2MTM2MDEz | [如何自我激发潜力.md](如何自我激发潜力.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MTM2MTM2MDEz) |
-| 方法与资源 | MTM1NTEwNjU2 | [u mark 影响世界的100个经典管理定律 mark u.md](u mark 影响世界的100个经典管理定律 mark u.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MTM1NTEwNjU2) |
+| 方法与资源 | MTM1NTEwNjU2 | [影响世界的100个经典管理定律.md](影响世界的100个经典管理定律.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MTM1NTEwNjU2) |
 
 ## 导入约定
 
@@ -159,7 +159,7 @@
 
 | 来源分类 | Flomo ID | Notes 原文快照 | Flomo 原文 |
 |---|---|---|---|
-| AUTOSAR / 方法论练习 | ODUzMzk0ODU | [- General Information.md](- General Information.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=ODUzMzk0ODU) |
+| AUTOSAR / 方法论练习 | ODUzMzk0ODU | [AUTOSAR General Information练习.md](AUTOSAR General Information练习.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=ODUzMzk0ODU) |
 | AUTOSAR / SWC 架构思考 | MjQ4NDc0Mzk3 | [读文笔记：AUTOSAR中的软件架构思考.md](读文笔记：AUTOSAR中的软件架构思考.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ4NDc0Mzk3) |
 | AUTOSAR / 架构本质 | MjQ5MDI0OTgy | [AUTOSAR 三问·其三：用三句话给新人讲清楚 AUTOSAR 到底解决了什么本质问题.md](AUTOSAR 三问·其三：用三句话给新人讲清楚 AUTOSAR 到底解决了什么本质问题.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ5MDI0OTgy) |
 
@@ -171,9 +171,9 @@
 | 来源分类 | Flomo ID | Notes 原文快照 | Flomo 原文 |
 |---|---|---|---|
 | Linux / 系统命令速查 | OTAzNDYyOTc | [Linux 学习指南.md](Linux 学习指南.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=OTAzNDYyOTc) |
-| Linux / 权限指令提醒 | MTE3ODI0MzE1 | [Linux 常用的指令：.md](Linux 常用的指令：.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MTE3ODI0MzE1) |
-| Linux 驱动 / GCC | OTQ5MTEyMzE | [- 名词介绍.md](- 名词介绍.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=OTQ5MTEyMzE) |
-| Linux 驱动 / 学习资源与流程 | OTQ1OTg5Nzg | [- 学习视频：https video.100ask.net p tpc coursepcdetail bigcolumn p5e5dbafac5.md](- 学习视频：https video.100ask.net p tpc coursepcdetail bigcolumn p5e5dbafac5.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=OTQ1OTg5Nzg) |
+| Linux / 权限指令提醒 | MTE3ODI0MzE1 | [Linux 常用指令.md](Linux 常用指令.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MTE3ODI0MzE1) |
+| Linux 驱动 / GCC | OTQ5MTEyMzE | [GCC名词介绍.md](GCC名词介绍.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=OTQ5MTEyMzE) |
+| Linux 驱动 / 学习资源与流程 | OTQ1OTg5Nzg | [Linux驱动学习视频与启动流程.md](Linux驱动学习视频与启动流程.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=OTQ1OTg5Nzg) |
 | AUTOSAR / OS 调度 Q1 | MjUzNTQxMjIz | [AUTOSAR 1000问 · OS&调度 Q1：AUTOSAR OS 和普通 RTOS（如 FreeRTOS）的核心区别是什么？.md](AUTOSAR 1000问 · OS&调度 Q1：AUTOSAR OS 和普通 RTOS（如 FreeRTOS）的核心区别是什么？.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUzNTQxMjIz) |
 
 > 本批 5 条正文均已完整回读（content_truncated=false、无 omitted IDs），并完成独立快照写入。Linux 权限笔记保留原文，同时在归档说明中补充了 777 权限的安全警示。
@@ -197,8 +197,8 @@
 
 | 来源分类 | Flomo ID | Notes 原文快照 | Flomo 原文 |
 |---|---|---|---|
-| C语言 / C简介 | MTMwODAwMDA2 | [u strong C简介 strong u.md](u strong C简介 strong u.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MTMwODAwMDA2) |
-| C语言 / 学习目录 | MTMwNzQxNjk5 | [01. C简介.md](01. C简介.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MTMwNzQxNjk5) |
+| C语言 / C简介 | MTMwODAwMDA2 | [C语言简介.md](C语言简介.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MTMwODAwMDA2) |
+| C语言 / 学习目录 | MTMwNzQxNjk5 | [C语言学习目录.md](C语言学习目录.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MTMwNzQxNjk5) |
 
 > 两条笔记均通过 Flomo 详情完整回读（content_truncated=false、无 omitted_ids）。C简介快照保留原文，并将标准时间线等订正放在独立说明中，不覆盖源文。
 
@@ -209,9 +209,9 @@
 
 | 来源分类 | Flomo ID | Notes 原文快照 | Flomo 原文 |
 |---|---|---|---|
-| C语言 / 存储类 | MTMwNzk4Mjgz | [u C存储类 u.md](u C存储类 u.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MTMwNzk4Mjgz) |
+| C语言 / 存储类 | MTMwNzk4Mjgz | [C语言存储类.md](C语言存储类.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MTMwNzk4Mjgz) |
 | AUTOSAR / 基础概念 Q1 | MjUyNDgyMTM0 | [AUTOSAR 1000问 · 基础概念Q1：什么是 AUTOSAR？请说出其全称并解释含义.md](AUTOSAR 1000问 · 基础概念Q1：什么是 AUTOSAR？请说出其全称并解释含义.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUyNDgyMTM0) |
-| AUTOSAR / 通信栈 Q7 | MjQ2MjY5Njc0 | [Q7 CAN通信从PDU发到CAN总线，经过COM→PduR→CanIf→Can驱动，每层做什么？.md](Q7 CAN通信从PDU发到CAN总线，经过COM→PduR→CanIf→Can驱动，每层做什么？.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ2MjY5Njc0) |
+| AUTOSAR / 通信栈 Q7 | MjQ2MjY5Njc0 | [AUTOSAR通信栈Q7：CAN报文发送路径.md](AUTOSAR通信栈Q7：CAN报文发送路径.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ2MjY5Njc0) |
 
 > 三条正文均完整回读（content_truncated=false、无 omitted_ids）。C 存储类与 AUTOSAR 两题均在快照后附独立校订提示，原始笔记内容保持不覆盖。
 
