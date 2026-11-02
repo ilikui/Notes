@@ -29,7 +29,7 @@
 | 嵌入式 | MjU2NDUyMDg0 | [嵌入式 1000问 · 基础概念Q3：冯诺依曼结构和哈佛结构在嵌入式里怎么体现？STM32 是哪一种？.md](嵌入式 1000问 · 基础概念Q3：冯诺依曼结构和哈佛结构在嵌入式里怎么体现？STM32 是哪一种？.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjU2NDUyMDg0) |
 | 嵌入式 | MjU2NDUxOTQx | [嵌入式 1000问 · 基础概念Q2：MCU 和 MPU 的核心区别是什么？什么时候该选 MCU，什么时候该选 MPU？.md](嵌入式 1000问 · 基础概念Q2：MCU 和 MPU 的核心区别是什么？什么时候该选 MCU，什么时候该选 MPU？.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjU2NDUxOTQx) |
 | 嵌入式 | MjU2NDUxODUy | [嵌入式 1000问 · 基础概念Q1：嵌入式系统和通用计算机系统最本质的区别是什么？这个区别决定了哪些设计上的不同？.md](嵌入式 1000问 · 基础概念Q1：嵌入式系统和通用计算机系统最本质的区别是什么？这个区别决定了哪些设计上的不同？.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjU2NDUxODUy) |
-| 嵌入式 | MjUxODA3Mzc2 | [MjUxODA3Mzc2.md](MjUxODA3Mzc2.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUxODA3Mzc2) |
+| 嵌入式 | MjUxODA3Mzc2 | [▎ 单片机驱动开发指南与开发框架.md](▎ 单片机驱动开发指南与开发框架.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUxODA3Mzc2) |
 | 嵌入式 | MjUxMjA1MTM5 | [专栏⑮进度：10 10 + 补充四（共 14 篇）.md](专栏⑮进度：10 10 + 补充四（共 14 篇）.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUxMjA1MTM5) |
 | 嵌入式 | MjUxMjA1MTEy | [专栏⑮·补充三：低功耗设计——睡眠、唤醒、功耗测量，接住你 EcuM 的经验.md](专栏⑮·补充三：低功耗设计——睡眠、唤醒、功耗测量，接住你 EcuM 的经验.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUxMjA1MTEy) |
 | 嵌入式 | MjUxMjA1MDkw | [专栏⑮·补充二：DMA——数据搬运不占 CPU 的隐形引擎.md](专栏⑮·补充二：DMA——数据搬运不占 CPU 的隐形引擎.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUxMjA1MDkw) |
@@ -57,15 +57,15 @@
 | 自动驾驶 | MjU2MjY2MDg3 | [自动驾驶 1000问 · 十 · 第 30 题：安全启动的「信任链」怎么一环扣一环？.md](自动驾驶 1000问 · 十 · 第 30 题：安全启动的「信任链」怎么一环扣一环？.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjU2MjY2MDg3) |
 | 自动驾驶 | MjU2MjY1NjEw | [自动驾驶 1000问 · 十 · 第 29 题：OTA 被劫持的后果，怎么防？.md](自动驾驶 1000问 · 十 · 第 29 题：OTA 被劫持的后果，怎么防？.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjU2MjY1NjEw) |
 | 电气与电子 | MjUzMzkxMjQ5 | [MjUzMzkxMjQ5.md](MjUzMzkxMjQ5.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUzMzkxMjQ5) |
-| 电气与电子 | MjUzMzkxMjM3 | [MjUzMzkxMjM3.md](MjUzMzkxMjM3.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUzMzkxMjM3) |
-| 电气与电子 | MjUzMzkxMTY4 | [MjUzMzkxMTY4.md](MjUzMzkxMTY4.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUzMzkxMTY4) |
-| 电气与电子 | MjUzMzkxMTYy | [MjUzMzkxMTYy.md](MjUzMzkxMTYy.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUzMzkxMTYy) |
-| 电气与电子 | MjUzMzkxMDcz | [MjUzMzkxMDcz.md](MjUzMzkxMDcz.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUzMzkxMDcz) |
-| 电气与电子 | MjUzMzkxMDYz | [MjUzMzkxMDYz.md](MjUzMzkxMDYz.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUzMzkxMDYz) |
-| 电气与电子 | MjUzMzkwNjUw | [MjUzMzkwNjUw.md](MjUzMzkwNjUw.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUzMzkwNjUw) |
-| 电气与电子 | MjUzMzkwNjQx | [MjUzMzkwNjQx.md](MjUzMzkwNjQx.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUzMzkwNjQx) |
-| 电气与电子 | MjUzMzkwNTIy | [MjUzMzkwNTIy.md](MjUzMzkwNTIy.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUzMzkwNTIy) |
-| 电气与电子 | MjUzMzkwNTE3 | [MjUzMzkwNTE3.md](MjUzMzkwNTE3.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUzMzkwNTE3) |
+| 电气与电子 | MjUzMzkxMjM3 | [电气 10000问 · 电工材料Q1：导电、绝缘、磁性三类电工材料的关键性能指标各是什么？.md](电气 10000问 · 电工材料Q1：导电、绝缘、磁性三类电工材料的关键性能指标各是什么？.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUzMzkxMjM3) |
+| 电气与电子 | MjUzMzkxMTY4 | [电气 10000问 · EMC Q2：产品 EMC 整改的「三板斧」是什么？为什么接地和屏蔽能解决大部分辐射问题？.md](电气 10000问 · EMC Q2：产品 EMC 整改的「三板斧」是什么？为什么接地和屏蔽能解决大部分辐射问题？.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUzMzkxMTY4) |
+| 电气与电子 | MjUzMzkxMTYy | [电气 10000问 · EMC Q1：电磁兼容的「三要素」是什么？干扰有哪几种耦合路径？.md](电气 10000问 · EMC Q1：电磁兼容的「三要素」是什么？干扰有哪几种耦合路径？.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUzMzkxMTYy) |
+| 电气与电子 | MjUzMzkxMDcz | [电气 10000问 · 电气安全Q2：漏电保护器（RCD）的工作原理？为什么它能检测「漏电」而普通断路器不能？.md](电气 10000问 · 电气安全Q2：漏电保护器（RCD）的工作原理？为什么它能检测「漏电」而普通断路器不能？.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUzMzkxMDcz) |
+| 电气与电子 | MjUzMzkxMDYz | [电气 10000问 · 电气安全Q1：保护接地和保护接零的区别？为什么同一台设备不能既接地又接零？.md](电气 10000问 · 电气安全Q1：保护接地和保护接零的区别？为什么同一台设备不能既接地又接零？.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUzMzkxMDYz) |
+| 电气与电子 | MjUzMzkwNjUw | [电气 10000问 · 电动汽车Q2：交流充电桩和直流充电桩的本质区别？为什么直流快充能「快」？.md](电气 10000问 · 电动汽车Q2：交流充电桩和直流充电桩的本质区别？为什么直流快充能「快」？.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUzMzkwNjUw) |
+| 电气与电子 | MjUzMzkwNjQx | [电气 10000问 · 电动汽车Q1：电驱系统由哪几大件组成？为什么核心是电机控制器（逆变器）？.md](电气 10000问 · 电动汽车Q1：电驱系统由哪几大件组成？为什么核心是电机控制器（逆变器）？.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUzMzkwNjQx) |
+| 电气与电子 | MjUzMzkwNTIy | [电气 10000问 · 新能源Q2：什么是「智能电网」？它和传统电网的本质区别是什么？.md](电气 10000问 · 新能源Q2：什么是「智能电网」？它和传统电网的本质区别是什么？.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUzMzkwNTIy) |
+| 电气与电子 | MjUzMzkwNTE3 | [电气 10000问 · 新能源Q1：光伏发电为什么要做 MPPT？光照变化时光伏电池的工作点怎么移动？.md](电气 10000问 · 新能源Q1：光伏发电为什么要做 MPPT？光照变化时光伏电池的工作点怎么移动？.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUzMzkwNTE3) |
 | 硬件 | MjUxMDMwMDIw | [专栏⑬·补充四：焊接与样板验证——从打样回来到点亮第一块板.md](专栏⑬·补充四：焊接与样板验证——从打样回来到点亮第一块板.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUxMDMwMDIw) |
 | 硬件 | MjUxMDMwMDAz | [专栏⑬·补充三：电源深入——从「能出电压」到「纹波达标、环路稳定」.md](专栏⑬·补充三：电源深入——从「能出电压」到「纹波达标、环路稳定」.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUxMDMwMDAz) |
 | 硬件 | MjUxMDI5OTc5 | [专栏⑬·补充二：EMC 与整改——汽车电子逃不掉的试验台.md](专栏⑬·补充二：EMC 与整改——汽车电子逃不掉的试验台.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUxMDI5OTc5) |
@@ -86,7 +86,7 @@
 | 通信 | MjQ5NTIwODI2 | [专栏⑫·第8篇：SENT（Single Edge Nibble Transmission）——汽车传感器的 单线传真.md](专栏⑫·第8篇：SENT（Single Edge Nibble Transmission）——汽车传感器的 单线传真.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ5NTIwODI2) |
 | 通信 | MjQ5MDc5MTAz | [专栏⑫·第7篇：RS-485 多节点组网——使能时序、终端电阻、收发器方向切换、Modbus 帧解析.md](专栏⑫·第7篇：RS-485 多节点组网——使能时序、终端电阻、收发器方向切换、Modbus 帧解析.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ5MDc5MTAz) |
 | 通信 | MjQ5MDc5MDY4 | [专栏⑫·第6篇：I2C 传感器 EEPROM 深入——时钟拉伸、多主仲裁、上拉电阻选值.md](专栏⑫·第6篇：I2C 传感器 EEPROM 深入——时钟拉伸、多主仲裁、上拉电阻选值.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ5MDc5MDY4) |
-| 知识管理 | MjUxNzY2OTUz | [MjUxNzY2OTUz.md](MjUxNzY2OTUz.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUxNzY2OTUz) |
+| 知识管理 | MjUxNzY2OTUz | [专栏⑲·第10篇：知识管理 15 项自检清单——体系健康度逐项打勾.md](专栏⑲·第10篇：知识管理 15 项自检清单——体系健康度逐项打勾.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUxNzY2OTUz) |
 | 知识管理 | MjUxNzEzMjQw | [专栏⑲·第8篇：回顾机制——被动回顾怎么设计.md](专栏⑲·第8篇：回顾机制——被动回顾怎么设计.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUxNzEzMjQw) |
 | 知识管理 | MjUxNzEzMjQx | [专栏⑲·第9篇：AI × 知识管理——AI 工作流与数字分身.md](专栏⑲·第9篇：AI × 知识管理——AI 工作流与数字分身.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUxNzEzMjQx) |
 | 知识管理 | MjUxNzEzMTQz | [专栏⑲·第6篇：输出层——从卡片网络到文章到专栏.md](专栏⑲·第6篇：输出层——从卡片网络到文章到专栏.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUxNzEzMTQz) |
@@ -210,7 +210,7 @@
 | 来源分类 | Flomo ID | Notes 原文快照 | Flomo 原文 |
 |---|---|---|---|
 | C语言 / 存储类 | MTMwNzk4Mjgz | [u C存储类 u.md](u C存储类 u.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MTMwNzk4Mjgz) |
-| AUTOSAR / 基础概念 Q1 | MjUyNDgyMTM0 | [MjUyNDgyMTM0.md](MjUyNDgyMTM0.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUyNDgyMTM0) |
+| AUTOSAR / 基础概念 Q1 | MjUyNDgyMTM0 | [AUTOSAR 1000问 · 基础概念Q1：什么是 AUTOSAR？请说出其全称并解释含义.md](AUTOSAR 1000问 · 基础概念Q1：什么是 AUTOSAR？请说出其全称并解释含义.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUyNDgyMTM0) |
 | AUTOSAR / 通信栈 Q7 | MjQ2MjY5Njc0 | [Q7 CAN通信从PDU发到CAN总线，经过COM→PduR→CanIf→Can驱动，每层做什么？.md](Q7 CAN通信从PDU发到CAN总线，经过COM→PduR→CanIf→Can驱动，每层做什么？.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ2MjY5Njc0) |
 
 > 三条正文均完整回读（content_truncated=false、无 omitted_ids）。C 存储类与 AUTOSAR 两题均在快照后附独立校订提示，原始笔记内容保持不覆盖。
