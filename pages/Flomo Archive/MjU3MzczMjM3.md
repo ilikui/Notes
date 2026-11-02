@@ -1,0 +1,37 @@
+flomo-id:: MjU3MzczMjM3
+flomo-created-at:: 2026-09-19T19:36:56+08:00
+flomo-updated-at:: 2026-11-01T10:03:30+08:00
+flomo-tags:: Resource/方法
+flomo-source:: https://v.flomoapp.com/mine/?memo_id=MjU3MzczMjM3
+flomo-word-count:: 510
+flomo-migration-status:: raw-import
+
+# 需求映射卡模板
+
+> 原始 Flomo 笔记归档。正文按 Flomo 返回内容保留；专题提炼请链接到对应主题页。
+
+**需求映射卡模板**
+
+- 需求编号：REQ-001
+- 需求原文：（一句话，从文档原样抄）
+- 需求来源：客户 / 系统 / 内部
+- 实现位置：src/xxx.c:120-180
+- 实现函数：xxx\_init()
+- 逻辑结构：
+  - 调用链：A → B → C
+  - 数据流：入参 → 处理 → 出参
+- 验证方式：单测 / HIL / 评审
+- 上下游：上游需求 → 本卡 → 测试用例
+
+**微示例（Dio）**
+
+- 需求：「上电后 Dio 通道默认输出低电平」
+- 实现：Dio\_Init() → Dio\_WriteChannel(0u)
+- 调用链：Dio\_Init → Dio\_WriteChannel → PORT 寄存器写
+
+关联方案： [https://v.flomoapp.com/mine/?memo\_id=MjU3MzczMTYy](https://v.flomoapp.com/mine/?memo_id=MjU3MzczMTYy)
+
+#Resource/方法
+
+#Archive/MigratedNotion<br>
+#Archive/DeleteCandidate

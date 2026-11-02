@@ -1,0 +1,59 @@
+flomo-id:: MjU2NDUxMjUw
+flomo-created-at:: 2026-09-13T20:35:09+08:00
+flomo-updated-at:: 2026-11-01T09:20:11+08:00
+flomo-tags:: Area/技术/C语言
+flomo-source:: https://v.flomoapp.com/mine/?memo_id=MjU2NDUxMjUw
+flomo-word-count:: 1546
+flomo-migration-status:: raw-import
+
+# C语言 1000问 · 未定义行为Q4：有符号整数溢出为什么比无符号危险？有符号与无符号混用比较的陷阱有哪些？
+
+> 原始 Flomo 笔记归档。正文按 Flomo 返回内容保留；专题提炼请链接到对应主题页。
+
+**C语言 1000问 · 未定义行为Q4：有符号整数溢出为什么比无符号危险？有符号与无符号混用比较的陷阱有哪些？**
+
+▎ 五大学习法：西蒙学习法——把「有无符号的坑」钻透
+
+**一、溢出：无符号 vs 有符号**
+
+- 无符号溢出：定义良好——就是「模 2 的 N 次方回绕」。UINT\_MAX + 1 得 0，标准保证。
+- 有符号溢出：未定义行为。INT\_MAX + 1 标准什么都不保证——可能回绕、可能饱和、可能被优化器当作「不会发生」。
+- 为什么有符号要 UB：C 要适配各种硬件（反码 / 补码 / 饱和运算的机器），不想强制一个结果，于是干脆不保证。
+- 危险点：因为 UB，编译器可假设「有符号加法不会溢出」，从而做出违反直觉的优化（删边界检查、改写循环判断）。
+
+**二、有符号 / 无符号混用的比较陷阱**
+
+- 规则：有符号和无符号一起参与运算 / 比较时，有符号会被隐式转换成无符号——负数变成巨大的正数。
+- 经典坑：
+  - if (-1 < 1u) → -1 转成 UINT\_MAX（4294967295），比较变成 4294967295 < 1 → false。你以为 -1 < 1u 为真，其实为假。
+  - for (unsigned i = n; i >= 0; i--) → i 无符号，i >= 0 恒真，循环永不结束（下溢成 UINT\_MAX）。
+- 这类 bug 极隐蔽：不报错、逻辑看着对、运行却错。
+
+**三、常见高危写法**
+
+1. 循环变量用无符号却递减判断 >= 0。
+2. 数组下标 / 长度用无符号，和「可能为负的差值」比较（if (a - b < size)，a < b 时差值下溢成巨大数）。
+3. 函数返回 -1 表示错误，却赋给无符号变量——变成极大值，判断失效。
+4. sizeof（返回 size\_t，无符号）与 int 混比。
+5. 位运算常量不加 U：1 << 31 溢出（有符号左移到符号位）。
+
+**四、怎么防**
+
+- 警告开全：-Wsign-compare、-Wconversion、-Wsign-conversion，能抓到大量混用。
+- 类型选择：位运算 / 大小 / 下标用无符号；需要负值 / 差值用有符号，别混。
+- 显式转换：比较前把两边转成同一类型，且想清语义。
+- 需要模运算回绕就用无符号并明确注释，别依赖有符号回绕。
+- MISRA C 对隐式有符号 / 无符号转换有严格规则，就是为消这类 UB。
+
+一句话：无符号溢出是「定义好的回绕」，有符号溢出是 UB（编译器可假设它不发生）；而无符号与有符号一旦混用，有符号会被悄悄转成无符号，-1 变 UINT\_MAX—— -1 < 1u 为假、无符号递减循环停不下来，都是典型；开 -Wsign-compare / -Wconversion 能救不少。
+
+📎 问题库（专栏⑭导航）→ [https://v.flomoapp.com/mine/?memo\_id=MjQ1NzM0NTk5](https://v.flomoapp.com/mine/?memo_id=MjQ1NzM0NTk5)
+
+📎 未定义行为Q3（严格别名）→ [https://v.flomoapp.com/mine/?memo\_id=MjU2NDUxMjAw](https://v.flomoapp.com/mine/?memo_id=MjU2NDUxMjAw)
+
+#Area/技术/C语言
+
+#Archive/MigratedWiki<br><br>
+#Archive/DeleteCandidate
+
+#Archive/MigratedNotion

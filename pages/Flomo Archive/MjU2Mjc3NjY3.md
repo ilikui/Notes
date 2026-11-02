@@ -1,0 +1,53 @@
+flomo-id:: MjU2Mjc3NjY3
+flomo-created-at:: 2026-09-12T15:01:14+08:00
+flomo-updated-at:: 2026-11-01T09:23:47+08:00
+flomo-tags:: Area/技术/自动驾驶
+flomo-source:: https://v.flomoapp.com/mine/?memo_id=MjU2Mjc3NjY3
+flomo-word-count:: 1122
+flomo-migration-status:: raw-import
+
+# 自动驾驶 1000问 · 十二 · 第 35 题：V2X 能解决单车智能解决不了的什么问题？
+
+> 原始 Flomo 笔记归档。正文按 Flomo 返回内容保留；专题提炼请链接到对应主题页。
+
+**自动驾驶 1000问 · 十二 · 第 35 题：V2X 能解决单车智能解决不了的什么问题？**
+
+**先定义 V2X** = Vehicle to Everything，车与外部一切通信：
+
+- V2V 车与车 / V2I 车与基础设施（红绿灯、路侧单元 RSU）/ V2P 车与行人 / V2N 车与网络。
+
+**单车智能的三个天生盲区**
+
+1. 看不见的非视距（NLOS）：单车只能看「视线内」，被大车、建筑、弯道挡住的就是盲区——前车挡住的路口行人、弯道对面来车、大车后的急刹。V2X 能让被挡住的对方主动「喊一声」：我在这里、我要刹车。传感器永远做不到这一点。
+
+2. 看不见「意图」：摄像头只看到「车在动」，猜不到它接下来要干嘛；V2V 可直接传意图（我要变道、我要左转），比猜可靠得多。
+
+3. 算不到 / 算太慢的全局信息：红绿灯倒计时、前方事故、施工、信号配时，这些在路侧 / 云端；V2I 直接告诉车——还有 5 秒变灯、前方 500 米有事故。
+
+
+**V2X 独有、单车做不到的价值**
+
+1. 超视距感知：透过遮挡和弯道「看到」看不见的，延长感知距离。
+2. 意图共享：从「猜行为」变成「知道意图」，降低博弈的保守性。
+3. 协同决策：汇入、交叉口通行等多车协同，比各自为战更优。
+4. 全局效率：路段级调度，如绿波车速引导。
+
+**难处也要说清**
+
+- 装车率：要对方也装了才有用，渗透率低时价值小（鸡生蛋）。
+- 标准与频谱：C-V2X / DSRC 各国不统一。
+- 安全与信任：伪造的 V2X 消息是新的攻击面，要认证、签名、防伪。
+- 定位精度：消息里的位置要准，否则误导。
+- 所以 V2X 是「关键补充」，不是替代单车智能。
+
+一句话：单车智能解决「我自己能看到的世界」，V2X 解决「我看不到、但别人 / 路侧知道的世界」——非视距、意图、全局信息，这三样单车天生拿不到。
+
+📎 导航： [https://v.flomoapp.com/mine/?memo\_id=MjU2MDMwMzA0](https://v.flomoapp.com/mine/?memo_id=MjU2MDMwMzA0)
+
+📎 上一题： [https://v.flomoapp.com/mine/?memo\_id=MjU2Mjc0MjYy](https://v.flomoapp.com/mine/?memo_id=MjU2Mjc0MjYy)
+
+#Area/技术/自动驾驶
+
+#Archive/MigratedWiki #Archive/DeleteCandidate
+
+#Archive/MigratedNotion

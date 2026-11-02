@@ -1,0 +1,48 @@
+flomo-id:: MjUzMzkwNjUw
+flomo-created-at:: 2026-08-24T20:37:20+08:00
+flomo-updated-at:: 2026-11-01T11:56:42+08:00
+flomo-tags:: Area/技术/电气与电子
+flomo-source:: https://v.flomoapp.com/mine/?memo_id=MjUzMzkwNjUw
+flomo-word-count:: 1182
+flomo-migration-status:: raw-import
+
+# 电气 10000问 · 电动汽车Q2：交流充电桩和直流充电桩的本质区别？为什么直流快充能「快」？
+
+> 原始 Flomo 笔记归档。正文按 Flomo 返回内容保留；专题提炼请链接到对应主题页。
+
+**电气 10000问 · 电动汽车Q2：交流充电桩和直流充电桩的本质区别？为什么直流快充能「快」？**
+
+▎ 五大学习法：西蒙学习法——把「交流慢充 vs 直流快充」的功率链路钻透
+
+**交流充电桩（慢充）**
+
+- 本质：只提供交流电源 \+ 通信控制——充电桩本身不转换电压
+- 交流电 → 车上的 OBC（车载充电机）→ 整流 + 升压 → 给电池充电
+- 功率受 OBC 限制：家用 OBC 3.3-11kW，所以慢（充 60kWh 电池要 6-20 小时）
+- 特点：设备便宜、对电池友好（小电流慢充）、适合过夜充电
+
+**直流充电桩（快充）**
+
+- 本质：充电桩内部就是大功率整流/变换设备（AC-DC + DC-DC）——直接把直流电送进电池
+- 跳过 OBC：电从桩出来已经是高压直流（400V/800V），直接进电池包
+- 功率大：单枪 60-120kW（超充 250-600kW）——充 60kWh 电池 30-60 分钟
+- 特点：设备贵、占地大、大电流对电池和散热要求高、需专门冷却
+
+**为什么直流快充能「快」**
+
+- 功率 = 电压 × 电流：快充把功率堆大——电压从 400V 提到 800V（高压平台）、电流尽量大（液冷枪线）
+- 慢充受限在 OBC：OBC 功率小（受体积/成本限制装不了大的），桩再快也没用——瓶颈在车上的小充电机
+- 快充绕开瓶颈：整流和升压放到桩里（大体积、强散热，不受车上空间限制），电池直接吃大功率直流
+- 800V 平台的逻辑：同样功率下电流更小（P=UI，U 翻倍 I 减半）——线损更小、枪线更细、电池充电倍率压力小
+
+**一句话总结**：交流桩只供交流电、靠车上 OBC 转换（功率小所以慢），直流桩自带大功率整流、直接把直流送进电池（跳过 OBC 所以能堆到百 kW 级）——快充快的本质是「把功率转换设备从车里搬到桩上」，不受车上体积散热限制；800V 平台则是用升压降流来进一步减损提速。
+
+📎 题目（10000问）→ [https://v.flomoapp.com/mine/?memo\_id=MjQ2Mzc1MTM2](https://v.flomoapp.com/mine/?memo_id=MjQ2Mzc1MTM2)<br><br><br>
+📎 电动汽车Q1（电驱系统）→ [https://v.flomoapp.com/mine/?memo\_id=MjUzMzkwNjQx](https://v.flomoapp.com/mine/?memo_id=MjUzMzkwNjQx)
+
+#Area/技术/电气与电子
+
+#Archive/MigratedNotion<br><br>
+#Archive/DeleteCandidate
+
+#Archive/MigratedWiki
