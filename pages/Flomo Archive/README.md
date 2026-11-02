@@ -6,14 +6,14 @@
 
 | 来源分类 | Flomo ID | Notes 原文快照 | Flomo 原文 |
 |---|---|---|---|
-| AUTOSAR / MCAL | MjYxNDE5OTQ5 | [MjYxNDE5OTQ5.md](MjYxNDE5OTQ5.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjYxNDE5OTQ5) |
-| AUTOSAR / MCAL | MjYxMzU2NTI1 | [MjYxMzU2NTI1.md](MjYxMzU2NTI1.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjYxMzU2NTI1) |
-| AUTOSAR / MCAL | MjYxMzU2NDQ4 | [MjYxMzU2NDQ4.md](MjYxMzU2NDQ4.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjYxMzU2NDQ4) |
-| AUTOSAR / MCAL | MjYxMzU2MzQ3 | [MjYxMzU2MzQ3.md](MjYxMzU2MzQ3.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjYxMzU2MzQ3) |
-| AUTOSAR / MCAL | MjYxMzU2Mjc5 | [MjYxMzU2Mjc5.md](MjYxMzU2Mjc5.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjYxMzU2Mjc5) |
-| AUTOSAR / MCAL | MjYxMzU2MjA5 | [MjYxMzU2MjA5.md](MjYxMzU2MjA5.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjYxMzU2MjA5) |
-| AUTOSAR / MCAL | MjYxMzU1MTQ3 | [MjYxMzU1MTQ3.md](MjYxMzU1MTQ3.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjYxMzU1MTQ3) |
-| AUTOSAR / MCAL | MjYxMzU1MDgy | [MjYxMzU1MDgy.md](MjYxMzU1MDgy.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjYxMzU1MDgy) |
+| AUTOSAR / MCAL | MjYxNDE5OTQ5 | [AUTOSAR 1000问 · 通信与网络Q1：从 SWC 端口到总线报文，数据是怎么流的？.md](AUTOSAR 1000问 · 通信与网络Q1：从 SWC 端口到总线报文，数据是怎么流的？.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjYxNDE5OTQ5) |
+| AUTOSAR / MCAL | MjYxMzU2NTI1 | [AUTOSAR 1000问 · OS&调度Q4：OS 的保护与错误处理怎么做？.md](AUTOSAR 1000问 · OS&调度Q4：OS 的保护与错误处理怎么做？.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjYxMzU2NTI1) |
+| AUTOSAR / MCAL | MjYxMzU2NDQ4 | [AUTOSAR 1000问 · OS&调度Q3：任务周期和优先级怎么定，跟 Runnable 的 TimingEvent 怎么互相约束？.md](AUTOSAR 1000问 · OS&调度Q3：任务周期和优先级怎么定，跟 Runnable 的 TimingEvent 怎么互相约束？.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjYxMzU2NDQ4) |
+| AUTOSAR / MCAL | MjYxMzU2MzQ3 | [AUTOSAR 1000问 · SWC类型Q6：RTE 生成之后怎么验证接对了？.md](AUTOSAR 1000问 · SWC类型Q6：RTE 生成之后怎么验证接对了？.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjYxMzU2MzQ3) |
+| AUTOSAR / MCAL | MjYxMzU2Mjc5 | [AUTOSAR 1000问 · SWC类型Q5：Port Connector 怎么连、生成 RTE 前要检查什么？.md](AUTOSAR 1000问 · SWC类型Q5：Port Connector 怎么连、生成 RTE 前要检查什么？.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjYxMzU2Mjc5) |
+| AUTOSAR / MCAL | MjYxMzU2MjA5 | [AUTOSAR 1000问 · SWC类型Q4：Runnable 怎么配、怎么挂到 Task 上？.md](AUTOSAR 1000问 · SWC类型Q4：Runnable 怎么配、怎么挂到 Task 上？.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjYxMzU2MjA5) |
+| AUTOSAR / MCAL | MjYxMzU1MTQ3 | [AUTOSAR 1000问 · SWC类型Q3：如何配置 SWC？.md](AUTOSAR 1000问 · SWC类型Q3：如何配置 SWC？.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjYxMzU1MTQ3) |
+| AUTOSAR / MCAL | MjYxMzU1MDgy | [AUTOSAR 1000问 · OS&调度Q2：如何在 DaVinci 新增一个 Task？.md](AUTOSAR 1000问 · OS&调度Q2：如何在 DaVinci 新增一个 Task？.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjYxMzU1MDgy) |
 | AUTOSAR / MCAL | MjU3Mzc2MjI1 | [AUTOSAR 1000问 · 工具链 Q1：如何保证工具链生成的代码就是自己配置的？.md](AUTOSAR 1000问 · 工具链 Q1：如何保证工具链生成的代码就是自己配置的？.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjU3Mzc2MjI1) |
 | AUTOSAR / MCAL | MjU1NzY1Nzgx | [AUTOSAR MCAL 配置示例 · 深化篇② Port.md](AUTOSAR MCAL 配置示例 · 深化篇② Port.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjU1NzY1Nzgx) |
 | C 语言 | MjU2NDUxMjUw | [C语言 1000问 · 未定义行为Q4：有符号整数溢出为什么比无符号危险？有符号与无符号混用比较的陷阱有哪些？.md](C语言 1000问 · 未定义行为Q4：有符号整数溢出为什么比无符号危险？有符号与无符号混用比较的陷阱有哪些？.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjU2NDUxMjUw) |
@@ -37,8 +37,8 @@
 | 嵌入式 | MjUwNTg0NTQy | [专栏⑮·第9篇：嵌入式调试三板斧——HardFault 定位、printf 的坑、示波器 vs 逻辑分析仪.md](专栏⑮·第9篇：嵌入式调试三板斧——HardFault 定位、printf 的坑、示波器 vs 逻辑分析仪.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUwNTg0NTQy) |
 | 嵌入式 | MjUwNTg0NTQz | [专栏⑮·第10篇：嵌入式 15 项自检清单——上车前逐项打勾.md](专栏⑮·第10篇：嵌入式 15 项自检清单——上车前逐项打勾.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUwNTg0NTQz) |
 | AI | MjYyMjU3NDU5 | [MjYyMjU3NDU5.md](MjYyMjU3NDU5.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjYyMjU3NDU5) |
-| AI | MjYyMjQ2Mjg4 | [MjYyMjQ2Mjg4.md](MjYyMjQ2Mjg4.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjYyMjQ2Mjg4) |
-| AI | MjYxMjU1MTQz | [MjYxMjU1MTQz.md](MjYxMjU1MTQz.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjYxMjU1MTQz) |
+| AI | MjYyMjQ2Mjg4 | [什么是具身智能（Embodied Intelligence）.md](什么是具身智能（Embodied Intelligence）.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjYyMjQ2Mjg4) |
+| AI | MjYxMjU1MTQz | [MCP 服务器版开发方案.md](MCP 服务器版开发方案.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjYxMjU1MTQz) |
 | AI | MjUxMDI5NzQw | [专栏⑯·补充四：Agent 深化——从 ReAct 概念到能干活的多智能体.md](专栏⑯·补充四：Agent 深化——从 ReAct 概念到能干活的多智能体.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUxMDI5NzQw) |
 | AI | MjUxMDI5NzE4 | [专栏⑯·补充三：多模态与视频生成——Sora 为什么叫「世界模拟器」.md](专栏⑯·补充三：多模态与视频生成——Sora 为什么叫「世界模拟器」.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUxMDI5NzE4) |
 | AI | MjUxMDI5NzAy | [专栏⑯·补充二：微调与提示工程——不换模型，让它更懂你.md](专栏⑯·补充二：微调与提示工程——不换模型，让它更懂你.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUxMDI5NzAy) |
@@ -56,7 +56,7 @@
 | 自动驾驶 | MjU2MjY2NDQ2 | [自动驾驶 1000问 · 十一 · 第 31 题：自动驾驶为什么必须靠仿真？纯路测不够吗？.md](自动驾驶 1000问 · 十一 · 第 31 题：自动驾驶为什么必须靠仿真？纯路测不够吗？.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjU2MjY2NDQ2) |
 | 自动驾驶 | MjU2MjY2MDg3 | [自动驾驶 1000问 · 十 · 第 30 题：安全启动的「信任链」怎么一环扣一环？.md](自动驾驶 1000问 · 十 · 第 30 题：安全启动的「信任链」怎么一环扣一环？.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjU2MjY2MDg3) |
 | 自动驾驶 | MjU2MjY1NjEw | [自动驾驶 1000问 · 十 · 第 29 题：OTA 被劫持的后果，怎么防？.md](自动驾驶 1000问 · 十 · 第 29 题：OTA 被劫持的后果，怎么防？.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjU2MjY1NjEw) |
-| 电气与电子 | MjUzMzkxMjQ5 | [MjUzMzkxMjQ5.md](MjUzMzkxMjQ5.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUzMzkxMjQ5) |
+| 电气与电子 | MjUzMzkxMjQ5 | [电气 10000问 · 电工材料Q2：绝缘材料的「介质损耗」是什么？为什么绝缘会老化、老化后会怎样？.md](电气 10000问 · 电工材料Q2：绝缘材料的「介质损耗」是什么？为什么绝缘会老化、老化后会怎样？.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUzMzkxMjQ5) |
 | 电气与电子 | MjUzMzkxMjM3 | [电气 10000问 · 电工材料Q1：导电、绝缘、磁性三类电工材料的关键性能指标各是什么？.md](电气 10000问 · 电工材料Q1：导电、绝缘、磁性三类电工材料的关键性能指标各是什么？.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUzMzkxMjM3) |
 | 电气与电子 | MjUzMzkxMTY4 | [电气 10000问 · EMC Q2：产品 EMC 整改的「三板斧」是什么？为什么接地和屏蔽能解决大部分辐射问题？.md](电气 10000问 · EMC Q2：产品 EMC 整改的「三板斧」是什么？为什么接地和屏蔽能解决大部分辐射问题？.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUzMzkxMTY4) |
 | 电气与电子 | MjUzMzkxMTYy | [电气 10000问 · EMC Q1：电磁兼容的「三要素」是什么？干扰有哪几种耦合路径？.md](电气 10000问 · EMC Q1：电磁兼容的「三要素」是什么？干扰有哪几种耦合路径？.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUzMzkxMTYy) |
@@ -174,7 +174,7 @@
 | Linux / 权限指令提醒 | MTE3ODI0MzE1 | [Linux 常用的指令：.md](Linux 常用的指令：.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MTE3ODI0MzE1) |
 | Linux 驱动 / GCC | OTQ5MTEyMzE | [OTQ5MTEyMzE.md](OTQ5MTEyMzE.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=OTQ5MTEyMzE) |
 | Linux 驱动 / 学习资源与流程 | OTQ1OTg5Nzg | [OTQ1OTg5Nzg.md](OTQ1OTg5Nzg.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=OTQ1OTg5Nzg) |
-| AUTOSAR / OS 调度 Q1 | MjUzNTQxMjIz | [MjUzNTQxMjIz.md](MjUzNTQxMjIz.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUzNTQxMjIz) |
+| AUTOSAR / OS 调度 Q1 | MjUzNTQxMjIz | [AUTOSAR 1000问 · OS&调度 Q1：AUTOSAR OS 和普通 RTOS（如 FreeRTOS）的核心区别是什么？.md](AUTOSAR 1000问 · OS&调度 Q1：AUTOSAR OS 和普通 RTOS（如 FreeRTOS）的核心区别是什么？.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUzNTQxMjIz) |
 
 > 本批 5 条正文均已完整回读（content_truncated=false、无 omitted IDs），并完成独立快照写入。Linux 权限笔记保留原文，同时在归档说明中补充了 777 权限的安全警示。
 
