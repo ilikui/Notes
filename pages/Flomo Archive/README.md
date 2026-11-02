@@ -190,7 +190,7 @@
 
 > 两条正文均已完整回读。Cortex-M3 笔记的原始内容不完整，快照明确保留缺项，不自行推断补齐。
 
-当前索引共列出 135 条原始笔记快照（此前 131 条 + 本批 2 条）。
+当前索引共列出 138 条原始笔记快照（此前 131 条 + 本批 2 条）。
 
 
 ## 2026-11-02 C 语言基础资料补充（2 条）
@@ -202,4 +202,17 @@
 
 > 两条笔记均通过 Flomo 详情完整回读（content_truncated=false、无 omitted_ids）。C简介快照保留原文，并将标准时间线等订正放在独立说明中，不覆盖源文。
 
-当前索引共列出 135 条原始笔记快照（此前 133 条 + 本批 2 条）。
+当前索引共列出 138 条原始笔记快照（此前 133 条 + 本批 2 条）。
+
+
+## 2026-11-02 C 语言与 AUTOSAR 通信栈补充（3 条）
+
+| 来源分类 | Flomo ID | Notes 原文快照 | Flomo 原文 |
+|---|---|---|---|
+| C语言 / 存储类 | MTMwNzk4Mjgz | [MTMwNzk4Mjgz.md](MTMwNzk4Mjgz.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MTMwNzk4Mjgz) |
+| AUTOSAR / 基础概念 Q1 | MjUyNDgyMTM0 | [MjUyNDgyMTM0.md](MjUyNDgyMTM0.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUyNDgyMTM0) |
+| AUTOSAR / 通信栈 Q7 | MjQ2MjY5Njc0 | [MjQ2MjY5Njc0.md](MjQ2MjY5Njc0.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ2MjY5Njc0) |
+
+> 三条正文均完整回读（content_truncated=false、无 omitted_ids）。C 存储类与 AUTOSAR 两题均在快照后附独立校订提示，原始笔记内容保持不覆盖。
+
+当前索引共列出 138 条原始笔记快照（此前 135 条 + 本批 3 条）。
