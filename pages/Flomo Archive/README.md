@@ -70,12 +70,12 @@
 | 硬件 | MjUxMDMwMDAz | [MjUxMDMwMDAz.md](MjUxMDMwMDAz.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUxMDMwMDAz) |
 | 硬件 | MjUxMDI5OTc5 | [MjUxMDI5OTc5.md](MjUxMDI5OTc5.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUxMDI5OTc5) |
 | 硬件 | MjUxMDI5OTU4 | [MjUxMDI5OTU4.md](MjUxMDI5OTU4.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUxMDI5OTU4) |
-| 硬件 | MjQ3NTQ2NjU0 | [MjQ3NTQ2NjU0.md](MjQ3NTQ2NjU0.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ3NTQ2NjU0) |
-| 硬件 | MjQ3NTQ2NjE2 | [MjQ3NTQ2NjE2.md](MjQ3NTQ2NjE2.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ3NTQ2NjE2) |
-| 硬件 | MjQ3NTQ2NTg2 | [MjQ3NTQ2NTg2.md](MjQ3NTQ2NTg2.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ3NTQ2NTg2) |
-| 硬件 | MjQ3NTQ2NTQ1 | [MjQ3NTQ2NTQ1.md](MjQ3NTQ2NTQ1.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ3NTQ2NTQ1) |
-| 硬件 | MjQ3NTQ2NTA5 | [MjQ3NTQ2NTA5.md](MjQ3NTQ2NTA5.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ3NTQ2NTA5) |
-| 硬件 | MjQ3NTQ2NDgw | [MjQ3NTQ2NDgw.md](MjQ3NTQ2NDgw.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ3NTQ2NDgw) |
+| 硬件 | MjQ3NTQ2NjU0 | [专栏⑬·第10篇：完整项目——从需求到打样的全流程.md](专栏⑬·第10篇：完整项目——从需求到打样的全流程.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ3NTQ2NjU0) |
+| 硬件 | MjQ3NTQ2NjE2 | [专栏⑬·第9篇：硬件调试——把你的CAN排查经验泛化.md](专栏⑬·第9篇：硬件调试——把你的CAN排查经验泛化.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ3NTQ2NjE2) |
+| 硬件 | MjQ3NTQ2NTg2 | [专栏⑬·第8篇：PCB设计——从原理图到打样.md](专栏⑬·第8篇：PCB设计——从原理图到打样.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ3NTQ2NTg2) |
+| 硬件 | MjQ3NTQ2NTQ1 | [专栏⑬·第7篇：汽车电子硬件——从AEC-Q100到抛负载.md](专栏⑬·第7篇：汽车电子硬件——从AEC-Q100到抛负载.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ3NTQ2NTQ1) |
+| 硬件 | MjQ3NTQ2NTA5 | [专栏⑬·第6篇：嵌入式MCU硬件设计——从原理图到上电.md](专栏⑬·第6篇：嵌入式MCU硬件设计——从原理图到上电.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ3NTQ2NTA5) |
+| 硬件 | MjQ3NTQ2NDgw | [专栏⑬·第5篇：信号完整性——你已经会了一半.md](专栏⑬·第5篇：信号完整性——你已经会了一半.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ3NTQ2NDgw) |
 | 通信 | MjUxMTkxNDk3 | [MjUxMTkxNDk3.md](MjUxMTkxNDk3.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUxMTkxNDk3) |
 | 通信 | MjUxMDI5MjY2 | [MjUxMDI5MjY2.md](MjUxMDI5MjY2.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUxMDI5MjY2) |
 | 通信 | MjUxMDI5MjAz | [MjUxMDI5MjAz.md](MjUxMDI5MjAz.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUxMDI5MjAz) |
@@ -111,8 +111,8 @@
 | 方法与资源 | MjU3Mzc2NTg4 | [MjU3Mzc2NTg4.md](MjU3Mzc2NTg4.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjU3Mzc2NTg4) |
 | 方法与资源 | MjU3MzczMjM3 | [MjU3MzczMjM3.md](MjU3MzczMjM3.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjU3MzczMjM3) |
 | 方法与资源 | MjU3MzczMTYy | [MjU3MzczMTYy.md](MjU3MzczMTYy.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjU3MzczMTYy) |
-| 方法与资源 | MjQ3Njc2MDkw | [MjQ3Njc2MDkw.md](MjQ3Njc2MDkw.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ3Njc2MDkw) |
-| 方法与资源 | MjQ3Njc2MDgy | [MjQ3Njc2MDgy.md](MjQ3Njc2MDgy.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ3Njc2MDgy) |
+| 方法与资源 | MjQ3Njc2MDkw | [付费专栏写作法（以AUTOSAR实战为例）.md](付费专栏写作法（以AUTOSAR实战为例）.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ3Njc2MDkw) |
+| 方法与资源 | MjQ3Njc2MDgy | [▎ 堆问题学习法.md](▎ 堆问题学习法.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ3Njc2MDgy) |
 | 方法与资源 | MTQwNDY0Nzg0 | [1 . 外部化思考：把脑子里的东西“拿出来”.md](1 . 外部化思考：把脑子里的东西“拿出来”.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MTQwNDY0Nzg0) |
 | 方法与资源 | MTM2MTM2MDEz | [如何自我激发潜力.md](如何自我激发潜力.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MTM2MTM2MDEz) |
 | 方法与资源 | MTM1NTEwNjU2 | [u mark 影响世界的100个经典管理定律 mark u.md](u mark 影响世界的100个经典管理定律 mark u.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MTM1NTEwNjU2) |
@@ -133,8 +133,8 @@
 | 数学 / 1000 问总导航 | MjQ2Mzc0OTc2 | [专栏⑰·导航：考研数学 1000 问全景——高数 × 线代 × 概率论.md](专栏⑰·导航：考研数学 1000 问全景——高数 × 线代 × 概率论.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ2Mzc0OTc2) |
 | 数学 / 线性代数问题库 | MjQ1NzMyNDU5 | [专栏⑰·导航分卷：线性代数 1000 问（全量问题库）.md](专栏⑰·导航分卷：线性代数 1000 问（全量问题库）.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ1NzMyNDU5) |
 | 数学 / 概率论问题库 | MjQ3MzMwNjE5 | [专栏⑰·导航分卷：概率论与数理统计 1000 问（全量问题库）.md](专栏⑰·导航分卷：概率论与数理统计 1000 问（全量问题库）.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ3MzMwNjE5) |
-| 数学 / 马尔可夫链专题 | MjQ3MzMwNjkw | [MjQ3MzMwNjkw.md](MjQ3MzMwNjkw.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ3MzMwNjkw) |
-| 数学 / 矩阵变换与工程应用 | MjQ5MDI4Mjc5 | [MjQ5MDI4Mjc5.md](MjQ5MDI4Mjc5.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ5MDI4Mjc5) |
+| 数学 / 马尔可夫链专题 | MjQ3MzMwNjkw | [专栏⑰·第1篇：马尔可夫链——无后效性的力量（10 大板块深度专题）.md](专栏⑰·第1篇：马尔可夫链——无后效性的力量（10 大板块深度专题）.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ3MzMwNjkw) |
+| 数学 / 矩阵变换与工程应用 | MjQ5MDI4Mjc5 | [专栏⑰·第2篇：矩阵变换 = 坐标系转换——跟嵌入式工程思维最深的一个数学概念.md](专栏⑰·第2篇：矩阵变换 = 坐标系转换——跟嵌入式工程思维最深的一个数学概念.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ5MDI4Mjc5) |
 
 > 本批次均通过 Flomo 完整回读（content_truncated=false、无 omitted IDs），原始正文保存在独立快照中。
 
@@ -160,8 +160,8 @@
 | 来源分类 | Flomo ID | Notes 原文快照 | Flomo 原文 |
 |---|---|---|---|
 | AUTOSAR / 方法论练习 | ODUzMzk0ODU | [ODUzMzk0ODU.md](ODUzMzk0ODU.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=ODUzMzk0ODU) |
-| AUTOSAR / SWC 架构思考 | MjQ4NDc0Mzk3 | [MjQ4NDc0Mzk3.md](MjQ4NDc0Mzk3.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ4NDc0Mzk3) |
-| AUTOSAR / 架构本质 | MjQ5MDI0OTgy | [MjQ5MDI0OTgy.md](MjQ5MDI0OTgy.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ5MDI0OTgy) |
+| AUTOSAR / SWC 架构思考 | MjQ4NDc0Mzk3 | [读文笔记：AUTOSAR中的软件架构思考.md](读文笔记：AUTOSAR中的软件架构思考.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ4NDc0Mzk3) |
+| AUTOSAR / 架构本质 | MjQ5MDI0OTgy | [AUTOSAR 三问·其三：用三句话给新人讲清楚 AUTOSAR 到底解决了什么本质问题.md](AUTOSAR 三问·其三：用三句话给新人讲清楚 AUTOSAR 到底解决了什么本质问题.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ5MDI0OTgy) |
 
 > 三条原文均已完整回读（content_truncated=false、无 omitted IDs），并保存为独立快照。
 
