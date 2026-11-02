@@ -124,3 +124,16 @@
 - `Archive/MigratedWiki`、`Archive/MigratedNotion`、`Archive/DeleteCandidate` 等源标签保留在笔记元数据中，不作为删除或跳过的依据。
 - 迁移完成状态必须以正文完整读取、文件写入成功和目录索引更新为准。
 - 当前索引只列出已经写入分支的 110 条笔记，不代表 Flomo 全量同步完成。
+
+
+## 2026-11-02 数学专题补充（5 条）
+
+| 来源分类 | Flomo ID | Notes 原文快照 | Flomo 原文 |
+|---|---|---|---|
+| 数学 / 1000 问总导航 | MjQ2Mzc0OTc2 | [MjQ2Mzc0OTc2.md](MjQ2Mzc0OTc2.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ2Mzc0OTc2) |
+| 数学 / 线性代数问题库 | MjQ1NzMyNDU5 | [MjQ1NzMyNDU5.md](MjQ1NzMyNDU5.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ1NzMyNDU5) |
+| 数学 / 概率论问题库 | MjQ3MzMwNjE5 | [MjQ3MzMwNjE5.md](MjQ3MzMwNjE5.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ3MzMwNjE5) |
+| 数学 / 马尔可夫链专题 | MjQ3MzMwNjkw | [MjQ3MzMwNjkw.md](MjQ3MzMwNjkw.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ3MzMwNjkw) |
+| 数学 / 矩阵变换与工程应用 | MjQ5MDI4Mjc5 | [MjQ5MDI4Mjc5.md](MjQ5MDI4Mjc5.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ5MDI4Mjc5) |
+
+> 本批次均通过 Flomo 完整回读（content_truncated=false、无 omitted IDs），原始正文保存在独立快照中。
