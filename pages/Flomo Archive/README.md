@@ -179,3 +179,15 @@
 > 本批 5 条正文均已完整回读（content_truncated=false、无 omitted IDs），并完成独立快照写入。Linux 权限笔记保留原文，同时在归档说明中补充了 777 权限的安全警示。
 
 当前索引共列出 131 条原始笔记快照（此前 126 条 + 本批 5 条）。
+
+
+## 2026-11-02 STM32 学习资料补充（2 条）
+
+| 来源分类 | Flomo ID | Notes 原文快照 | Flomo 原文 |
+|---|---|---|---|
+| STM32 / Cortex-M3 指南摘录 | OTU0NDk2Njg | [OTU0NDk2Njg.md](OTU0NDk2Njg.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=OTU0NDk2Njg) |
+| 单片机 / STM32、CAN、PID 学习资源 | MjM0NzkwNzkx | [MjM0NzkwNzkx.md](MjM0NzkwNzkx.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjM0NzkwNzkx) |
+
+> 两条正文均已完整回读。Cortex-M3 笔记的原始内容不完整，快照明确保留缺项，不自行推断补齐。
+
+当前索引共列出 133 条原始笔记快照（此前 131 条 + 本批 2 条）。
