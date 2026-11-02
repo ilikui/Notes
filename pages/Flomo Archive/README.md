@@ -36,7 +36,7 @@
 | 嵌入式 | MjUxMjA1MDcx | [专栏⑮·补充一：RTOS 内核——从裸机 super-loop 到任务调度.md](专栏⑮·补充一：RTOS 内核——从裸机 super-loop 到任务调度.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUxMjA1MDcx) |
 | 嵌入式 | MjUwNTg0NTQy | [专栏⑮·第9篇：嵌入式调试三板斧——HardFault 定位、printf 的坑、示波器 vs 逻辑分析仪.md](专栏⑮·第9篇：嵌入式调试三板斧——HardFault 定位、printf 的坑、示波器 vs 逻辑分析仪.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUwNTg0NTQy) |
 | 嵌入式 | MjUwNTg0NTQz | [专栏⑮·第10篇：嵌入式 15 项自检清单——上车前逐项打勾.md](专栏⑮·第10篇：嵌入式 15 项自检清单——上车前逐项打勾.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUwNTg0NTQz) |
-| AI | MjYyMjU3NDU5 | [MjYyMjU3NDU5.md](MjYyMjU3NDU5.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjYyMjU3NDU5) |
+| AI | MjYyMjU3NDU5 | [图灵测试怎么做.md](图灵测试怎么做.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjYyMjU3NDU5) |
 | AI | MjYyMjQ2Mjg4 | [什么是具身智能（Embodied Intelligence）.md](什么是具身智能（Embodied Intelligence）.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjYyMjQ2Mjg4) |
 | AI | MjYxMjU1MTQz | [MCP 服务器版开发方案.md](MCP 服务器版开发方案.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjYxMjU1MTQz) |
 | AI | MjUxMDI5NzQw | [专栏⑯·补充四：Agent 深化——从 ReAct 概念到能干活的多智能体.md](专栏⑯·补充四：Agent 深化——从 ReAct 概念到能干活的多智能体.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUxMDI5NzQw) |
@@ -159,7 +159,7 @@
 
 | 来源分类 | Flomo ID | Notes 原文快照 | Flomo 原文 |
 |---|---|---|---|
-| AUTOSAR / 方法论练习 | ODUzMzk0ODU | [ODUzMzk0ODU.md](ODUzMzk0ODU.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=ODUzMzk0ODU) |
+| AUTOSAR / 方法论练习 | ODUzMzk0ODU | [- General Information.md](- General Information.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=ODUzMzk0ODU) |
 | AUTOSAR / SWC 架构思考 | MjQ4NDc0Mzk3 | [读文笔记：AUTOSAR中的软件架构思考.md](读文笔记：AUTOSAR中的软件架构思考.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ4NDc0Mzk3) |
 | AUTOSAR / 架构本质 | MjQ5MDI0OTgy | [AUTOSAR 三问·其三：用三句话给新人讲清楚 AUTOSAR 到底解决了什么本质问题.md](AUTOSAR 三问·其三：用三句话给新人讲清楚 AUTOSAR 到底解决了什么本质问题.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ5MDI0OTgy) |
 
@@ -170,10 +170,10 @@
 
 | 来源分类 | Flomo ID | Notes 原文快照 | Flomo 原文 |
 |---|---|---|---|
-| Linux / 系统命令速查 | OTAzNDYyOTc | [OTAzNDYyOTc.md](OTAzNDYyOTc.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=OTAzNDYyOTc) |
+| Linux / 系统命令速查 | OTAzNDYyOTc | [Linux 学习指南.md](Linux 学习指南.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=OTAzNDYyOTc) |
 | Linux / 权限指令提醒 | MTE3ODI0MzE1 | [Linux 常用的指令：.md](Linux 常用的指令：.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MTE3ODI0MzE1) |
-| Linux 驱动 / GCC | OTQ5MTEyMzE | [OTQ5MTEyMzE.md](OTQ5MTEyMzE.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=OTQ5MTEyMzE) |
-| Linux 驱动 / 学习资源与流程 | OTQ1OTg5Nzg | [OTQ1OTg5Nzg.md](OTQ1OTg5Nzg.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=OTQ1OTg5Nzg) |
+| Linux 驱动 / GCC | OTQ5MTEyMzE | [- 名词介绍.md](- 名词介绍.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=OTQ5MTEyMzE) |
+| Linux 驱动 / 学习资源与流程 | OTQ1OTg5Nzg | [- 学习视频：https video.100ask.net p tpc coursepcdetail bigcolumn p5e5dbafac5.md](- 学习视频：https video.100ask.net p tpc coursepcdetail bigcolumn p5e5dbafac5.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=OTQ1OTg5Nzg) |
 | AUTOSAR / OS 调度 Q1 | MjUzNTQxMjIz | [AUTOSAR 1000问 · OS&调度 Q1：AUTOSAR OS 和普通 RTOS（如 FreeRTOS）的核心区别是什么？.md](AUTOSAR 1000问 · OS&调度 Q1：AUTOSAR OS 和普通 RTOS（如 FreeRTOS）的核心区别是什么？.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUzNTQxMjIz) |
 
 > 本批 5 条正文均已完整回读（content_truncated=false、无 omitted IDs），并完成独立快照写入。Linux 权限笔记保留原文，同时在归档说明中补充了 777 权限的安全警示。
@@ -185,7 +185,7 @@
 
 | 来源分类 | Flomo ID | Notes 原文快照 | Flomo 原文 |
 |---|---|---|---|
-| STM32 / Cortex-M3 指南摘录 | OTU0NDk2Njg | [OTU0NDk2Njg.md](OTU0NDk2Njg.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=OTU0NDk2Njg) |
+| STM32 / Cortex-M3 指南摘录 | OTU0NDk2Njg | [Cortex-M3 权威指南.md](Cortex-M3 权威指南.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=OTU0NDk2Njg) |
 | 单片机 / STM32、CAN、PID 学习资源 | MjM0NzkwNzkx | [江协的单片机学习教程：https jiangxiekeji.com tutorial.html.md](江协的单片机学习教程：https jiangxiekeji.com tutorial.html.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjM0NzkwNzkx) |
 
 > 两条正文均已完整回读。Cortex-M3 笔记的原始内容不完整，快照明确保留缺项，不自行推断补齐。
