@@ -1,6 +1,6 @@
 # Flomo 原始笔记归档
 
-> 本目录保存从 Flomo 导入的原始笔记快照。每篇以 Flomo ID 命名，保留创建/更新时间、原始标签、来源链接与正文。不要覆盖原文；专题知识页应引用本目录中的来源卡片。
+> 本目录保存从 Flomo 导入的原始笔记快照。每篇以可读标题命名，Flomo ID 保留在笔记元数据与来源链接中，保留创建/更新时间、原始标签、来源链接与正文。不要覆盖原文；专题知识页应引用本目录中的来源卡片。
 
 ## 2026-11-01 已导入（110 条）
 
@@ -113,9 +113,9 @@
 | 方法与资源 | MjU3MzczMTYy | [MjU3MzczMTYy.md](MjU3MzczMTYy.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjU3MzczMTYy) |
 | 方法与资源 | MjQ3Njc2MDkw | [MjQ3Njc2MDkw.md](MjQ3Njc2MDkw.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ3Njc2MDkw) |
 | 方法与资源 | MjQ3Njc2MDgy | [MjQ3Njc2MDgy.md](MjQ3Njc2MDgy.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ3Njc2MDgy) |
-| 方法与资源 | MTQwNDY0Nzg0 | [MTQwNDY0Nzg0.md](MTQwNDY0Nzg0.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MTQwNDY0Nzg0) |
-| 方法与资源 | MTM2MTM2MDEz | [MTM2MTM2MDEz.md](MTM2MTM2MDEz.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MTM2MTM2MDEz) |
-| 方法与资源 | MTM1NTEwNjU2 | [MTM1NTEwNjU2.md](MTM1NTEwNjU2.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MTM1NTEwNjU2) |
+| 方法与资源 | MTQwNDY0Nzg0 | [1 . 外部化思考：把脑子里的东西“拿出来”.md](1 . 外部化思考：把脑子里的东西“拿出来”.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MTQwNDY0Nzg0) |
+| 方法与资源 | MTM2MTM2MDEz | [如何自我激发潜力.md](如何自我激发潜力.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MTM2MTM2MDEz) |
+| 方法与资源 | MTM1NTEwNjU2 | [u mark 影响世界的100个经典管理定律 mark u.md](u mark 影响世界的100个经典管理定律 mark u.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MTM1NTEwNjU2) |
 
 ## 导入约定
 
@@ -130,9 +130,9 @@
 
 | 来源分类 | Flomo ID | Notes 原文快照 | Flomo 原文 |
 |---|---|---|---|
-| 数学 / 1000 问总导航 | MjQ2Mzc0OTc2 | [MjQ2Mzc0OTc2.md](MjQ2Mzc0OTc2.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ2Mzc0OTc2) |
-| 数学 / 线性代数问题库 | MjQ1NzMyNDU5 | [MjQ1NzMyNDU5.md](MjQ1NzMyNDU5.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ1NzMyNDU5) |
-| 数学 / 概率论问题库 | MjQ3MzMwNjE5 | [MjQ3MzMwNjE5.md](MjQ3MzMwNjE5.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ3MzMwNjE5) |
+| 数学 / 1000 问总导航 | MjQ2Mzc0OTc2 | [专栏⑰·导航：考研数学 1000 问全景——高数 × 线代 × 概率论.md](专栏⑰·导航：考研数学 1000 问全景——高数 × 线代 × 概率论.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ2Mzc0OTc2) |
+| 数学 / 线性代数问题库 | MjQ1NzMyNDU5 | [专栏⑰·导航分卷：线性代数 1000 问（全量问题库）.md](专栏⑰·导航分卷：线性代数 1000 问（全量问题库）.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ1NzMyNDU5) |
+| 数学 / 概率论问题库 | MjQ3MzMwNjE5 | [专栏⑰·导航分卷：概率论与数理统计 1000 问（全量问题库）.md](专栏⑰·导航分卷：概率论与数理统计 1000 问（全量问题库）.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ3MzMwNjE5) |
 | 数学 / 马尔可夫链专题 | MjQ3MzMwNjkw | [MjQ3MzMwNjkw.md](MjQ3MzMwNjkw.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ3MzMwNjkw) |
 | 数学 / 矩阵变换与工程应用 | MjQ5MDI4Mjc5 | [MjQ5MDI4Mjc5.md](MjQ5MDI4Mjc5.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ5MDI4Mjc5) |
 
@@ -171,7 +171,7 @@
 | 来源分类 | Flomo ID | Notes 原文快照 | Flomo 原文 |
 |---|---|---|---|
 | Linux / 系统命令速查 | OTAzNDYyOTc | [OTAzNDYyOTc.md](OTAzNDYyOTc.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=OTAzNDYyOTc) |
-| Linux / 权限指令提醒 | MTE3ODI0MzE1 | [MTE3ODI0MzE1.md](MTE3ODI0MzE1.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MTE3ODI0MzE1) |
+| Linux / 权限指令提醒 | MTE3ODI0MzE1 | [Linux 常用的指令：.md](Linux 常用的指令：.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MTE3ODI0MzE1) |
 | Linux 驱动 / GCC | OTQ5MTEyMzE | [OTQ5MTEyMzE.md](OTQ5MTEyMzE.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=OTQ5MTEyMzE) |
 | Linux 驱动 / 学习资源与流程 | OTQ1OTg5Nzg | [OTQ1OTg5Nzg.md](OTQ1OTg5Nzg.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=OTQ1OTg5Nzg) |
 | AUTOSAR / OS 调度 Q1 | MjUzNTQxMjIz | [MjUzNTQxMjIz.md](MjUzNTQxMjIz.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUzNTQxMjIz) |
@@ -186,7 +186,7 @@
 | 来源分类 | Flomo ID | Notes 原文快照 | Flomo 原文 |
 |---|---|---|---|
 | STM32 / Cortex-M3 指南摘录 | OTU0NDk2Njg | [OTU0NDk2Njg.md](OTU0NDk2Njg.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=OTU0NDk2Njg) |
-| 单片机 / STM32、CAN、PID 学习资源 | MjM0NzkwNzkx | [MjM0NzkwNzkx.md](MjM0NzkwNzkx.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjM0NzkwNzkx) |
+| 单片机 / STM32、CAN、PID 学习资源 | MjM0NzkwNzkx | [江协的单片机学习教程：https jiangxiekeji.com tutorial.html.md](江协的单片机学习教程：https jiangxiekeji.com tutorial.html.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjM0NzkwNzkx) |
 
 > 两条正文均已完整回读。Cortex-M3 笔记的原始内容不完整，快照明确保留缺项，不自行推断补齐。
 
@@ -197,8 +197,8 @@
 
 | 来源分类 | Flomo ID | Notes 原文快照 | Flomo 原文 |
 |---|---|---|---|
-| C语言 / C简介 | MTMwODAwMDA2 | [MTMwODAwMDA2.md](MTMwODAwMDA2.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MTMwODAwMDA2) |
-| C语言 / 学习目录 | MTMwNzQxNjk5 | [MTMwNzQxNjk5.md](MTMwNzQxNjk5.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MTMwNzQxNjk5) |
+| C语言 / C简介 | MTMwODAwMDA2 | [u strong C简介 strong u.md](u strong C简介 strong u.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MTMwODAwMDA2) |
+| C语言 / 学习目录 | MTMwNzQxNjk5 | [01. C简介.md](01. C简介.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MTMwNzQxNjk5) |
 
 > 两条笔记均通过 Flomo 详情完整回读（content_truncated=false、无 omitted_ids）。C简介快照保留原文，并将标准时间线等订正放在独立说明中，不覆盖源文。
 
@@ -209,9 +209,9 @@
 
 | 来源分类 | Flomo ID | Notes 原文快照 | Flomo 原文 |
 |---|---|---|---|
-| C语言 / 存储类 | MTMwNzk4Mjgz | [MTMwNzk4Mjgz.md](MTMwNzk4Mjgz.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MTMwNzk4Mjgz) |
+| C语言 / 存储类 | MTMwNzk4Mjgz | [u C存储类 u.md](u C存储类 u.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MTMwNzk4Mjgz) |
 | AUTOSAR / 基础概念 Q1 | MjUyNDgyMTM0 | [MjUyNDgyMTM0.md](MjUyNDgyMTM0.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjUyNDgyMTM0) |
-| AUTOSAR / 通信栈 Q7 | MjQ2MjY5Njc0 | [MjQ2MjY5Njc0.md](MjQ2MjY5Njc0.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ2MjY5Njc0) |
+| AUTOSAR / 通信栈 Q7 | MjQ2MjY5Njc0 | [Q7 CAN通信从PDU发到CAN总线，经过COM→PduR→CanIf→Can驱动，每层做什么？.md](Q7 CAN通信从PDU发到CAN总线，经过COM→PduR→CanIf→Can驱动，每层做什么？.md) | [Flomo](https://v.flomoapp.com/mine/?memo_id=MjQ2MjY5Njc0) |
 
 > 三条正文均完整回读（content_truncated=false、无 omitted_ids）。C 存储类与 AUTOSAR 两题均在快照后附独立校订提示，原始笔记内容保持不覆盖。
 
