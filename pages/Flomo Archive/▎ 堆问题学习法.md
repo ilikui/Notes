@@ -1,0 +1,37 @@
+flomo-id:: MjQ3Njc2MDgy
+flomo-created-at:: 2026-07-20T14:54:17+08:00
+flomo-updated-at:: 2026-11-01T10:03:33+08:00
+flomo-tags:: Resource/方法
+flomo-source:: https://v.flomoapp.com/mine/?memo_id=MjQ3Njc2MDgy
+flomo-word-count:: 323
+flomo-migration-status:: raw-import
+
+# ▎ 堆问题学习法
+
+> 原始 Flomo 笔记归档。正文按 Flomo 返回内容保留；专题提炼请链接到对应主题页。
+
+▎ **堆问题学习法**
+
+核心：不先找答案，先攒问题。
+
+操作步骤：
+
+1. 选定一个领域，先提出1000个问题（不求全部能答）
+
+2. 把问题分类整理（按知识结构/按难度/按关联）
+
+3. 逐个回答问题——答不出的标记为"待查"
+
+4. 重复遇到同一个问题就深入一层
+
+5. 定期回顾旧问题（同一个问题在不同的理解阶段答案不同）
+
+
+适用场景：通识入门（历史/文化）/ 技术深耕（AUTOSAR/嵌入式）/ 考试准备（考研数学/软考）
+
+关联：你的"1000问"系列（嵌入式/AUTOSAR/电气/历史等）
+
+#Resource/方法
+
+#Archive/MigratedNotion<br>
+#Archive/DeleteCandidate

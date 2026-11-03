@@ -1,0 +1,63 @@
+flomo-id:: MjUxMDI5NzQw
+flomo-created-at:: 2026-08-09T18:29:39+08:00
+flomo-updated-at:: 2026-11-01T09:17:19+08:00
+flomo-tags:: Area/技术/AI
+flomo-source:: https://v.flomoapp.com/mine/?memo_id=MjUxMDI5NzQw
+flomo-word-count:: 1478
+flomo-migration-status:: raw-import
+
+# 专栏⑯·补充四：Agent 深化——从 ReAct 概念到能干活的多智能体
+
+> 原始 Flomo 笔记归档。正文按 Flomo 返回内容保留；专题提炼请链接到对应主题页。
+
+**专栏⑯·补充四：Agent 深化——从 ReAct 概念到能干活的多智能体**
+
+**▎Agent 不止是 LLM 会聊天**
+
+第6篇讲了 ReAct 循环（思考→行动→观察）。这篇往前三步：工具调用（能做事）、记忆（能持续）、多智能体（能分工）。
+
+**▎工具调用（Function Calling）**
+
+- 本质：模型输出结构化指令（JSON），程序执行后把结果喂回去
+- 为什么 LLM 算不对 3+5：它不擅长精确计算，但擅长决定「该不该调计算器」——把计算外包出去
+- 工具清单：把搜索/计算/数据库/笔记这些能力注册成 schema，模型按需选
+- 坑：工具返回太长被截断、模型幻觉出不存在工具、循环调用死锁——工具白名单 \+ 最大轮次
+
+**▎记忆系统**
+
+- 短期记忆：对话上下文（context window）
+- 长期记忆：向量库 / 文件——你的 flomo 笔记就是 Agent 的长期记忆
+- 记忆三操作：写入（什么值得记）、检索（相关片段）、遗忘（上下文满了裁剪）
+- 数字分身 = LLM + 工具 + 长期记忆（flomo 笔记）+ 人格设定——四件套
+
+**▎多智能体**
+
+- 单 Agent 的瓶颈：上下文挤爆、角色冲突、指令漂移
+- 分工模式：规划者（Planner）+ 执行者（Worker）+ 审查者（Critic）
+- 协作有成本：通信开销、共识难——两个 Agent 能干的事别上三个
+
+**▎你的落地路径**
+
+- 数字教育分身：单 Agent + 知识库 + 题库工具（出题/批改）就够，先别上多智能体
+- 知识管理：笔记 Agent（整理/检索）+ 写作 Agent（初稿/润色）做分工
+- 评估闭环：给 Agent 设验收标准（答得对不对），不然它只是「看起来忙」
+
+**▎三个坑**
+
+1. 工具调用要白名单 \+ 最大轮次，防死循环和幻觉工具
+2. 记忆是 Agent 的灵魂：不写记忆 = 每次失忆重来
+3. 多智能体是最后手段：单 Agent + 好工具先跑通再谈分工
+
+**▎一句话总结**：Agent = 会聊天 + 会用工具 + 有记忆；工具让它能做事、记忆让它持续、多智能体是复杂度最后的出口——你的数字分身第一步是「单 Agent + flomo 记忆 + 题库工具」。
+
+📎 第6篇：AI Agent 与工作流 → [https://v.flomoapp.com/mine/?memo\_id=MjUwNTg2Mjk5](https://v.flomoapp.com/mine/?memo_id=MjUwNTg2Mjk5)<br><br><br>
+📎 AI 数字分身想法 → [https://v.flomoapp.com/mine/?memo\_id=MjMxMzk0MjAx](https://v.flomoapp.com/mine/?memo_id=MjMxMzk0MjAx)<br><br><br>
+📎 专栏⑯导航 → [https://v.flomoapp.com/mine/?memo\_id=MjQ2Mzc0NzUw](https://v.flomoapp.com/mine/?memo_id=MjQ2Mzc0NzUw)
+
+**专栏⑯进度：10/10 + 补充四（共 14 篇）**
+
+#Area/技术/AI
+
+#Archive/MigratedWiki #Archive/DeleteCandidate
+
+#Archive/MigratedNotion
