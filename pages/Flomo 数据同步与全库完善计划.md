@@ -92,12 +92,14 @@ assets/                   # 经过检查的图片与附件
 
 ## 8. 当前状态与边界
 
-- PR #16 已合并；后续增量统一在 PR #17（flomo-sync/2026-11-02）提交，基于 main。
-- PR #17 当前为 Draft / open，最新已提交归档索引共 **133 条**：首批 110 条 + 数学专题 13 条 + AUTOSAR 专题 3 条 + 后续 Linux / AUTOSAR OS / STM32 7 条。
-- 本轮没有删除或修改任何 Flomo 原始笔记；没有修改 Notes 原有 journals、whiteboards、插件配置或历史资料。
-- 133 条仅代表已归档样本，不代表全部 102 个标签或全部 Flomo 数据已迁移。
-- Flomo 搜索接口单次最多返回 50 条；超限类别需按日期拆分，避免漏项。
-- GitHub Actions 当前仅在 push 到 main 时运行；PR 分支未触发该发布工作流。此前 Cloudflare Preview 构建失败尚未完成复测；本 PR 最新提交的 GitHub status 当前无检查记录，不能据此声称构建或部署成功。
+- PR #16、PR #17 均已合并；PR #17 合并提交：`167c39ed2d045e74c7b269392ff06b9f83b7c6ae`。
+- `pages/Flomo Archive/` 当前包含 **138 篇 Markdown 原文快照 + 1 份 README 索引**；README 中 138 个相对链接均可对应归档文件，未发现重复链接或 Base64/ID 文件名。
+- PR #17 将原有 123 篇快照统一改为可读标题，并补入 15 篇新增快照；重命名文件在 PR 差异中均识别为 rename（正文无增删），新增快照单独加入。
+- 本轮没有删除或修改 Flomo 原始笔记；未修改 Notes 原有 journals、whiteboards、插件配置或历史资料。
+- 138 条仅代表已归档样本，不代表全部 102 个标签或全部 Flomo 数据已迁移。
+- GitHub Actions 的 main 工作流在合并提交 `167c39e` 上执行成功（Logseq Publish、生成 www、部署 gh-pages 均成功）。
+- Cloudflare Workers Preview 构建仍失败，已定位为 `wrangler.toml` 缺少 `previews` 配置块；Cloudflare 日志明确要求添加空的 `previews = {}` 即可满足当前 Preview 配置校验。该错误发生在执行 `npx wrangler preview` 阶段，不是 138 篇归档文件或 README 链接导致。
+- 当前 Cloudflare Preview Build Trigger 仅匹配分支 `flomo-sync/2026-11-02`，不是 main 的生产发布触发器；Preview 修复与生产部署需分别验证。
 
 ## 9. 2026-11-02 数学专栏⑰完整归档批次
 
