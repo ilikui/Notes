@@ -92,12 +92,12 @@ assets/                   # 经过检查的图片与附件
 
 ## 8. 当前状态与边界
 
-- 当前 PR #16（flomo-sync/2026-11-01）已更新至 2026-11-02 最新提交，归档索引共 123 条原始笔记（首批 110 条 + 数学专题 13 条）；PR 仍处于 open，尚未合并。
+- PR #16 已合并；后续增量统一在 PR #17（flomo-sync/2026-11-02）提交，基于 main。
+- PR #17 当前为 Draft / open，最新已提交归档索引共 **133 条**：首批 110 条 + 数学专题 13 条 + AUTOSAR 专题 3 条 + 后续 Linux / AUTOSAR OS / STM32 7 条。
 - 本轮没有删除或修改任何 Flomo 原始笔记；没有修改 Notes 原有 journals、whiteboards、插件配置或历史资料。
-- 123 条仅代表已归档样本，不代表全部 102 个标签或全部 Flomo 数据已迁移。
+- 133 条仅代表已归档样本，不代表全部 102 个标签或全部 Flomo 数据已迁移。
 - Flomo 搜索接口单次最多返回 50 条；超限类别需按日期拆分，避免漏项。
-- GitHub Actions 当前仅在 push 到 main 时运行；PR 分支未触发该发布工作流。PR #16 曾收到 Cloudflare Preview 构建失败通知，尚未验证预览发布。
-
+- GitHub Actions 当前仅在 push 到 main 时运行；PR 分支未触发该发布工作流。此前 Cloudflare Preview 构建失败尚未完成复测；本 PR 最新提交的 GitHub status 当前无检查记录，不能据此声称构建或部署成功。
 
 ## 9. 2026-11-02 数学专栏⑰完整归档批次
 
@@ -105,3 +105,12 @@ assets/                   # 经过检查的图片与附件
 - 每条通过 Flomo 详情批量读取，均确认 content_truncated=false、omitted_ids=[] 后才写入仓库。
 - 数学系列本轮新增 13 条（前一批 5 条 + 本批 8 条）；仓库归档总量由 110 条增至 123 条。按 Flomo ID 去重，原文只读保留。
 - 1000 问题库仍是题目/学习素材归档，不等于所有问题均已回答。后续需要逐题作答、检查公式与工程类比，回答与原文分层保存。
+
+
+## 10. 2026-11-02 Linux、AUTOSAR OS 与 STM32 补充批次
+
+- 新增 7 条安全技术笔记：Linux 系统命令指南、Linux 权限指令、GCC 名词、Linux 驱动资源与流程、AUTOSAR OS 与 FreeRTOS 比较、Cortex-M3 指南摘录、单片机/STM32/CAN/PID 学习资源。
+- 7 条均通过 Flomo memo_batch_get 完整回读，确认 content_truncated=false、omitted_ids=[] 后写入；另有前一批 3 条 AUTOSAR 笔记，共计本 PR 10 条新增原文快照。
+- 索引从 126 条更新为 133 条；所有条目按 Flomo ID 去重，保留原始标签和来源链接。Cortex-M3 原笔记本身存在内容缺项，快照明确标注，不推测补写。
+- Linux 权限笔记原文提及 chmod 777；归档旁注强调最小权限原则，避免把 777 当作通用修复方案。
+- 下一批继续按技术标签分组检查 STM32 / 裸机 / Linux 驱动、CAN / UDS / FlexRay 等；对 Inbox、职业、个人成长等可能包含隐私或项目机密的记录，先审查再决定是否公开归档。
