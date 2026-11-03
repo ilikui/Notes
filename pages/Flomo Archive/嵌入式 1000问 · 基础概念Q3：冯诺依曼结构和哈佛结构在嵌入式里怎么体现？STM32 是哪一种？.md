@@ -1,0 +1,81 @@
+flomo-id:: MjU2NDUyMDg0
+flomo-created-at:: 2026-09-13T20:41:36+08:00
+flomo-updated-at:: 2026-11-01T09:22:36+08:00
+flomo-tags:: Area/技术/嵌入式
+flomo-source:: https://v.flomoapp.com/mine/?memo_id=MjU2NDUyMDg0
+flomo-word-count:: 1635
+flomo-migration-status:: raw-import
+
+# 嵌入式 1000问 · 基础概念Q3：冯诺依曼结构和哈佛结构在嵌入式里怎么体现？STM32 是哪一种？
+
+> 原始 Flomo 笔记归档。正文按 Flomo 返回内容保留；专题提炼请链接到对应主题页。
+
+**嵌入式 1000问 · 基础概念Q3：冯诺依曼结构和哈佛结构在嵌入式里怎么体现？STM32 是哪一种？**
+
+▎ 五大学习法：西蒙学习法——把「两种结构」钻透
+
+**两种结构是什么**
+
+- <u><mark>冯诺依曼结构（Von Neumann）：程序指令和数据共用同一存储空间、同一总线，CPU 取指和取数走同一条路。</mark></u>
+
+- <u><mark>哈佛结构（Harvard）：指令和数据分开存储、分开总线，取指令和取数据可以同时进行。</mark></u>
+
+
+**为什么会有这个区分**
+
+- 冯诺依曼：结构简单、灵活（程序可当数据处理），但取指和取数抢同一总线——同一刻只能做一个，形成「冯诺依曼瓶颈」。
+
+- 哈佛：指令和数据双总线（或双端口），可并行——取指同时取操作数，吞吐更高；代价是结构复杂、指令和数据空间分离。
+
+
+**在嵌入式里怎么体现**
+
+1. 8051、AVR、PIC 等经典单片机：典型哈佛结构——程序 Flash 和数据 RAM 是分开的地址空间，用不同指令访问（8051 的 MOVC 取程序空间、MOVX 访问外部数据）。
+
+2. DSP、现代 MCU：多为「改进型哈佛」——CPU 内部有独立指令 / 数据总线，但统一编址。
+
+3. Cortex-M 系列（STM32 的核心）：改进型哈佛——内核有独立的指令总线（I-Code）和数据总线（D-Code），能同时取指和取数；但地址空间统一（4GB 线性地址），从内存布局看又像冯诺依曼。
+
+4. 通用 PC（x86）：典型冯诺依曼——统一内存、统一总线（内部 cache 分 I-cache / D-cache，算改良）。
+
+
+**STM32 是哪一种**
+
+- 标准答案：改进型哈佛（Modified Harvard）——内核层面指令和数据总线分开（I-Code / D-Code / 系统总线），但共享同一片存储（Flash 存代码、SRAM 存数据）和统一地址空间。
+
+- 既享受哈佛的并行取指优势，又保留冯诺依曼的统一编址和灵活性。
+
+- 面试答「改进型哈佛」比单纯答「冯诺依曼」或「哈佛」更准确。
+
+
+**Cortex-M 的三条总线（顺便记）**
+
+- I-Code：从 Flash 取指令。
+
+- D-Code：从 Flash 取数据（常量、字面量）。
+
+- System（AHB）：访问 SRAM 和外设。
+
+- 分开的好处：取指和取数不打架，跑得快。
+
+
+**对编程的影响**
+
+- 哈佛下数据和代码空间分离 → 有些平台把常量放程序区、要专门指令读（如 AVR 的 PROGMEM）。
+
+- 自修改代码在哈佛上更麻烦（代码在只读区，改不了）。
+
+- 但现代 MCU 统一编址后，这些区别对写 C 的人基本透明。
+
+
+一句话：冯诺依曼是「指令和数据共用一套存储和总线」（有瓶颈），哈佛是「指令和数据各一套、可并行」；STM32（Cortex-M）是改进型哈佛——内核取指 / 取数总线分开跑，但地址空间统一，兼顾速度和灵活。
+
+📎 问题库（专栏⑮导航）→ [https://v.flomoapp.com/mine/?memo\_id=MjQ1NzMzNDk3](https://v.flomoapp.com/mine/?memo_id=MjQ1NzMzNDk3)
+
+📎 基础概念Q2（MCU vs MPU）→ [https://v.flomoapp.com/mine/?memo\_id=MjU2NDUxOTQx](https://v.flomoapp.com/mine/?memo_id=MjU2NDUxOTQx)
+
+#Area/技术/嵌入式
+
+#Archive/MigratedNotion #Archive/DeleteCandidate
+
+#Archive/MigratedWiki #Archive/DeleteCandidate
