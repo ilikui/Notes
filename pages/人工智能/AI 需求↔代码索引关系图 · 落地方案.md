@@ -38,7 +38,6 @@ flomo-migration-status:: raw-import
 
 关联思考： [https://v.flomoapp.com/mine/?memo\_id=MjU3MzcyODg4](https://v.flomoapp.com/mine/?memo_id=MjU3MzcyODg4)
 
-#Resource/方法
 
-#Archive/MigratedNotion<br>
-#Archive/DeleteCandidate
+
+

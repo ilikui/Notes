@@ -36,7 +36,3 @@ flomo-migration-status:: raw-import
 
 关联 MCP 想法： [https://v.flomoapp.com/mine/?memo\_id=MjU3MzczNjA0](https://v.flomoapp.com/mine/?memo_id=MjU3MzczNjA0)
 
-#Resource/方法
-
-#Archive/MigratedNotion<br>
-#Archive/DeleteCandidate
