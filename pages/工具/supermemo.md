@@ -32,5 +32,6 @@ flowchart LR
 - [SuperMemo 18 中文懒人包](https://github.com/L-M-Sherlock/sm18-lazy-package)
 - [awesome-supermemo](https://github.com/supermemo/awesome-supermemo)
 - [SMDoc-CN 中文文档](https://github.com/Quorafind/SMDoc-CN)
+- [[SuperMemo 与间隔复习]]
 
 上述链接为社区资源，使用前请核对当前版本、维护状态与适用范围。
