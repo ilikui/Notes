@@ -25,7 +25,7 @@ flomo-migration-status:: raw-import
 - 协议已无状态：没有 initialize 会话握手，也没有 Mcp-Session-Id
 - 每个请求在 \_meta 里带 protocolVersion 和 clientCapabilities
 - 新增 server/discover，客户端先问版本与能力
-- 跨调用状态自己发 handle（如 job\_id）当普通参数传回
+- 跨调用状态自己发 handle（如 job_id）当普通参数传回
 - 这样服务才能放到负载均衡后面横向扩
 
 **4\. 能力面分开设计**
@@ -45,17 +45,12 @@ flomo-migration-status:: raw-import
 - 校验 Origin（防 DNS rebinding）
 - 本地调试绑 127.0.0.1
 - 工具参数按 inputSchema 校验，不直接拼进 shell 或 SQL
-- 写操作带 idempotency\_key
+- 写操作带 idempotency_key
 - 无状态后可直接进容器、网关或 Serverless
 
 **7\. 落地顺序**
 
 本地 stdio 版跑通 → 换 streamable-http transport → 加 token → 部署并关掉不需要的能力
 
-📎 相关：MCP 在 VSCode 中运行·技术方案 → [https://v.flomoapp.com/mine/?memo\_id=MjU3NTg0ODY5](https://v.flomoapp.com/mine/?memo_id=MjU3NTg0ODY5)
+📎 相关：MCP 在 VSCode 中运行·技术方案 → [https://v.flomoapp.com/mine/?memo_id=MjU3NTg0ODY5](https://v.flomoapp.com/mine/?memo_id=MjU3NTg0ODY5)
 
-#Area/技术/AI
-
-#Archive/MigratedWiki #Archive/DeleteCandidate
-
-#Archive/MigratedNotion

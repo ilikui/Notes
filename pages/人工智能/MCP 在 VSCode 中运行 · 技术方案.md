@@ -17,7 +17,7 @@ flomo-migration-status:: raw-import
 **架构**（Python 写）：
 
 - Resources：30 思维模型 JSON + 5 大学习法 JSON（本地文件）
-- Tools：apply\_model / learn\_plan / question\_stack
+- Tools：apply_model / learn_plan / question_stack
 - 接入：mcp.json → 启动 python server
 
 **目录结构**：
@@ -25,7 +25,7 @@ flomo-migration-status:: raw-import
 - my-mcp/
   - .vscode/mcp.json
   - server/main.py（FastMCP 入口）
-  - server/tools/（apply\_model.py / learn\_plan.py / ...）
+  - server/tools/（apply_model.py / learn_plan.py / ...）
   - server/resources/（models.json / methods.json）
   - requirements.txt（mcp 官方 SDK）
 
@@ -36,7 +36,7 @@ flomo-migration-status:: raw-import
 
 1. 建仓库结构 \+ pip install mcp
 2. 30 模型清单转 JSON（清单现成，机械活）
-3. 先写 learn\_plan 一个 tool 跑通——五法模板现成，见效最快
+3. 先写 learn_plan 一个 tool 跑通——五法模板现成，见效最快
 4. VSCode 接入，Copilot 里实测「用西蒙法规划学 AUTOSAR」
 
 **HTTP 补充（多端/远程方案）**：
@@ -48,7 +48,7 @@ flomo-migration-status:: raw-import
 - 安全三件事：加 token 鉴权、别直接开公网（先内网/反代）、生产环境上 HTTPS
 - 策略：先 stdio 本地跑通，HTTP 切换成本五分钟（改一行 transport）
 
-**关联**：MCP 全景方案 [https://v.flomoapp.com/mine/?memo\_id=MjU3Mzc2NTg4](https://v.flomoapp.com/mine/?memo_id=MjU3Mzc2NTg4) / MCP 想法 [https://v.flomoapp.com/mine/?memo\_id=MjU3MzczNjA0](https://v.flomoapp.com/mine/?memo_id=MjU3MzczNjA0)
+**关联**：MCP 全景方案 [https://v.flomoapp.com/mine/?memo_id=MjU3Mzc2NTg4](https://v.flomoapp.com/mine/?memo_id=MjU3Mzc2NTg4) / MCP 想法 [https://v.flomoapp.com/mine/?memo_id=MjU3MzczNjA0](https://v.flomoapp.com/mine/?memo_id=MjU3MzczNjA0)
 
 #Resource/方法
 

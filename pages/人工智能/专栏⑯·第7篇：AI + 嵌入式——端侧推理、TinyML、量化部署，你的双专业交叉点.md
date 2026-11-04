@@ -12,7 +12,7 @@ flomo-migration-status:: raw-import
 
 **专栏⑯·第7篇：AI + 嵌入式——端侧推理、TinyML、量化部署，你的双专业交叉点**
 
-📎 第6篇：AI Agent 与工作流 → [https://v.flomoapp.com/mine/?memo\_id=MjUwNTg2Mjk5](https://v.flomoapp.com/mine/?memo_id=MjUwNTg2Mjk5)
+📎 第6篇：AI Agent 与工作流 → [https://v.flomoapp.com/mine/?memo_id=MjUwNTg2Mjk5](https://v.flomoapp.com/mine/?memo_id=MjUwNTg2Mjk5)
 
 1000 问里有端侧 AI 和模型部署的问题（TinyML、量化、CMSIS-NN）。这篇把 AI 和嵌入式拉到一起——这是你 15 个专栏里唯一一个跨界交叉点，也是未来最值钱的组合。
 
@@ -25,7 +25,6 @@ flomo-migration-status:: raw-import
 - **可靠性**：断网也能工作
 
 - **成本**：无云端推理费用
-
 
 **代价**：Cortex-M4 的算力（100MHz 级、无 GPU）跑不了大模型——只能跑 **小模型**（KWS 关键词识别、异常检测、简单分类）。
 
@@ -51,7 +50,6 @@ flomo-migration-status:: raw-import
 
 6. **推理**：一次推理 10-30ms，占内存 <64KB
 
-
 **判断能不能塞进 MCU 的三问**：模型多大（Flash）？激活内存多大（RAM）？推理多久（算力/实时要求）？
 
 **四、AI + 汽车的三个落地方向（你的专业视角）**
@@ -70,8 +68,7 @@ flomo-migration-status:: raw-import
 
 - **分水岭**：需要"理解语义"（NLP/对话）→ 云端或 NPU；只需要"识别模式"（传感器/信号/简单图像）→ MCU 端可行
 
-
-📎 第6篇：AI Agent 与工作流 → [https://v.flomoapp.com/mine/?memo\_id=MjUwNTg2Mjk5](https://v.flomoapp.com/mine/?memo_id=MjUwNTg2Mjk5)<br> 📎 专栏⑮嵌入式导航 → [https://v.flomoapp.com/mine/?memo\_id=MjQ1NzMzNDk3](https://v.flomoapp.com/mine/?memo_id=MjQ1NzMzNDk3)<br> 📎 专栏⑬硬件导航 → [https://v.flomoapp.com/mine/?memo\_id=MjQ3NTQ2MDE3](https://v.flomoapp.com/mine/?memo_id=MjQ3NTQ2MDE3)
+📎 第6篇：AI Agent 与工作流 → [https://v.flomoapp.com/mine/?memo_id=MjUwNTg2Mjk5](https://v.flomoapp.com/mine/?memo_id=MjUwNTg2Mjk5)<br> 📎 专栏⑮嵌入式导航 → [https://v.flomoapp.com/mine/?memo_id=MjQ1NzMzNDk3](https://v.flomoapp.com/mine/?memo_id=MjQ1NzMzNDk3)<br> 📎 专栏⑬硬件导航 → [https://v.flomoapp.com/mine/?memo_id=MjQ3NTQ2MDE3](https://v.flomoapp.com/mine/?memo_id=MjQ3NTQ2MDE3)
 
 **专栏⑯进度：7/10篇**
 

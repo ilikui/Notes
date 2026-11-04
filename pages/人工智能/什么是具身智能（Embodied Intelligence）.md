@@ -30,10 +30,4 @@ VLA（视觉-语言-动作模型）：大模型负责理解指令和任务规划
 **瓶颈**<br><br><br>
 泛化：实验室跑通的动作，换场景换物体就失效；数据和算力成本压不下来。
 
-📎 关联：物理 AI 与具身智能（工业 5.0）→ [https://v.flomoapp.com/mine/?memo\_id=MjU4NTAzMjUw](https://v.flomoapp.com/mine/?memo_id=MjU4NTAzMjUw)
-
-#Area/技术/AI
-
-#Archive/MigratedWiki #Archive/DeleteCandidate
-
-#Archive/MigratedNotion
+📎 关联：物理 AI 与具身智能（工业 5.0）→ [https://v.flomoapp.com/mine/?memo_id=MjU4NTAzMjUw](https://v.flomoapp.com/mine/?memo_id=MjU4NTAzMjUw)

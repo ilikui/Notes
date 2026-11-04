@@ -42,9 +42,9 @@ flomo-migration-status:: raw-import
 
 **▎一句话总结**：多模态把一切切成 token，视频比图像多一个时间维度；Sora 是「像素级世界模拟」——看着合理但不懂物理，所以常识错误是它的天花板，你的内容创作要把它当「草稿生成器」用。
 
-📎 第8篇：AI 内容创作与风险 → [https://v.flomoapp.com/mine/?memo\_id=MjUwNTg2NDA0](https://v.flomoapp.com/mine/?memo_id=MjUwNTg2NDA0)<br><br><br>
-📎 1000问·视频理解与生成 → [https://v.flomoapp.com/mine/?memo\_id=MjQ2Mzc0NzUw](https://v.flomoapp.com/mine/?memo_id=MjQ2Mzc0NzUw)<br><br><br>
-📎 专栏⑯导航 → [https://v.flomoapp.com/mine/?memo\_id=MjQ2Mzc0NzUw](https://v.flomoapp.com/mine/?memo_id=MjQ2Mzc0NzUw)
+📎 第8篇：AI 内容创作与风险 → [https://v.flomoapp.com/mine/?memo_id=MjUwNTg2NDA0](https://v.flomoapp.com/mine/?memo_id=MjUwNTg2NDA0)<br><br><br>
+📎 1000问·视频理解与生成 → [https://v.flomoapp.com/mine/?memo_id=MjQ2Mzc0NzUw](https://v.flomoapp.com/mine/?memo_id=MjQ2Mzc0NzUw)<br><br><br>
+📎 专栏⑯导航 → [https://v.flomoapp.com/mine/?memo_id=MjQ2Mzc0NzUw](https://v.flomoapp.com/mine/?memo_id=MjQ2Mzc0NzUw)
 
 **专栏⑯进度：10/10 + 补充三**
 

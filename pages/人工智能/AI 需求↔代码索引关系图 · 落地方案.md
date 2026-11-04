@@ -24,7 +24,7 @@ flomo-migration-status:: raw-import
 
 **结构化进阶**
 
-- 映射结果落成 JSON/YAML（req\_id → code\_path → 依赖），这是自动化地基
+- 映射结果落成 JSON/YAML（req_id → code_path → 依赖），这是自动化地基
 - mermaid 出两张图：需求树、调用链
 - 跑通一个模块再横向扩
 
@@ -36,8 +36,4 @@ flomo-migration-status:: raw-import
 
 **对汽车电子的红利**：ISO 26262 把需求可追溯性写成硬要求，追溯链做出来 = 功能安全评审材料成副产品
 
-关联思考： [https://v.flomoapp.com/mine/?memo\_id=MjU3MzcyODg4](https://v.flomoapp.com/mine/?memo_id=MjU3MzcyODg4)
-
-
-
-
+关联思考： [https://v.flomoapp.com/mine/?memo_id=MjU3MzcyODg4](https://v.flomoapp.com/mine/?memo_id=MjU3MzcyODg4)

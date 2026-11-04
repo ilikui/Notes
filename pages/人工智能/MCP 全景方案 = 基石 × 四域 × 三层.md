@@ -16,10 +16,10 @@ flomo-migration-status:: raw-import
 
 **四域挂载的 Skills**：
 
-- 学习：learn\_plan（五法择一）+ question\_stack（1000问流水线：堆问题→成卡→互链→回顾）
-- 工作：apply\_model（思维模型拆题）+ req\_trace（需求↔代码映射）+ debug\_guide（5Why + 事前验尸引导排查）
-- 生活：life\_design（人生设计课续跑）+ daily\_echo（每日回声/那年今日）+ book\_mirror（书镜）
-- 计划：task\_router（晨间最重要任务 + 下班确认）+ goal\_tracker（目标/财富自由追踪）+ weekly\_reflect（周复盘）
+- 学习：learn_plan（五法择一）+ question_stack（1000问流水线：堆问题→成卡→互链→回顾）
+- 工作：apply_model（思维模型拆题）+ req_trace（需求↔代码映射）+ debug_guide（5Why + 事前验尸引导排查）
+- 生活：life_design（人生设计课续跑）+ daily_echo（每日回声/那年今日）+ book_mirror（书镜）
+- 计划：task_router（晨间最重要任务 + 下班确认）+ goal_tracker（目标/财富自由追踪）+ weekly_reflect（周复盘）
 
 **工具链层（自动化）**：
 
@@ -29,10 +29,9 @@ flomo-migration-status:: raw-import
 **落地三阶段（选不如删）**：
 
 1. 收编——已跑起来的归位进矩阵，不另起炉灶（定时任务、1000问、每日回顾都是半成品 Assets）
-2. 补缺口——优先工作域 req\_trace + 生活域 life\_design
+2. 补缺口——优先工作域 req_trace + 生活域 life_design
 3. 自动化——重复动作固化成工具链，跑通一个再扩
 
 **一句话**：从零建 MCP，是把已经长出来的东西收进同一套管道。
 
-关联 MCP 想法： [https://v.flomoapp.com/mine/?memo\_id=MjU3MzczNjA0](https://v.flomoapp.com/mine/?memo_id=MjU3MzczNjA0)
-
+关联 MCP 想法： [https://v.flomoapp.com/mine/?memo_id=MjU3MzczNjA0](https://v.flomoapp.com/mine/?memo_id=MjU3MzczNjA0)
