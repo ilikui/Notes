@@ -63,13 +63,8 @@ flomo-migration-status:: raw-import
 
 一句话：前置声明就是「先告诉编译器有这么个类型 / 函数」——头文件里只用到指针时声明 struct X; 而不 include，把真正的 include 下沉到 .c，从而打薄包含链、加快编译、降低耦合；但用到完整类型时必须 include，且 C 的 typedef 前置有局限。
 
-📎 问题库（专栏⑭导航）→ [https://v.flomoapp.com/mine/?memo\_id=MjQ1NzM0NTk5](https://v.flomoapp.com/mine/?memo_id=MjQ1NzM0NTk5)
+📎 问题库（专栏⑭导航）→ [https://v.flomoapp.com/mine/?memo_id=MjQ1NzM0NTk5](https://v.flomoapp.com/mine/?memo_id=MjQ1NzM0NTk5)
 
-📎 多文件组织Q2（static）→ [https://v.flomoapp.com/mine/?memo\_id=MjU2NDUwOTk5](https://v.flomoapp.com/mine/?memo_id=MjU2NDUwOTk5)
+📎 多文件组织Q2（static）→ [https://v.flomoapp.com/mine/?memo_id=MjU2NDUwOTk5](https://v.flomoapp.com/mine/?memo_id=MjU2NDUwOTk5)
 
 #Area/技术/C语言
-
-#Archive/MigratedWiki<br><br>
-#Archive/DeleteCandidate
-
-#Archive/MigratedNotion

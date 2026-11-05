@@ -54,12 +54,8 @@ flomo-migration-status:: raw-import
 
 一句话：static 在多文件里把「全局可见」降为「文件私有」——C 没有 private，模块的封装就靠它：公开的放头文件、私有的用 static 藏在 .c 里，既避免命名冲突，又稳住接口。
 
-📎 问题库（专栏⑭导航）→ [https://v.flomoapp.com/mine/?memo\_id=MjQ1NzM0NTk5](https://v.flomoapp.com/mine/?memo_id=MjQ1NzM0NTk5)
+📎 问题库（专栏⑭导航）→ [https://v.flomoapp.com/mine/?memo_id=MjQ1NzM0NTk5](https://v.flomoapp.com/mine/?memo_id=MjQ1NzM0NTk5)
 
-📎 多文件组织Q1（.h 与 .c）→ [https://v.flomoapp.com/mine/?memo\_id=MjU2NDUwOTUz](https://v.flomoapp.com/mine/?memo_id=MjU2NDUwOTUz)
+📎 多文件组织Q1（.h 与 .c）→ [https://v.flomoapp.com/mine/?memo_id=MjU2NDUwOTUz](https://v.flomoapp.com/mine/?memo_id=MjU2NDUwOTUz)
 
 #Area/技术/C语言
-
-#Archive/MigratedNotion #Archive/DeleteCandidate
-
-#Archive/MigratedWiki
