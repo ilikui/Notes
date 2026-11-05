@@ -1,0 +1,27 @@
+flomo-id:: MjU5MTgyOTc1
+flomo-created-at:: 2026-10-02T17:53:49+08:00
+flomo-updated-at:: 2026-11-01T10:03:24+08:00
+flomo-tags:: Resource/方法
+flomo-source:: https://v.flomoapp.com/mine/?memo_id=MjU5MTgyOTc1
+flomo-word-count:: 143
+flomo-migration-status:: raw-import
+
+# 如何做好的产品重0-1的突破
+
+> 原始 Flomo 笔记归档。正文按 Flomo 返回内容保留；专题提炼请链接到对应主题页。
+
+如何做好的产品重0-1的突破
+
+- 做好产品，有好多用户交互设计
+
+- 先找到100个陌生人体验，然后裂变
+
+
+<p></p>
+
+📚读《小米创业思考》
+
+#Resource/方法
+
+#Archive/MigratedNotion<br>
+#Archive/DeleteCandidate
