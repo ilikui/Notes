@@ -65,9 +65,11 @@ flomo-migration-status:: raw-import
 
 **那条7/22的自我怀疑（"堆问题法在哪些主题容易钻细节"）的答案是：** 不是堆问题法的问题——是没区分"深挖"和"铺开"的问题筛选标准。用统一标准套两种不同类型的1000问，必然在其中一个方向里钻过头。
 
-📎 7/30 今日三问 → [https://v.flomoapp.com/mine/?memo\_id=MjQ5MjU2NzE0](https://v.flomoapp.com/mine/?memo_id=MjQ5MjU2NzE0)<br> 📎 堆问题法 → [https://v.flomoapp.com/mine/?memo\_id=MjQ3Njc2MDgy](https://v.flomoapp.com/mine/?memo_id=MjQ3Njc2MDgy)<br> 📎 7/22 三问 → [https://v.flomoapp.com/mine/?memo\_id=MjQ3OTQyNTgy](https://v.flomoapp.com/mine/?memo_id=MjQ3OTQyNTgy)
+📎 7/30 今日三问 → 
+📎 堆问题法 → 
+📎 7/22 三问 → 
 
-<p></p>
+
 
 #Area/学习管理
 

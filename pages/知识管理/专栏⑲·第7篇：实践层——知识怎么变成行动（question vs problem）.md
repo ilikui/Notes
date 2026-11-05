@@ -12,7 +12,7 @@ flomo-migration-status:: raw-import
 
 **专栏⑲·第7篇：实践层——知识怎么变成行动（question vs problem）**
 
-▎ **实践层在干什么**<br><br><br>
+▎ **实践层在干什么**
 输出的知识要变成行动——最狠的检验是「用了没」，不是「懂了没」。
 
 ▎ **question vs problem（你的核心区分）**
@@ -35,9 +35,9 @@ flomo-migration-status:: raw-import
 
 ▎ **一句话**：实践层把「懂了」变成「用了」——question 存知识、problem 必落地；「下一步」写进卡片、任务流回 Inbox、经验复盘回流，三层落地让知识管理不是仓库而是生产系统。
 
-📎 第2篇：6层闭环 → [https://v.flomoapp.com/mine/?memo\_id=MjUxNzEyODc1](https://v.flomoapp.com/mine/?memo_id=MjUxNzEyODc1)<br><br><br>
-📎 8/10 三问（实践层入口）→ [https://v.flomoapp.com/mine/?memo\_id=MjUxMTUwNzA4](https://v.flomoapp.com/mine/?memo_id=MjUxMTUwNzA4)<br><br><br>
-📎 专栏⑲导航 → [https://v.flomoapp.com/mine/?memo\_id=MjUxNzEyNzAx](https://v.flomoapp.com/mine/?memo_id=MjUxNzEyNzAx)
+📎 第2篇：6层闭环 →
+📎 8/10 三问（实践层入口）→
+📎 专栏⑲导航 → 
 
 **专栏⑲进度：7/10篇**
 

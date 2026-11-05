@@ -21,4 +21,4 @@ Cortex-M3 权威指南
 
 原始笔记只记录了部分总线矩阵/互连单元名称，未完整列出“三个被动单元”的内容；此处不补写猜测。
 
-[查看 Flomo 原文](https://v.flomoapp.com/mine/?memo_id=OTU0NDk2Njg)
+

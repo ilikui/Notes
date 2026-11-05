@@ -45,9 +45,9 @@ flomo-migration-status:: raw-import
 
 ▎ **一句话**：AI 把知识管理从「人找知识」变成「知识找人」——6 层闭环每层都有 AI 的位置，但转译、判断、署名这三件事永远是自己的；数字分身 = 你的笔记 + AI 检索层。
 
-📎 AI 专栏⑯导航 → [https://v.flomoapp.com/mine/?memo\_id=MjQ2Mzc0NzUw](https://v.flomoapp.com/mine/?memo_id=MjQ2Mzc0NzUw)<br><br><br>
-📎 AI 数字分身想法 → [https://v.flomoapp.com/mine/?memo\_id=MjMxMzk0MjAx](https://v.flomoapp.com/mine/?memo_id=MjMxMzk0MjAx)<br><br><br>
-📎 8/8 三问·输出闭环 → [https://v.flomoapp.com/mine/?memo\_id=MjUwODE4OTQ5](https://v.flomoapp.com/mine/?memo_id=MjUwODE4OTQ5)
+📎 AI 专栏⑯导航 →
+📎 AI 数字分身想法 → 
+📎 8/8 三问·输出闭环 → 
 
 **专栏⑲进度：9/10篇**
 
