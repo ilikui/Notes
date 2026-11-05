@@ -1,0 +1,77 @@
+flomo-id:: MjQ5OTUyNTkx
+flomo-created-at:: 2026-08-03T20:12:14+08:00
+flomo-updated-at:: 2026-11-01T09:26:01+08:00
+flomo-tags:: Area/技术/通信
+flomo-source:: https://v.flomoapp.com/mine/?memo_id=MjQ5OTUyNTkx
+flomo-word-count:: 1696
+flomo-migration-status:: raw-import
+
+# 专栏⑫·第十篇：通信技术自检清单——上车前逐项打勾的 15 项
+
+> 原始 Flomo 笔记归档。正文按 Flomo 返回内容保留；专题提炼请链接到对应主题页。
+
+**专栏⑫·第十篇：通信技术自检清单——上车前逐项打勾的 15 项**
+
+前九篇从基础概念（第1篇）、四大协议（第2篇）、故障排查（第3篇）、汽车场景（第4篇）、SPI Flash（第5篇）、I2C（第6篇）、RS-485（第7篇）、SENT（第8篇）、USB（第9篇）铺完整个嵌入式通信协议体系。收官篇把整个专栏压缩成项目上车前逐项打勾的清单。
+
+**清单分 4 组：物理层（4项）→ 协议实现（4项）→ 驱动与数据（4项）→ 系统集成（3项）**
+
+**组 A：物理层**
+
+1. UART 波特率误差校验——示波器量 bit 宽度，误差 ±2% 以内（第2篇）
+
+2. SPI 速率留余量——标称上限降速 1/4~1/2 验证信号完整性（第3篇）
+
+3. I2C 上拉电阻选值——按总线电容选，100kHz/4.7kΩ、400kHz/2.2kΩ（第6篇）
+
+4. RS-485 终端电阻只放两端——万用表量 A-B 等效约 60Ω，中间节点不放（第7篇）
+
+
+**组 B：协议实现**
+
+1. SPI 模式对照时序图——CPOL/CPHA 看手册时序图，不看文字描述（第2篇）
+
+2. I2C 时钟拉伸支持确认——从机支持拉伸时，MCU 超时配置要够（第6篇）
+
+3. RS-485 使能时序——DE 切换后等稳定再发、发完等 TX 完成再切回（第7篇）
+
+4. Modbus 帧间隔——3.5 字符时间静默期，相邻帧不粘连（第7篇）
+
+
+**组 C：驱动与数据**
+
+1. 环形缓冲区溢出防护——ISR 收、Task 取，速率不匹配时缓冲区要够大（第3篇）
+
+2. SPI Flash 命令集完整——写使能、跨页拆分、BUSY 轮询、QSPI QE 位（第5篇）
+
+3. I2C EEPROM 跨页回卷——按页边界拆分写入，写完等内部操作完成（第6篇）
+
+4. SENT 输入捕获精度 + 合理性检查——误差 <1 tick，解析值超物理范围就丢弃（第8篇）
+
+
+**组 D：系统集成**
+
+1. USB 枚举环境——D+ 上拉、枚举期中断优先级最高、描述符响应不超时（第9篇）
+
+2. USB 状态清理——重新枚举成功时清空缓存和端点状态，防热插拔残留（第9篇）
+
+3. 协议选型走决策树——距离/速率/拓扑/成本/可靠性/实时性六问后再定协议（通信三问）
+
+
+**一句话总结**：通信技术的清单 15 项，本质是三层防线——物理层别反射别串扰（A 组）、协议层别时序错（B 组）、驱动层别丢数据（C 组）、集成层别枚举失败（D 组）。每一条都是前九篇里的一个坑，上车前逐项打勾。
+
+📎 第9篇：USB 设备通信 → [https://v.flomoapp.com/mine/?memo\_id=MjQ5NTIwODgw](https://v.flomoapp.com/mine/?memo_id=MjQ5NTIwODgw)
+
+📎 嵌入式通信协议专题导航 → [https://v.flomoapp.com/mine/?memo\_id=MjQ4NjM0MjE0](https://v.flomoapp.com/mine/?memo_id=MjQ4NjM0MjE0)
+
+📎 专栏⑥·第10篇：CAN 排查清单 → [https://v.flomoapp.com/mine/?memo\_id=MjQ5ODAzMzU4](https://v.flomoapp.com/mine/?memo_id=MjQ5ODAzMzU4)
+
+📎 通信三问·选型决策树 → [https://v.flomoapp.com/mine/?memo\_id=MjQ5MDI2NDQ5](https://v.flomoapp.com/mine/?memo_id=MjQ5MDI2NDQ5)
+
+**专栏⑫进度：10/10篇 ✅ 全部完成**
+
+#Area/技术/通信
+
+#Archive/MigratedWiki #Archive/DeleteCandidate
+
+#Archive/MigratedNotion

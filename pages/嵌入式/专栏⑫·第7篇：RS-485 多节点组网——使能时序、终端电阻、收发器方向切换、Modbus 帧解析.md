@@ -93,6 +93,3 @@ RS-485 最常用的应用层协议是 Modbus RTU。协议规定： **帧与帧�
 
 #Area/技术/通信
 
-#Archive/MigratedWiki #Archive/DeleteCandidate
-
-#Archive/MigratedNotion

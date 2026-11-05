@@ -55,5 +55,3 @@ CAN 物理层的问题，软件层的重传/超时/看门狗都是"给一个将�
 
 #Area/学习管理/嵌入式学习
 
-#Archive/MigratedNotion<br>
-#Archive/DeleteCandidate

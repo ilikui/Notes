@@ -71,5 +71,3 @@ flomo-migration-status:: raw-import
 
 #Area/学习管理
 
-#Archive/MigratedNotion<br>
-#Archive/DeleteCandidate

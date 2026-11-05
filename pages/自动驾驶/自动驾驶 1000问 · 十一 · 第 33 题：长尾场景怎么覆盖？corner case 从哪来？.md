@@ -47,6 +47,3 @@ flomo-migration-status:: raw-import
 
 #Area/技术/自动驾驶
 
-#Archive/MigratedNotion #Archive/DeleteCandidate
-
-#Archive/MigratedWiki #Archive/DeleteCandidate

@@ -48,7 +48,3 @@ LIN 物理层基于 UART 8N1 帧，加一颗 LIN 收发器（TJA1020 / TJA1021�
 
 #Area/技术/通信
 
-#Archive/MigratedWiki
-
-#Archive/MigratedNotion<br>
-#Archive/DeleteCandidate

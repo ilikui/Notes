@@ -55,6 +55,3 @@ PMIC 通过 EN（Enable）引脚的延迟链来控制各电源轨的上电顺序
 <p></p>
 
 #Area/学习管理/嵌入式学习
-
-#Archive/MigratedNotion<br>
-#Archive/DeleteCandidate

@@ -47,6 +47,3 @@ flomo-migration-status:: raw-import
 
 #Area/技术/AUTOSAR
 
-#Archive/MigratedWiki #Archive/DeleteCandidate
-
-#Archive/MigratedNotion

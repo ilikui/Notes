@@ -199,5 +199,3 @@ Memory Configuration Name Origin Length Attributes FLASH 0x08000000 0x00100000 x
 
 #Area/学习管理/嵌入式学习
 
-#Archive/MigratedNotion<br>
-#Archive/DeleteCandidate

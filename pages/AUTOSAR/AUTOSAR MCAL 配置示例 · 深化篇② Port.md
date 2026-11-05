@@ -36,6 +36,3 @@ flomo-migration-status:: raw-import
 
 #Area/技术/AUTOSAR/MCAL
 
-#Archive/MigratedWiki #Archive/DeleteCandidate
-
-#Archive/MigratedNotion

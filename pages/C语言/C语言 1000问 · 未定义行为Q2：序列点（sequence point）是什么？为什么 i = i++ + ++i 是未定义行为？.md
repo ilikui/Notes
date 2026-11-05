@@ -64,7 +64,3 @@ flomo-migration-status:: raw-import
 
 #Area/技术/C语言
 
-#Archive/MigratedWiki<br><br>
-#Archive/DeleteCandidate
-
-#Archive/MigratedNotion

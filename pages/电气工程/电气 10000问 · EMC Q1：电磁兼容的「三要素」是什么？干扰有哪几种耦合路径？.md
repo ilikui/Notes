@@ -42,7 +42,3 @@ flomo-migration-status:: raw-import
 
 #Area/技术/电气与电子
 
-#Archive/MigratedNotion<br><br>
-#Archive/DeleteCandidate
-
-#Archive/MigratedWiki

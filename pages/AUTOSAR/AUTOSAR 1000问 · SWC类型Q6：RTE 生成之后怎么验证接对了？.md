@@ -42,7 +42,3 @@ flomo-migration-status:: raw-import
 📎 AUTOSAR 1000问总表 → [https://v.flomoapp.com/mine/?memo\_id=MjMxMTQ2NDk4](https://v.flomoapp.com/mine/?memo_id=MjMxMTQ2NDk4)
 
 #Area/技术/AUTOSAR
-
-#Archive/MigratedWiki #Archive/DeleteCandidate
-
-#Archive/MigratedNotion
