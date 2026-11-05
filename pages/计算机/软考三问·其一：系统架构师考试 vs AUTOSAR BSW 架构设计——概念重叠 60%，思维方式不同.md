@@ -24,19 +24,16 @@ flomo-migration-status:: raw-import
 
 - 架构评估方法（ATAM/SAAM）→ 跟 AUTOSAR ECU Extract 评审思路一致
 
-
 **不同的部分（约40%）：思维方式层**
 
 - 考试是"从零设计系统"→ 实际工作是"在现有框架内集成和优化"——备考时学会设计，工作中更多是评估和配置
 
 - 考试是理论化"完美架构"→ 工作是约束下"够用架构"——考试考最优解，工作需要约束下的可行解
 
-
 **论文素材建议：** 首选「Bootloader 容错架构设计」（技术深度+考点覆盖），次选「基于 AUTOSAR 的 BSW 架构设计」（概念覆盖广但易被认为抄教材）。
 
-📎 软考备考计划 → [https://v.flomoapp.com/mine/?memo\_id=MjQ0NDEyOTk3](https://v.flomoapp.com/mine/?memo_id=MjQ0NDEyOTk3)
+📎 软考备考计划 → [https://v.flomoapp.com/mine/?memo_id=MjQ0NDEyOTk3](https://v.flomoapp.com/mine/?memo_id=MjQ0NDEyOTk3)
 
 <p></p>
 
 #Area/学习管理
-

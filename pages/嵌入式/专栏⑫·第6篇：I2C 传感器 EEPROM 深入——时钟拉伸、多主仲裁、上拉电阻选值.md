@@ -40,7 +40,7 @@ I2C 的 SDA 和 SCL 是开漏（Open-Drain）输出——只能拉低，不能�
 
 多主机 I2C 系统中两个 MCU 可能同时尝试向同一个从设备发数据——I2C 的仲裁机制：谁先拉低 SDA 谁赢，输的一方自动释放总线。
 
-工程中的坑： **仲裁丢失后没有重新发送**。I2C 硬件在仲裁丢失时通常会设置一个仲裁丢失中断标志（ARB\_LOST），但很多 MCU 的 I2C 外设不会自动重发——需要软件在 ISR 里重新发起传输。
+工程中的坑： **仲裁丢失后没有重新发送**。I2C 硬件在仲裁丢失时通常会设置一个仲裁丢失中断标志（ARB_LOST），但很多 MCU 的 I2C 外设不会自动重发——需要软件在 ISR 里重新发起传输。
 
 **问题 3：从机地址冲突——两个设备用同一个地址**
 
@@ -60,13 +60,12 @@ SPI Flash（4-6线，最大 128MB-2GB，10万次/扇区，Page Program 0.5-3ms/2
 
 **一条总结**：I2C 的最核心工程细节不在"怎么写读写函数"——在 **上拉电阻选值、时钟拉伸处理、多主仲裁恢复、地址冲突解决**。这四个问题任何一个没处理好，I2C 总线看起来"初始化成功了"但实际收不到数据。调试工具必须用逻辑分析仪（不是示波器）——因为 I2C 的 ACK/NACK、时钟拉伸、仲裁丢失，示波器很难一次性看到完整时序。
 
-📎 第5篇：SPI Flash 驱动深入 → [https://v.flomoapp.com/mine/?memo\_id=MjQ5MDc4OTky](https://v.flomoapp.com/mine/?memo_id=MjQ5MDc4OTky)
+📎 第5篇：SPI Flash 驱动深入 → [https://v.flomoapp.com/mine/?memo_id=MjQ5MDc4OTky](https://v.flomoapp.com/mine/?memo_id=MjQ5MDc4OTky)
 
-📎 嵌入式通信协议专题导航 → [https://v.flomoapp.com/mine/?memo\_id=MjQ4NjM0MjE0](https://v.flomoapp.com/mine/?memo_id=MjQ4NjM0MjE0)
+📎 嵌入式通信协议专题导航 → [https://v.flomoapp.com/mine/?memo_id=MjQ4NjM0MjE0](https://v.flomoapp.com/mine/?memo_id=MjQ4NjM0MjE0)
 
-📎 第7篇：RS-485 组网 → [https://v.flomoapp.com/mine/?memo\_id=MjQ5MDc5MTAz](https://v.flomoapp.com/mine/?memo_id=MjQ5MDc5MTAz)
+📎 第7篇：RS-485 组网 → [https://v.flomoapp.com/mine/?memo_id=MjQ5MDc5MTAz](https://v.flomoapp.com/mine/?memo_id=MjQ5MDc5MTAz)
 
 **专栏⑫进度：6/10篇**
 
 #Area/技术/通信
-
