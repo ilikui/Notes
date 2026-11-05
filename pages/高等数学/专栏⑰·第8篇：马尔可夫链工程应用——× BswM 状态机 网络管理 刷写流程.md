@@ -82,6 +82,3 @@ AUTOSAR 里没有"概率"——状态转移都是确定性的（条件满足就�
 
 #Area/学习/数学
 
-#Archive/MigratedWiki #Archive/DeleteCandidate
-
-#Archive/MigratedNotion

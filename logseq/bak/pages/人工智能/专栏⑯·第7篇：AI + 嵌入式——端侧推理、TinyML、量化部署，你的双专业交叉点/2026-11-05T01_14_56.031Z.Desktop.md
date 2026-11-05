@@ -74,6 +74,3 @@ flomo-migration-status:: raw-import
 
 #Area/技术/AI
 
-#Archive/MigratedWiki #Archive/DeleteCandidate
-
-#Archive/MigratedNotion

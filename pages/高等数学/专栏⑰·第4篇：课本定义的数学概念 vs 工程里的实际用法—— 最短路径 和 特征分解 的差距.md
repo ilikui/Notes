@@ -44,6 +44,3 @@ flomo-migration-status:: 原文完整归档
 
 #Area/学习/数学
 
-#Archive/MigratedWiki #Archive/DeleteCandidate
-
-#Archive/MigratedNotion

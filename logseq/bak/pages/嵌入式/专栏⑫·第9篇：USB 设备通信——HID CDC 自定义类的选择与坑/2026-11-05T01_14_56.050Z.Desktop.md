@@ -147,6 +147,3 @@ USB 支持热插拔——设备被拔走时没有"断开通知"（电源都断�
 
 #Area/技术/通信
 
-#Archive/MigratedWiki #Archive/DeleteCandidate
-
-#Archive/MigratedNotion

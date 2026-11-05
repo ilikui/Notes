@@ -70,6 +70,3 @@ SPI Flash（4-6线，最大 128MB-2GB，10万次/扇区，Page Program 0.5-3ms/2
 
 #Area/技术/通信
 
-#Archive/MigratedWiki #Archive/DeleteCandidate
-
-#Archive/MigratedNotion

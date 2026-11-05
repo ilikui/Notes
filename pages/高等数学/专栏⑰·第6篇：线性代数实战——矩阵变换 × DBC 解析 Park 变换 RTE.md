@@ -80,6 +80,3 @@ AUTOSAR 里 SWC 通过 RTE 的 Port/Interface 通信，SWC 只知道"我发了�
 
 #Area/学习/数学
 
-#Archive/MigratedWiki #Archive/DeleteCandidate
-
-#Archive/MigratedNotion

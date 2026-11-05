@@ -52,6 +52,3 @@ CAN 2.0 顶到 1Mbps、CAN FD 到 8Mbps，但 OTA 刷写、高清环视、ADAS �
 
 #Area/技术/通信
 
-#Archive/MigratedWiki #Archive/DeleteCandidate
-
-#Archive/MigratedNotion

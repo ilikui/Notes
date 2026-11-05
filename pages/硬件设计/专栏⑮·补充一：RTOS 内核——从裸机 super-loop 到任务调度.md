@@ -53,6 +53,3 @@ flomo-migration-status:: raw-import
 
 #Area/技术/嵌入式
 
-#Archive/MigratedWiki #Archive/DeleteCandidate
-
-#Archive/MigratedNotion

@@ -43,7 +43,3 @@ flomo-migration-status:: raw-import
 
 #Area/知识管理/实践
 
-#Archive/MigratedWiki
-
-#Archive/MigratedNotion<br>
-#Archive/DeleteCandidate
