@@ -1,18 +1,15 @@
-# This is a basic workflow to help you get started with Actions
+# This is a basic workflow to help you get started with GitHub Actions
 
 name: CI
 
-# Controls when the workflow will run
 on:
   push:
     branches: [main]
-
-  # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
-  
+
 permissions:
   actions: write
-  checks:  write
+  checks: write
   contents: write
   deployments: write
   id-token: write
@@ -25,25 +22,30 @@ permissions:
   security-events: write
   statuses: write
 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
   build:
-    # The type of runner that the job will run on
     runs-on: ubuntu-latest
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v4
+
       - name: Logseq Publish 🚩
         uses: logseq/publish-spa@main
-      - name: add a nojekyll file
-        run: touch $GITHUB_WORKSPACE/www/.nojekyll
+
+      # Book covers are stored outside Logseq's managed assets directory.
+      # Copy them into the generated site so both GitHub Pages and Cloudflare
+      # static assets can serve /assets/books/<book-id>.jpg.
+      - name: Include book cover assets
+        run: |
+          mkdir -p "$GITHUB_WORKSPACE/www/assets/books"
+          cp -a "$GITHUB_WORKSPACE/assets/books/." "$GITHUB_WORKSPACE/www/assets/books/"
+
+      - name: Add a nojekyll file
+        run: touch "$GITHUB_WORKSPACE/www/.nojekyll"
+
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          branch: gh-pages # The branch the action should deploy to.
-          folder: www # The folder the action should deploy.
+          branch: gh-pages
+          folder: www
           clean: true
           single-commit: true
