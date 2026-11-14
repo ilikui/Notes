@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">学习循环</title>
+  <desc id="desc">定义能力目标、拆分知识点、学习与示范、主动回忆和练习、获得反馈、纠错与复盘、迁移到项目，并继续练习。</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#64748b"/></marker>
+    <style>
+      .node { fill:#f8fafc; stroke:#64748b; stroke-width:2; rx:14; }
+      .label { font-family:Arial,"Microsoft YaHei",sans-serif; font-size:20px; fill:#0f172a; text-anchor:middle; dominant-baseline:middle; }
+      .edge { fill:none; stroke:#64748b; stroke-width:2.5; marker-end:url(#arrow); }
+    </style>
+  </defs>
+  <rect width="1200" height="300" fill="#ffffff" rx="18"/>
+  <g class="edge">
+    <path d="M160 100 H188"/><path d="M330 100 H358"/><path d="M500 100 H528"/><path d="M670 100 H698"/><path d="M840 100 H868"/><path d="M1010 100 H1038"/>
+    <path d="M1100 142 V220 H600 V145"/>
+  </g>
+  <g>
+    <rect class="node" x="20" y="62" width="140" height="76"/><text class="label" x="90" y="100">定义能力目标</text>
+    <rect class="node" x="190" y="62" width="140" height="76"/><text class="label" x="260" y="100">拆分知识点</text>
+    <rect class="node" x="360" y="62" width="140" height="76"/><text class="label" x="430" y="100">学习与示范</text>
+    <rect class="node" x="530" y="62" width="140" height="76"/><text class="label" x="600" y="100">主动回忆/练习</text>
+    <rect class="node" x="700" y="62" width="140" height="76"/><text class="label" x="770" y="100">获得反馈</text>
+    <rect class="node" x="870" y="62" width="140" height="76"/><text class="label" x="940" y="100">纠错与复盘</text>
+    <rect class="node" x="1040" y="62" width="140" height="76"/><text class="label" x="1110" y="100">迁移到项目</text>
+    <text x="600" y="258" font-family="Arial,'Microsoft YaHei',sans-serif" font-size="18" fill="#475569" text-anchor="middle">实践结果反馈到下一轮练习，形成持续改进闭环</text>
+  </g>
+</svg>
