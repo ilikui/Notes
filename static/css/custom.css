@@ -1,0 +1,13 @@
+@import url('https://cdn.jsdelivr.net/gh/gavinmn/logseq-luma/custom.css');
+
+/* Book covers: consistent small thumbnails, always aligned to the left. */
+img[alt*="封面"] {
+  display: block !important;
+  width: 96px !important;
+  max-width: 96px !important;
+  height: 136px !important;
+  object-fit: contain !important;
+  object-position: left center !important;
+  margin-left: 0 !important;
+  margin-right: auto !important;
+}
